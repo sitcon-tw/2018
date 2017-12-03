@@ -54,6 +54,7 @@ module.exports = {
 
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
+    assetsCfpDirectory: 'cfp',
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
 
