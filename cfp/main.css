@@ -39,6 +39,24 @@ h3 {
     color: #383838;
 }
 
+@media screen and (max-width: 900px) {
+    html, body {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    html, body {
+        font-size: 20px;
+    }
+}
+
 ul,li {
     list-style: none;
     margin-left: 0; padding-left: 0;
