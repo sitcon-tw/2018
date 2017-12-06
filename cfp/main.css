@@ -22,6 +22,17 @@ html, body {
     z-index: -1;
 }
 
+#welcome {
+    position: fixed;
+    z-index: 1;
+    bottom: 5px;
+    right: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 0px 0px 8px white,0px 0px 8px white,0px 0px 8px white,0px 0px 8px white,0px 0px 8px white,0px 0px 8px white,0px 0px 8px white;
+}
+
 h1 {
     font-size: 48px;
     text-shadow: 0px 0px 8px white,0px 0px 8px white,0px 0px 8px white,0px 0px 8px white,0px 0px 8px white,0px 0px 8px white,0px 0px 8px white;
@@ -49,11 +60,17 @@ h3 {
     h3 {
         font-size: 28px;
     }
+    #welcome {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 350px) {
     html, body {
         font-size: 20px;
+    }
+    #welcome {
+        font-size: 16px;
     }
 }
 
