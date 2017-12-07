@@ -5,7 +5,7 @@
 }
 
 html, body {
-    font-family: 'Open Sans', sans-serif, 'Microsoft JhengHei';
+    font-family: 'Open Sans', 'sans-serif', 'Noto Sans CJK Tc Light','Microsoft JhengHei';
     font-size: 20px;
     font-weight: lighter;
     color: #383838;    
@@ -40,13 +40,15 @@ h1 {
 
 h2 {
     font-size: 32px;
-    font-weight: medium;
+    font-family: 'Noto Sans CJK Tc Regular';
+    font-weight: bold;
     color: #009e96;
 }
 
 h3 {
     font-size: 26px;
-    font-weight: medium;
+    font-family: 'Noto Sans CJK Tc Regular';
+    font-weight: bold;
     color: #383838;
 }
 
@@ -87,12 +89,12 @@ header {
     width: 100%;
     /* max-width: 800px; */
     padding: 16px;
-    margin: 0 auto;
+    margin: 3vh auto;
     text-align: center;
 }
 
 header > img {
-    width: 100%;
+    width: 80%;
 }
 
 main {
