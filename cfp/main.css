@@ -114,7 +114,7 @@ footer {
 .button {
     display: block;
     width: 180px;
-    margin: 0 auto;
+    margin: 2vh auto;
     padding: 15px;
     background-color: #009e96;
     border-radius: 10px;
@@ -124,10 +124,12 @@ footer {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
+    animation-duration: 0.3s;
 }
 
 .button:hover {
     background-color: white;
     text-decoration: none;
     color: #009e96;
+    animation-duration: 0.3s;
 }
