@@ -9,6 +9,7 @@ html, body {
     font-size: 20px;
     font-weight: lighter;
     color: #383838;    
+    margin: 0;
 }
 
 #background {
@@ -88,13 +89,13 @@ p {
 header {
     width: 100%;
     /* max-width: 800px; */
-    padding: 16px;
-    margin: 3vh auto;
+    /* padding: 16px; */
+    /* margin: 3vh auto; */
     text-align: center;
 }
 
 header > img {
-    width: 80%;
+    width: 100%;
 }
 
 main {
