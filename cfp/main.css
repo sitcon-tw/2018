@@ -61,6 +61,10 @@ h3 {
     footer {
         margin-top: 20px !important;
     }
+    header {
+        background-image: url('title_mobile.svg') !important;
+        background-size: contain !important;
+    }
 }
 
 @media screen and (max-width: 350px) {
@@ -89,13 +93,14 @@ p {
 
 header {
     width: 100%;
+    height: 100vh;
     font-size: 0px;
     text-align: center;
+    background-image: url('title.svg');
+    background-position: center;
+    background-size: cover;
 }
 
-header > img {
-    width: 100%;
-}
 
 main {
     width: 100%;
