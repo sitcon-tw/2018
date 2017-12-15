@@ -2,13 +2,14 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 html, body {
     font-family: 'Open Sans', 'sans-serif', 'Noto Sans CJK Tc Light','Microsoft JhengHei';
     font-size: 20px;
     font-weight: lighter;
-    color: #383838;    
+    color: #383838;
     margin: 0;
 }
 
@@ -30,14 +31,15 @@ h1 {
 
 h2 {
     font-size: 32px;
-    font-family: 'Noto Sans CJK Tc Regular';
+    font-family: 'Noto Sans CJK Tc Regular','Microsoft JhengHei';
     font-weight: bold;
     color: #009e96;
 }
 
 h3 {
     font-size: 26px;
-    font-family: 'Noto Sans CJK Tc Regular';
+    margin-top: 1.6em;
+    font-family: 'Noto Sans CJK Tc Regular','Microsoft JhengHei';
     font-weight: bold;
     color: #383838;
 }
@@ -66,6 +68,33 @@ h3 {
     }
 }
 
+@media screen and (max-width: 768px) {
+    html, body {
+        font-size: 20px;
+    }
+    #welcome {
+        font-size: 16px;
+    }
+    main > article {
+        margin-top: 20px !important;
+        padding: .3em 15px 1em 15px !important;
+    }
+    footer {
+        margin-top: 10px !important;
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+        letter-spacing: 1px !important;
+    }
+}
+
 @media screen and (max-width: 350px) {
     html, body {
         font-size: 20px;
@@ -75,19 +104,33 @@ h3 {
     }
     main > article {
         margin-top: 20px !important;
+        padding: .3em 15px 1em 15px !important;
     }
     footer {
         margin-top: 10px !important;
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+        letter-spacing: 1px !important;
     }
 }
 
 ul,li {
-    list-style: none;
-    margin-left: 0; padding-left: 0;
-    list-style-type:none;
+    margin-left: .5em; padding-left: 0;
+    margin-top: 1em;
 }
 p {
     text-align: justify;
+    line-height: 1.6em;
+    letter-spacing: 2px;
+    margin-top: 1em;
 }
 
 header {
@@ -110,7 +153,7 @@ main {
 main > article {
     width: 100%;
     max-width: 1000px;
-    padding: 16px;
+    padding: 1em 5em 1.6em 5em;
     margin: 80px auto 0px auto;
     border-radius: 15px;
     background-color: white;
@@ -121,6 +164,10 @@ footer {
     color: white;
     text-align: center;
     margin-top: 100px;
+}
+
+section {
+    margin-top: 2.6em;
 }
 
 .button {
