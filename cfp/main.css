@@ -60,6 +60,11 @@ h3 {
     #banner{
         display: none;
     }
+    .button {
+        width: 150px !important;
+        padding: 15px !important;
+        font-size: 28px !important;
+    }
 }
 
 @media screen and (max-width: 768px) {
