@@ -55,7 +55,7 @@ h3 {
     }
     header > .main {
         background-image: url('main_mobile.png') !important;
-        background-size: auto 80%;
+        background-size: auto 80% !important;
     }
     #banner{
         display: none;
