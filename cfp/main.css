@@ -143,7 +143,7 @@ header > .side {
     display: inline-block;
     vertical-align: top;
     width: 4%;
-    height: 100vh;
+    height: 100%;
     background : -moz-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 166, 224, 1) 0%, rgba(0, 161, 153, 1) 100%);
     background : -webkit-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 166, 224, 1) 0%, rgba(0, 161, 153, 1) 100%);
     background : -webkit-gradient(radial,50% 50% ,0 , 50% 50%, 382.36 ,color-stop(0,rgba(44, 166, 224, 1) ),color-stop(1,rgba(0, 161, 153, 1) ));
@@ -158,7 +158,7 @@ header > .main {
     display: inline-block;
     vertical-align: top;
     width: 92%;
-    height: 100vh;
+    height: 100%;
     background-image: url('main.png');
     background-position: center;
     background-size: 60% auto;
