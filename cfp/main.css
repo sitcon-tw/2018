@@ -206,10 +206,11 @@ section {
     width: 50%;
     text-align: center;
     vertical-align: top;
+    color: #62757D;
 }
 
 #banner > .info > p {
-    font-size: 12px;
+    font-size: 16px;
     display: inline-block;
     margin: 0;
     vertical-align: top;
