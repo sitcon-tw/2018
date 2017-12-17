@@ -161,13 +161,13 @@ header > .main {
     height: 100vh;
     background-image: url('main.png');
     background-position: center;
-    background-size: 80% auto;
+    background-size: 60% auto;
     background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 1681px) {
     header > .main {
-        background-size: 70% auto;
+        background-size: 50% auto;
     }
 }
 
