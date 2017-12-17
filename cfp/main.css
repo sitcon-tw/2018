@@ -66,6 +66,9 @@ h3 {
     header {
         background-image: url('title_mobile.svg') !important;
     }
+    #banner{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -167,7 +170,31 @@ footer {
 }
 
 section {
-    margin-top: 2.6em;
+    margin-top: 2.6rem;
+}
+
+#banner {
+    font-size: 0;
+}
+
+#banner > .info {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+}
+
+#banner > .info > p {
+    font-size: 12px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+
+#banner > .info > span {
+    font-size: 32px;
+    font-weight: bold;
+    display: inline-block;
 }
 
 .button {
