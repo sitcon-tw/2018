@@ -234,12 +234,11 @@ section {
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
-    animation-duration: 0.3s;
+    transition: all 0.3s ease 0s;
 }
 
 .button:hover {
     background-color: white;
     text-decoration: none;
     color: #009e96;
-    animation-duration: 0.3s;
 }
