@@ -142,7 +142,7 @@ header {
 header > .side {
     display: inline-block;
     vertical-align: top;
-    width: 4vw;
+    width: 4%;
     height: 100vh;
     background : -moz-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 166, 224, 1) 0%, rgba(0, 161, 153, 1) 100%);
     background : -webkit-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 166, 224, 1) 0%, rgba(0, 161, 153, 1) 100%);
@@ -157,7 +157,7 @@ header > .side {
 header > .main {
     display: inline-block;
     vertical-align: top;
-    width: 92vw;
+    width: 92%;
     height: 100vh;
     background-image: url('main.png');
     background-position: center;
