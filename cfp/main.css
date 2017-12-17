@@ -53,8 +53,9 @@ h3 {
     footer {
         margin-top: 20px !important;
     }
-    header {
-        background-image: url('title_mobile.svg') !important;
+    header > .main {
+        background-image: url('main_mobile.png') !important;
+        background-size: auto 80%;
     }
     #banner{
         display: none;
@@ -131,11 +132,39 @@ header {
     height: 100vh;
     font-size: 0px;
     text-align: center;
-    background-image: url('title.svg');
-    background-position: center;
-    background-size: cover;
 }
 
+header > .side {
+    display: inline-block;
+    vertical-align: top;
+    width: 4vw;
+    height: 100vh;
+    background : -moz-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 166, 224, 1) 0%, rgba(0, 161, 153, 1) 100%);
+    background : -webkit-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 166, 224, 1) 0%, rgba(0, 161, 153, 1) 100%);
+    background : -webkit-gradient(radial,50% 50% ,0 , 50% 50%, 382.36 ,color-stop(0,rgba(44, 166, 224, 1) ),color-stop(1,rgba(0, 161, 153, 1) ));
+    background : -o-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 166, 224, 1) 0%, rgba(0, 161, 153, 1) 100%);
+    background : -ms-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 166, 224, 1) 0%, rgba(0, 161, 153, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);";
+    background : radial-gradient(50% 50%, circle farthest-corner, rgba(44, 166, 224, 1) 0%, rgba(0, 161, 153, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+}
+
+header > .main {
+    display: inline-block;
+    vertical-align: top;
+    width: 92vw;
+    height: 100vh;
+    background-image: url('main.png');
+    background-position: center;
+    background-size: 80% auto;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1681px) {
+    header > .main {
+        background-size: 70% auto;
+    }
+}
 
 main {
     width: 100%;
