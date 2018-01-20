@@ -10,7 +10,9 @@
           <router-link class="item divider" to="/loaction"><div>LOCATION<p>地點</p></div></router-link>
         </div>
         <div class="nav-right">
-
+          <a href="#" class="join-btn"><div>SIGN UP<p>活動報名</p></div></a>
+          <a href="#" class="icon"><img src="../assets/facebook-white.png" alt="facebook" /></a>
+          <a href="#" class="icon"><img src="../assets/youtube-white.png" alt="facebook" /></a>
         </div>
       </div>
     </nav>
@@ -43,6 +45,38 @@ nav
       img
         vertical-align: middle
         width: 130px
+    .nav-right
+      float: right
+      height: 100%
+      &:before
+        content: " "
+        width: 0
+        height: 100%
+        display: inline-block
+        position: relative
+        vertical-align: middle
+        background: #f00
+      .join-btn
+        display: inline-block
+        vertical-align: middle
+        color: $nav-color
+        text-decoration: none
+        background-color: white
+        padding: 5px
+        border-radius: 5px
+        margin-right: 10px
+        div
+          font-size: 1.4rem
+          p
+            font-size: 1rem
+            margin-top: -5px
+      .icon
+        display: inline-block
+        vertical-align: middle
+        margin-right: 10px
+        img
+          height: 45px
+          
     .nav-left
       display: inline-block
       vertical-align: middle
@@ -81,6 +115,9 @@ nav
             margin-left: 50%
             transition: all .4s
           &:hover:after
+            width: 100%
+            margin-left: 0
+          &:active:after
             width: 100%
             margin-left: 0
       a.divider
