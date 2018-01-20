@@ -172,6 +172,7 @@ nav
         background-size: auto 35%
         background-position: center
         background-repeat: no-repeat
+        -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
       .nav-right
         display: none
       .nav-left
