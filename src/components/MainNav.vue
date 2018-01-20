@@ -150,7 +150,7 @@ nav
           vertical-align: middle
           content: " "
           background-color: white
-          width: 0.5px
+          width: 1px
           height: 42px
           margin-left: 15px
           margin-right: 15px
@@ -178,16 +178,15 @@ nav
         display: block
         position: fixed
         top: 0
-        left: 0
+        left: $nav-side-width*-1
         bottom: 0
         width: $nav-side-width
         height: 100%
         background-color: $nav-side-color
         z-index: 3
         padding-top: $nav-mobile-height
-        transform: translateX(-100%)
         will-change: transform
-        transition: .2s cubic-bezier(.4,0,.2,1)
+        transition: transform .2s cubic-bezier(.4,0,.2,1)
         &:before
           content: " "
           display: block
@@ -234,7 +233,7 @@ nav
       .nav-side-btn
         background-image: url('../assets/back-mobile.png')
       .nav-left
-        transform: translateX(0)
+        transform: translateX(100%)
 </style>
 
 
