@@ -187,7 +187,7 @@ nav
         padding-top: $nav-mobile-height
         transform: translateX(-100%)
         will-change: transform
-        transition: all .4s
+        transition: .2s cubic-bezier(.4,0,.2,1)
         &:before
           content: " "
           display: block
