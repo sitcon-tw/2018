@@ -1,13 +1,15 @@
 <template>
   <header class="Navbar">
-    <nav>
+    <nav :class="{ open: toggle }">
       <div class="container">
-        <router-link id="title" to="/"><img src="../assets/sitcon18.png" alt="title"/></router-link>
+        <div class="nav-side-btn" v-on:click="toggle = !toggle"></div>
+        <router-link class="title" to="/"><img src="../assets/sitcon18.png" alt="title"/></router-link>
         <div class="nav-left">
-          <router-link class="item" to="/agenda"><div>AGENDA<p>議程</p></div></router-link>
-          <router-link class="item divider" to="/sponsor"><div>SPONSOR<p>贊助</p></div></router-link>
-          <router-link class="item divider" to="/staff"><div>STAFF<p>工作人員</p></div></router-link>
-          <router-link class="item divider" to="/loaction"><div>LOCATION<p>地點</p></div></router-link>
+          <router-link class="item home" v-bind:class="{active: $route.name == 'Main'}" to="/"><div>Home<p>首頁</p></div></router-link>
+          <router-link class="item" v-bind:class="{active: $route.name == 'Agenda'}" to="/agenda"><div>AGENDA<p>議程</p></div></router-link>
+          <router-link class="item divider" v-bind:class="{active: $route.name == 'Sponsor'}" to="/sponsor"><div>SPONSOR<p>贊助</p></div></router-link>
+          <router-link class="item divider" v-bind:class="{active: $route.name == 'Staff'}" to="/staff"><div>STAFF<p>工作人員</p></div></router-link>
+          <router-link class="item divider" v-bind:class="{active: $route.name == 'Location'}" to="/location"><div>LOCATION<p>地點</p></div></router-link>
         </div>
         <div class="nav-right">
           <a href="#" class="join-btn"><div>SIGN UP<p>活動報名</p></div></a>
@@ -15,13 +17,19 @@
           <a href="#" class="icon"><img src="../assets/youtube-white.png" alt="facebook" /></a>
         </div>
       </div>
+      <div class="side-blur"></div>
     </nav>
   </header>
 </template>
 
 <script>
   export default {
-    name: 'Navbar'
+    name: 'Navbar',
+    data () {
+      return {
+        toggle: false
+      }
+    }
   }
 </script>
 
@@ -35,10 +43,24 @@ nav
   height: $nav-height
   background-color: $nav-color
   z-index: 1
+  .side-blur
+    display:none
   div.container
     height: 100%
     text-align: start
-    a#title
+    &:before
+      content: " "
+      width: 0
+      height: 100%
+      display: inline-block
+      position: relative
+      vertical-align: middle
+      background: #f00
+    .nav-side-btn
+      display: none
+    a.title
+      position: relative
+      z-index: 5
       display: inline-block
       vertical-align: middle
       margin-right: 30px
@@ -120,6 +142,8 @@ nav
           &:active:after
             width: 100%
             margin-left: 0
+      a.home
+        display: none
       a.divider
         &:before
           display: inline-block
@@ -130,6 +154,87 @@ nav
           height: 42px
           margin-left: 15px
           margin-right: 15px
+@media all and (max-width: 1000px)
+  nav
+    height: $nav-mobile-height
+    div.container
+      .nav-side-btn
+        cursor: pointer
+        position: relative
+        z-index: 5
+        display: inline-block
+        vertical-align: middle
+        width: 40px
+        height: 40px
+        margin-left: 10px
+        margin-right: 5px
+        background-image: url('../assets/menu-mobile.png')
+        background-size: auto 35%
+        background-position: center
+        background-repeat: no-repeat
+      .nav-right
+        display: none
+      .nav-left
+        display: block
+        position: fixed
+        top: 0
+        left: 0
+        bottom: 0
+        width: $nav-side-width
+        height: 100%
+        background-color: $nav-side-color
+        z-index: 3
+        padding-top: $nav-mobile-height
+        transform: translateX(-100%)
+        will-change: transform
+        transition: all .4s
+        &:before
+          content: " "
+          display: block
+          width: 90%
+          height: 2px
+          background-color: rgb(152, 152, 152)
+          margin: 0 auto
+        a.item
+          display: block
+          margin-left: 23px
+          margin-top: 30px
+          margin-bottom: 30px
+          &:before
+            display: none
+          div
+            &:after
+              display: none
+        a.divider
+          &:before
+            display: none
+          
+        a.active
+          margin-left: 0px
+          &:before
+            display: inline-block
+            vertical-align: middle
+            content: " "
+            background-color: rgb(97, 193, 190)
+            width: 3px
+            height: 42px
+            margin-left: 10px
+            margin-right: 10px
+  nav.open
+    .side-blur
+      display: block
+      position: fixed
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      z-index: 2
+      background-color: rgba(141, 141, 141, 0.7)
+    div.container
+      .nav-side-btn
+        background-image: url('../assets/back-mobile.png')
+      .nav-left
+        transform: translateX(0)
 </style>
 
 
