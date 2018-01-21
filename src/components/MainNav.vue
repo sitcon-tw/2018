@@ -12,9 +12,9 @@
           <router-link class="item divider" v-bind:class="{active: $route.name == 'Location'}" to="/location"><div>LOCATION<p>地點</p></div></router-link>
         </div>
         <div class="nav-right">
-          <a href="#" class="join-btn"><div>SIGN UP<p>活動報名</p></div></a>
-          <a href="#" class="icon"><img src="../assets/facebook-white.png" alt="facebook" /></a>
-          <a href="#" class="icon"><img src="../assets/youtube-white.png" alt="facebook" /></a>
+          <a href="https://sitcon.kktix.cc/events/sitcon2018" class="join-btn" target="_blank"><div>SIGN UP<p>活動報名</p></div></a>
+          <a href="https://www.facebook.com/SITCONtw/" class="icon" target="_blank"><img src="../assets/facebook-white.png" alt="facebook" /></a>
+          <a href="#" class="icon" target="_blank"><img src="../assets/youtube-white.png" alt="youtube" /></a>
         </div>
       </div>
       <div class="side-blur"></div>
