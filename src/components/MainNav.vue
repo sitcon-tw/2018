@@ -36,6 +36,7 @@
 <style lang="sass" scoped>
 @import '../sass/global.sass'
 nav
+  user-select: none
   position: fixed
   top: 0
   left: 0
