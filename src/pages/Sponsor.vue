@@ -1,15 +1,55 @@
 <template>
-  <article>
+        <div class="all">
+            <div class="co-host">
+                <h1 class="co-host_text">
+                    共同主辦
+                </h1>
+                <div class="co-host_text_1">
+                    <img src="../assets/sitcon.png">
+                </div>
+                <div class="co-host_text_1">
+                    <img src="../assets/sitcon.png">
+                </div>
+                <div class="co-host_text_1">
+                    <img src="../assets/sitcon.png">
+                </div>
+            </div>
+            <div class="co-host">
+                <h1 class="co-host_text">
+                    協辦單位
+                </h1>
+            </div>
+            <div class="co-host">
+                <h1 class="co-host_text">
+                    黃金級贊助
+                </h1>
+            </div>
+            <div class="co-host">
+                <h1 class="co-host_text">
+                    白銀級贊助
+                </h1>
+            </div>
+            <div class="co-host">
+                <h1 class="co-host_text">
+                    青銅級贊助
+                </h1>
+            </div>
+        </div>
 
-  </article>
 </template>
 
 <script>
-  export default {
+    export default {
     name: 'Sponsor'
-  }
+}
 </script>
 
-<style scoped>
 
+
+
+
+
+
+<style scoped>
+@import '../sass/sponsor.scss'
 </style>
