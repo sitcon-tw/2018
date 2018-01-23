@@ -1,0 +1,62 @@
+.staff {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1 {
+    margin: 1.3em 0 2em 0;
+    line-height: 1em;
+    width: 100%;
+    font-size: 48px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+.group {
+    width: 65%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 6em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+h2 {
+    position: absolute;
+    font-family: 思源黑體, 微軟正黑體;
+    right: 100%;
+    width: 1.1em;
+    font-size: 1.8em;
+    line-height: 1.3em;
+}
+
+.staff_card {
+    margin: 0 1.2em 0em 1.2em;
+    width: 80px;
+    vertical-align: top;
+}
+
+.staff_photo {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.6em;
+    word-wrap: break-word;
+}
+
+.staff_photo {
+    width: 80px;
+    height: 80px;
+}
