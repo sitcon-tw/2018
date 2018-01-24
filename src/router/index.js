@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Main from '../pages/Ｍain'
+import Main from '../pages/Main'
 import Agenda from '../pages/Agenda'
 import Sponsor from '../pages/Sponsor'
 import Staff from '../pages/Staff'
