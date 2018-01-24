@@ -5,11 +5,11 @@
         <div class="nav-side-btn" v-on:click="toggle = !toggle"></div>
         <router-link class="title" to="/"><img src="../assets/sitcon18.png" alt="title"/></router-link>
         <div class="nav-left">
-          <router-link class="item home" v-bind:class="{active: $route.name == 'Main'}" to="/"><div>Home<p>首頁</p></div></router-link>
-          <router-link class="item" v-bind:class="{active: $route.name == 'Agenda'}" to="/agenda"><div>AGENDA<p>議程</p></div></router-link>
-          <router-link class="item divider" v-bind:class="{active: $route.name == 'Sponsor'}" to="/sponsor"><div>SPONSOR<p>贊助</p></div></router-link>
-          <router-link class="item divider" v-bind:class="{active: $route.name == 'Staff'}" to="/staff"><div>STAFF<p>工作人員</p></div></router-link>
-          <router-link class="item divider" v-bind:class="{active: $route.name == 'Location'}" to="/location"><div>LOCATION<p>地點</p></div></router-link>
+          <router-link class="item home" v-bind:class="{active: $route.name == 'Main'}" to="/"><div>首頁<p>Home</p></div></router-link>
+          <router-link class="item" v-bind:class="{active: $route.name == 'Agenda'}" to="/agenda"><div>議程<p>AGENDA</p></div></router-link>
+          <router-link class="item divider" v-bind:class="{active: $route.name == 'Sponsor'}" to="/sponsor"><div>贊助<p>SPONSOR</p></div></router-link>
+          <router-link class="item divider" v-bind:class="{active: $route.name == 'Staff'}" to="/staff"><div>工作人員<p>STAFF</p></div></router-link>
+          <router-link class="item divider" v-bind:class="{active: $route.name == 'Location'}" to="/location"><div>地點<p>LOCATION</p></div></router-link>
         </div>
         <div class="nav-right">
           <a href="https://sitcon.kktix.cc/events/sitcon2018" class="join-btn" target="_blank"><div>SIGN UP<p>活動報名</p></div></a>
