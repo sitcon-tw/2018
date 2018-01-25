@@ -5,11 +5,11 @@
         <div class="nav-side-btn" v-on:click="toggle = !toggle"></div>
         <router-link class="title" to="/"><img src="../assets/sitcon18.png" alt="title"/></router-link>
         <div class="nav-left">
-          <router-link class="item home" v-bind:class="{active: $route.name == 'Main'}" to="/"><div>首頁<p>Home</p></div></router-link>
-          <router-link class="item" v-bind:class="{active: $route.name == 'Agenda'}" to="/agenda"><div>議程<p>AGENDA</p></div></router-link>
-          <router-link class="item divider" v-bind:class="{active: $route.name == 'Sponsor'}" to="/sponsor"><div>贊助<p>SPONSOR</p></div></router-link>
-          <router-link class="item divider" v-bind:class="{active: $route.name == 'Staff'}" to="/staff"><div>工作人員<p>STAFF</p></div></router-link>
-          <router-link class="item divider" v-bind:class="{active: $route.name == 'Location'}" to="/location"><div>地點<p>LOCATION</p></div></router-link>
+          <router-link class="item home" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Main'}" to="/"><div>首頁<p>Home</p></div></router-link>
+          <router-link class="item" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Agenda'}" to="/agenda"><div>議程<p>AGENDA</p></div></router-link>
+          <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Sponsor'}" to="/sponsor"><div>贊助<p>SPONSOR</p></div></router-link>
+          <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Staff'}" to="/staff"><div>工作人員<p>STAFF</p></div></router-link>
+          <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Location'}" to="/location"><div>地點<p>LOCATION</p></div></router-link>
         </div>
         <div class="nav-right">
           <a href="https://sitcon.kktix.cc/events/sitcon2018" class="join-btn" target="_blank"><div>SIGN UP<p>活動報名</p></div></a>
@@ -99,7 +99,7 @@ nav
         margin-right: 10px
         img
           height: 45px
-          
+
     .nav-left
       display: inline-block
       vertical-align: middle
@@ -167,13 +167,13 @@ nav
         vertical-align: middle
         width: 40px
         height: 40px
-        margin-left: 10px
+        margin-left: -5px
         margin-right: 5px
         background-image: url('../assets/menu-mobile.png')
         background-size: auto 35%
         background-position: center
         background-repeat: no-repeat
-        -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+        -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
       .nav-right
         display: none
       .nav-left
@@ -209,7 +209,7 @@ nav
         a.divider
           &:before
             display: none
-          
+
         a.active
           margin-left: 0px
           &:before
