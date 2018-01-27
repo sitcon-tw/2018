@@ -174,6 +174,7 @@
       position: relative
       .content
         width: 100%
+        padding-left: 0px
         h2
           font-size: 32px
           line-height: 56px
