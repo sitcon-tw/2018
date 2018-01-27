@@ -126,22 +126,23 @@ nav
           p
             display: block
             position: relative
-            top: -5px
+            top: 0px
             font-weight: 400
             font-size: 1rem
           &:after
             display: block
             content: " "
             width: 0
-            height: 0.8px
-            background-color: white
+            height: 3px
+            background-color: rgb(97, 193, 190)
+            margin-top: 2px
             margin-left: 50%
             transition: all .4s
           &:hover:after
-            width: 100%
+            width: 105%
             margin-left: 0
           &:active:after
-            width: 100%
+            width: 105%
             margin-left: 0
       a.home
         display: none
