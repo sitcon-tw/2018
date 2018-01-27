@@ -16,7 +16,7 @@ h1 {
     position: relative;
     padding: 0;
     margin: 0;
-    margin-bottom: 6em;
+    margin-bottom: 4em;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -32,7 +32,7 @@ h2 {
 }
 
 .staff_card {
-    margin: 0 1.2em 0em 1.2em;
+    margin: 0 1.2em 1.6em 1.2em;
     width: 80px;
     vertical-align: top;
 }
@@ -42,10 +42,10 @@ h2 {
     height: 80px;
     overflow: hidden;
     border-radius: 15px;
+    border: solid 1px rgba( 0 , 0 , 0 , 0.2);
 }
 
 img {
-    width: 80px;
     height: 80px;
 }
 
