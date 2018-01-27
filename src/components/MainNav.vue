@@ -5,11 +5,12 @@
         <div class="nav-side-btn" v-on:click="toggle = !toggle"></div>
         <router-link class="title" to="/"><img src="../assets/sitcon18.png" alt="title"/></router-link>
         <div class="nav-left">
-          <router-link class="item home" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Main'}" to="/"><div>首頁<p>Home</p></div></router-link>
+          <router-link class="item nopc" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Main'}" to="/"><div>首頁<p>Home</p></div></router-link>
           <router-link class="item" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Agenda'}" to="/agenda"><div>議程<p>AGENDA</p></div></router-link>
           <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Sponsor'}" to="/sponsor"><div>贊助<p>SPONSOR</p></div></router-link>
           <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Staff'}" to="/staff"><div>工作人員<p>STAFF</p></div></router-link>
           <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Location'}" to="/location"><div>地點<p>LOCATION</p></div></router-link>
+          <a class="item nopc" v-on:click.native="toggle = !toggle" target="_blank" href="https://sitcon.kktix.cc/events/sitcon2018"><div>報名<p>SIGN UP</p></div></a>
         </div>
         <div class="nav-right">
           <a href="https://sitcon.kktix.cc/events/sitcon2018" class="join-btn" target="_blank"><div>SIGN UP<p>活動報名</p></div></a>
@@ -144,7 +145,7 @@ nav
           &:active:after
             width: 105%
             margin-left: 0
-      a.home
+      a.nopc
         display: none
       a.divider
         &:before
@@ -154,8 +155,8 @@ nav
           background-color: white
           width: 1px
           height: 42px
-          margin-left: 15px
-          margin-right: 15px
+          margin-left: 18px
+          margin-right: 18px
 @media all and (max-width: 1000px)
   nav
     height: $nav-mobile-height
