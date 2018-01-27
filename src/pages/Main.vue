@@ -10,8 +10,8 @@
       <div class="container">
         <div class="content">
           <h2>ABOUT</h2>
-          <h3>POPULAR COMPUTER SCIENCE</h3>
-          <p>“Popular Computer Science”是由兩個詞結合而來。Popular Science（科普）與 Computer Science（電腦科學），我們有感於近幾年資訊領域的興起，網路與各式媒體常見誤用、誇大資訊科技的概念與影響，因此作為對資訊技術較有興趣與認知的學生，也許我們能善用專業知識讓身邊的人們更瞭解技術背後的原理，並且在善用這些技術的同時，能夠抱有正確的認知與合理的期待。</p>
+          <h3>POPULAR<br>COMPUTER SCIENCE</h3>
+          <p>“Popular Computer Science”是由兩個詞結合而來。<br>Popular Science（科普）與 Computer Science（電腦科學），我們有感於近幾年資訊領域的興起，網路與各式媒體常見誤用、誇大資訊科技的概念與影響，因此作為對資訊技術較有興趣與認知的學生，也許我們能善用專業知識讓身邊的人們更瞭解技術背後的原理，並且在善用這些技術的同時，能夠抱有正確的認知與合理的期待。</p>
         </div>
       </div>
     </section>
@@ -20,6 +20,7 @@
         <h3>Innovation & Implementation</h3>
         <p>SITCON 一直以來鼓勵參與者培養動手做的能力與習慣，2018 年也不例外，所有議程仍會著重在「學生與創新實作」相關議題。</p>
       </div>
+      <img src="../assets/main-innovation.png" alt="innovation" />
     </section>
     <section class="brand color sitcon">
       <div class="brand-image"></div>
@@ -74,23 +75,29 @@
     position: relative
     color: #585858
     .content
-      width: 50%
+      padding-left: 25px
+      width: 55%
       h2
-        font-size: 32px
+        font-size: 22px
+        font-weight: 300
       h3
         width: 100%
-        font-size: 48px
-        line-height: 56px
+        font-size: 32px
+        line-height: 36px
+        margin-top: 12px
+        margin-bottom: 18px
+        font-weight: 300
         overflow-y: hidden
       p
-        font-size: 24px
-        line-height: 42px
+        font-size: 20px
+        line-height: 36px
+        font-weight: 550
     .brand-image
       position: absolute
       top: 0
       bottom: 0
       right: 0
-      width: 45%
+      width: 35%
       background-position: left center
       background-size: 110% auto
       background-repeat: no-repeat
@@ -98,34 +105,47 @@
     background-color: $main-color
     color: white
   .popular
+    height: 480px
     .brand-image
       background-image: url('../assets/main-question.png')
   .innovation
-    height: 600px
-    background-image: url('../assets/main-innovation.png')
-    background-size: 100% auto
-    background-repeat: no-repeat
-    background-position: bottom
-    h3
+    padding-bottom: 0px
+    div
+      padding-left: 25px
+      h3
+        width: 100%
+        font-size: 32px
+        line-height: 36px
+        margin-top: 12px
+        margin-bottom: 18px
+        font-weight: 300
+        overflow-y: hidden
+      p
+        font-size: 20px
+        line-height: 36px
+        font-weight: 550
+    img
+      margin-top: 24px
       width: 100%
-      font-size: 48px
-      line-height: 56px
-      overflow-y: hidden
-    p
-      font-size: 24px
-      line-height: 42px
   .sitcon
+    height: 440px
     .brand-image
       background-image: url('../assets/main-sitcon.png')
   .coc
-    h3
-      width: 100%
-      font-size: 48px
-      line-height: 56px
-      overflow-y: hidden
-    p
-      font-size: 24px
-      line-height: 42px
+    div
+      padding-left: 25px
+      h3
+        width: 100%
+        font-size: 32px
+        line-height: 36px
+        margin-top: 12px
+        margin-bottom: 18px
+        font-weight: 300
+        overflow-y: hidden
+      p
+        font-size: 20px
+        line-height: 36px
+        font-weight: 550
 
 @media all and (max-width: 1000px)
   .main
