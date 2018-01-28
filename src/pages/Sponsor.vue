@@ -7,32 +7,6 @@
       <div class="co-host_text_1">
         <img src="../assets/sitcon.png">
       </div>
-      <div class="co-host_text_1">
-        <img src="../assets/sitcon.png">
-      </div>
-      <div class="co-host_text_1">
-        <img src="../assets/sitcon.png">
-      </div>
-    </div>
-    <div class="co-host">
-      <h1 class="co-host_text">
-        協辦單位
-      </h1>
-    </div>
-    <div class="co-host">
-      <h1 class="co-host_text">
-        黃金級贊助
-      </h1>
-    </div>
-    <div class="co-host">
-      <h1 class="co-host_text">
-        白銀級贊助
-      </h1>
-    </div>
-    <div class="co-host">
-      <h1 class="co-host_text">
-        青銅級贊助
-      </h1>
     </div>
   </div>
 
