@@ -16,4 +16,6 @@ export default {
 
 <style lang="sass">
 @import 'sass/main.sass'
+body.isShowFancyBox
+  overflow: hidden
 </style>

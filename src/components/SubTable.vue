@@ -12,11 +12,15 @@
           <tr class="sub" v-for="(value, key) in times" :key="key">
             <td class="time">{{ formatTime(new Date(value)) }}</td>
             <template v-if="res[value].length === 1 && res[value][0].broadcast === true">
-              <td class="item" colspan="5">{{ res[value][0].subject }}<p v-if="res[value][0].speaker.name != ''">{{res[value][0].speaker.name}}</p></td>
+              <td class="item clickable" v-if="res[value][0].summary !== ''" @click="openBox(res[value][0])" colspan="5">{{ res[value][0].subject }}<p v-if="res[value][0].speaker.name != ''">{{res[value][0].speaker.name}}</p></td>
+              <td class="item" v-else colspan="5">{{ res[value][0].subject }}<p v-if="res[value][0].speaker.name != ''">{{res[value][0].speaker.name}}</p></td>
             </template>
             <template v-else>
               <template v-for="(site, index) in sites" >
-                <td class="item" v-if="findSiteSub(site, res[value]) !== undefined" :rowspan="calcRowspan(new Date(value), findSiteSub(site, res[value]), site)" :key="key+':'+index">{{ findSiteSub(site, res[value]).subject }}<p v-if="findSiteSub(site, res[value]).speaker.name != ''">{{findSiteSub(site, res[value]).speaker.name}}</p></td>
+                <template v-if="findSiteSub(site, res[value]) !== undefined">
+                  <td class="item clickable" v-if="findSiteSub(site, res[value]).summary !== ''" @click="openBox(findSiteSub(site, res[value]))" :rowspan="calcRowspan(new Date(value), findSiteSub(site, res[value]), site)" :key="key+':'+index">{{ findSiteSub(site, res[value]).subject }}<p v-if="findSiteSub(site, res[value]).speaker.name != ''">{{findSiteSub(site, res[value]).speaker.name}}</p></td>
+                  <td class="item clickable" v-else :rowspan="calcRowspan(new Date(value), findSiteSub(site, res[value]), site)" :key="key+':'+index">{{ findSiteSub(site, res[value]).subject }}<p v-if="findSiteSub(site, res[value]).speaker.name != ''">{{findSiteSub(site, res[value]).speaker.name}}</p></td>
+                </template>
                 <td class="item" v-else-if="isNullItem(site)" :key="'space:'+index"></td>
               </template>
             </template>
@@ -24,6 +28,7 @@
         </template>
       </tbody>
     </table>
+    <fancybox :toggle="activityBox">{{boxContent}}</fancybox>
   </div>
 </template>
 
@@ -45,7 +50,9 @@ export default {
       sites: ['R2', 'R0', 'R1', 'R3', 'S'],
       res: null,
       times: [],
-      rows: 0
+      rows: 0,
+      activityBox: false,
+      boxContent: ''
     }
   },
   methods: {
@@ -157,6 +164,10 @@ export default {
       } else {
         return true
       }
+    },
+    openBox (sub) {
+      this.boxContent = sub.summary
+      this.activityBox = true
     }
   },
   mounted () {
@@ -202,6 +213,10 @@ div
         color: white
         padding: 12px
         white-space: pre-line
+      .clickable
+        cursor: pointer
+        &:hover
+          opacity: 0.6
         p
           font-size: 16px
 @media all and (max-width: 1000px)
