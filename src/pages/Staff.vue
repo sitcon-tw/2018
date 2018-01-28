@@ -1,29 +1,30 @@
 <template>
 <div class="staff">
-  <h1>Staff Collection</h1>
-  <div class="group">
-    <h2>總召組</h2>
-    <div class="staff_card">
-      <div class="staff_photo">
-        <img src="http://sitcon.org/2016/image/staffs/10.jpg">
+      <h1>Staff Collection</h1>
+      <div v-for="team in el" class="group">
+            <h2>{{team.name}}</h2>
+            <div v-for="member in team.members" class="staff_card">
+                  <div class="staff_photo">
+                        <img v-bind:src = " '../../static/img/staffs/' + member.avatar">
+                  </div>
+                  <p>{{member.display_name}}</p>
+            </div>
       </div>
-      <p>MouseMs</p>
-    </div>
-    <div class="staff_card">
-      <div class="staff_photo">
-        <img src="http://sitcon.org/2016/image/staffs/10.jpg">
-      </div>
-      <p>MouseMs</p>
-    </div>
-  </div>
 </div>
 
 </template>
 
 <script>
 export default {
-  name: 'Staff'
+      name: 'Staff',
+      data () {
+          return {
+              el: json
+          }
+      }
 }
+import json from '../../static/json/staff.json';
+
 </script>
 
 <style lang="sass" scoped>
