@@ -40,7 +40,7 @@
     z-index: 9999
     background-color: rgba(0, 0, 0, 0)
     transition: background-color .4s
-    div
+    div.container
       position: relative
       color: white
       white-space: pre-line
@@ -60,6 +60,53 @@
         top: 40px
         right: 15px
         cursor: pointer
+      h2
+        font-size: 32px
+        padding-bottom: 40px
+        span
+          margin-left: 32px
+          font-size: 28px
+          a
+            color: #00bcd4
+      .content
+        padding-top: 0px
+        padding-bottom: 0px
+        font-size: 0px
+        height: auto
+        *
+          display: inline-block
+          vertical-align: top
+        .text
+          font-size: 22px;
+          width: 65%
+          height: auto
+          padding-top: 0px
+          padding-bottom: 0px
+        .img
+          width: 35%
+          padding-top: 0px
+          padding-bottom: 0px
+          img
+            display: block
+            margin: 15px auto
+            width: 90%
+            height: auto
+            border-radius: 15px
+            border: 12px solid #3C4755
+            background-color: white
+      h3
+        font-size: 32px
+        padding-top: 40px
+        padding-bottom: 40px
+@media all and (max-width: 1000px)
+  .fancybox
+    .box-content
+      div.container
+        .content
+          .text
+            width: 100%
+          .img
+            width: 100%
 .fancybox.open
   .box-content
     top: 0

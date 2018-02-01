@@ -28,7 +28,17 @@
         </template>
       </tbody>
     </table>
-    <fancybox :toggle="activityBox">{{boxContent}}</fancybox>
+    <fancybox class="box" :toggle="activityBox">
+      <h2>{{subSubject}}<span v-if="subslides !== undefined"><a :href="subslides" target="_blank">#簡報連結</a></span></h2>
+      <div class="content">
+        <div class="text">{{subSummary}}</div>
+        <div class="img">
+          <img :src="subAvatar" :alt="subSpeakerName" />
+        </div>
+      </div>
+      <h3>{{ 'About '+subSpeakerName }}</h3>
+      <p class="text">{{subBio}}</p>
+    </fancybox>
   </div>
 </template>
 
@@ -52,7 +62,12 @@ export default {
       times: [],
       rows: 0,
       activityBox: false,
-      boxContent: ''
+      subSubject: '',
+      subSummary: '',
+      subslides: '',
+      subSpeakerName: '',
+      subAvatar: '',
+      subBio: ''
     }
   },
   methods: {
@@ -166,7 +181,12 @@ export default {
       }
     },
     openBox (sub) {
-      this.boxContent = sub.summary
+      this.subSubject = sub.subject
+      this.subslides = sub.slides
+      this.subAvatar = 'http://sitcon.org/2017/' + sub.speaker.avatar
+      this.subBio = sub.speaker.bio
+      this.subSpeakerName = sub.speaker.name
+      this.subSummary = sub.summary
       this.activityBox = true
     }
   },
