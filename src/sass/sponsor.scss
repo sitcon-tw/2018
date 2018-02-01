@@ -1,7 +1,17 @@
 .all{
   background-color: #F2F2F2;
-  padding: 0 0 0 200px;
 }
+
+h2 {
+  text-align: left;
+  width:100%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #54656E;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
 .co-host{
   display: flex;
   flex-wrap: wrap;
@@ -14,8 +24,8 @@
   font-size: 40px;
   font-weight: bold;
   color: #54656E;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 .co-host_text_1{
   width: 40%;
@@ -29,33 +39,21 @@ img{
   width: 100%;
 }
 @media all and (max-width: 1000px){
-  .all{
-    padding: 0 0 0 200px;
-  }
   .co-host_text{
     font-size: 48px;
   }
 }
 @media all and (max-width: 768px){
-  .all{
-    padding: 0 20% 0 20%;
-  }
   .co-host_text{
     font-size: 50px;
   }
 }
 @media all and (max-width: 480px){
-  .all{
-    padding: 0 15% 0 15%;
-  }
   .co-host_text{
     font-size: 40px;
   }
 }
 @media all and (max-width: 368px){
-  .all{
-    padding: 0 10% 0 10%;
-  }
   .co-host_text{
     font-size: 40px;
     line-height: 1.5em;
