@@ -30,14 +30,14 @@
     </table>
     <fancybox class="box" :toggle="activityBox">
       <h2>{{subSubject}}<span v-if="subslides !== undefined"><a :href="subslides" target="_blank">#簡報連結</a></span></h2>
+      <p class="text">{{subSummary}}</p>
+      <h3>{{ 'About '+subSpeakerName }}</h3>
       <div class="content">
-        <div class="text">{{subSummary}}</div>
+        <div class="text">{{subBio}}</div>
         <div class="img">
           <img :src="subAvatar" :alt="subSpeakerName" />
         </div>
       </div>
-      <h3>{{ 'About '+subSpeakerName }}</h3>
-      <p class="text">{{subBio}}</p>
     </fancybox>
   </div>
 </template>
