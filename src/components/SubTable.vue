@@ -211,6 +211,7 @@ div
   width: 100%
   overflow-y: hidden
   $time-width: 80px
+  margin-bottom: 20px
   table
     width: 100%
     thead
