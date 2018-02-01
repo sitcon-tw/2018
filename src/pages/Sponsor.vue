@@ -1,9 +1,7 @@
 <template>
   <div class="all">
     <div class="co-host">
-      <h1 class="co-host_text">
-        共同主辦
-      </h1>
+      <h1 class="co-host_text">共同主辦</h1>
       <div class="co-host_text_1">
         <img src="../assets/sitcon.png">
       </div>
