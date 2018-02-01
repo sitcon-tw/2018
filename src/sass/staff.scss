@@ -1,63 +1,63 @@
 @import 'global.sass';
 
 .staff {
-    color: $main-color;
-    padding-left: 40px;
+  color: $main-color;
+  padding-left: 40px;
 }
 h1 {
-    margin: 1.3em 0 2em 0;
-    line-height: 1em;
-    width: 100%;
-    font-size: 48px;
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    text-align: left
+  margin: 1.3em 0 2em 0;
+  line-height: 1em;
+  width: 100%;
+  font-size: 48px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  text-align: left
 }
 
 .group {
-    width: 100%;
-    position: relative;
-    padding: 0;
-    margin: 0;
-    margin-bottom: 4em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+  width: 100%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 h2 {
-    position: absolute;
-    right: 100%;
-    width: 1.1em;
-    font-size: 1.8em;
-    line-height: 1.3em;
+  position: absolute;
+  right: 100%;
+  width: 1.1em;
+  font-size: 1.8em;
+  line-height: 1.3em;
 }
 
 .staff_card {
-    margin: 0 1.2em 1.6em 1.2em;
-    width: 80px;
-    vertical-align: top;
+  margin: 0 1.2em 1.6em 1.2em;
+  width: 80px;
+  vertical-align: top;
 }
 
 .staff_photo {
-    width: 80px;
-    height: 80px;
-    overflow: hidden;
-    border-radius: 15px;
-    border: solid 1px rgba( 0 , 0 , 0 , 0.2);
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 15px;
+  border: solid 1px rgba( 0 , 0 , 0 , 0.2);
 }
 
 img {
-    height: 80px;
+  height: 80px;
 }
 
 p {
-    font-size: 1.5em;
-    text-align: center;
-    line-height: 1.6em;
-    word-wrap: break-word;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.6em;
+  word-wrap: break-word;
 }
 
 .staff_photo {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 }
