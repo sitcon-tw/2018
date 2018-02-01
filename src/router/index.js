@@ -13,27 +13,32 @@ export default new Router({
     {
       path: '/',
       name: 'Main',
-      component: Main
+      component: Main,
+      meta: { index: 0 }
     },
     {
       path: '/agenda',
       name: 'Agenda',
-      component: Agenda
+      component: Agenda,
+      meta: { index: 1 }
     },
     {
       path: '/sponsor',
       name: 'Sponsor',
-      component: Sponsor
+      component: Sponsor,
+      meta: { index: 2 }
     },
     {
       path: '/staff',
       name: 'Staff',
-      component: Staff
+      component: Staff,
+      meta: { index: 3 }
     },
     {
       path: '/location',
       name: 'Location',
-      component: Location
+      component: Location,
+      meta: { index: 4 }
     }
   ]
 })

@@ -13,6 +13,7 @@
       <h2>自行開車</h2>
       <p>由國道三號，南深路-中研院匝道〈16km〉出國道三號後，左轉接南深路，再左轉接舊莊路一段直走，遇到與研究院路叉路口，即可看到中研院。車輛進入院區請持證件向大門警衛室換取臨時通行證。假日換證不收費，並請停車於院內道路旁停車格。若您於週一至週五來訪，您須停車至人文社會館 B2，並需支付停車費用（每小時 20 元）。</p>
     </section>
+    <main-footer></main-footer>
   </article>
 </template>
 
@@ -24,15 +25,18 @@
 
 <style lang="sass" scoped>
 @import '../sass/global.sass'
-section
-  text-align: left
-  padding-top: 40px
-  padding-bottom: 80px
-  color: $main-color
-  h2
-    margin-top: 36px
-    font-size: 32px
-  p
-    font-size: 20px
-    line-height: 36px
+article
+  width: 100%
+  background-color: white
+  section
+    text-align: left
+    padding-top: 40px
+    padding-bottom: 80px
+    color: $main-color
+    h2
+      margin-top: 36px
+      font-size: 32px
+    p
+      font-size: 20px
+      line-height: 36px
 </style>

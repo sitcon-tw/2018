@@ -1,14 +1,17 @@
 <template>
-  <article class="container">
-    <section class="activity">
-      <div class="button">
-        <img src="../assets/icon_lighting.svg" />
-        <p>LIGHTNING<br>TALK</p>
-      </div>
-    </section>
-    <section class="table">
-      <sub-table></sub-table>
-    </section>
+  <article>
+    <div class="container">
+      <section class="activity">
+        <div class="button">
+          <img src="../assets/icon_lighting.svg" />
+          <p>LIGHTNING<br>TALK</p>
+        </div>
+      </section>
+      <section class="table">
+        <sub-table></sub-table>
+      </section>
+    </div>
+    <main-footer></main-footer>
   </article>
 </template>
 
@@ -21,6 +24,8 @@
 <style lang="sass" scoped>
 @import '../sass/global.sass'
 article
+  width: 100%
+  background-color: white
   section.activity
     padding-top: 30px
     padding-bottom: 30px

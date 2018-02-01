@@ -2,15 +2,30 @@
   <div id="app">
     <main-nav></main-nav>
     <main>
-      <router-view/>
+      <transition :name="transitionName">
+        <keep-alive>
+          <router-view class="child-view"/>
+        </keep-alive>
+      </transition>
     </main>
-    <main-footer></main-footer>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      transitionName: 'slide-left'
+    }
+  },
+  watch: {
+    '$route' (to, from) {
+      const toDepth = to.meta.index
+      const fromDepth = from.meta.index
+      this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
+    }
+  }
 }
 </script>
 
@@ -18,4 +33,7 @@ export default {
 @import 'sass/main.sass'
 body.isShowFancyBox
   overflow: hidden
+.child-view
+  position: absolute
+  transition: all .5s cubic-bezier(.55,0,.1,1)
 </style>
