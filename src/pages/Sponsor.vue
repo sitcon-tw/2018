@@ -4,6 +4,7 @@
     <section class="brand color">
       <div class="container">
         <div class="content">
+          <h3>我們歡迎個人贊助</h3>
           <p>SITCON 學生計算機年會為學生自發組成籌辦的研討會，秉持著以學生為主軸的核心價值，提供一個經驗交流與資訊技術實務分享的平台，進而達到「學以致用、教學相長」的目標。</p>
           <p>建構如此的交流平台，需要多人的努力及貢獻，亦十分需要在資金上的支持。<br>希望能藉由您的一份力量，來促成活動的舉行，讓更多學生能在舞台上展現自我成長。<br>歡迎您參與贊助，支持 SITCON、讓我們將每年的活動辦得盡善盡美！</p>
           <p>個人贊助辦法：<a href="https://sitcon.kktix.cc/events/sitcon2018-individual-sponsor" target="_blank">連結</a></p>
@@ -70,7 +71,7 @@ section
       line-height: 36px
       margin-top: 12px
       margin-bottom: 18px
-      font-weight: 300
+      font-weight: 600
       overflow-y: hidden
     p
       font-size: 18px
