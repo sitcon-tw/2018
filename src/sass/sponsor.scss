@@ -16,6 +16,8 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .co-host_text{
@@ -24,23 +26,28 @@ h2 {
   font-size: 40px;
   font-weight: bold;
   color: #54656E;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .co-host_text_1{
-  width: 40%;
-  min-width: 300px;
+  width: 50%;
   display: inline-block;
-  margin-right: 10%;
-  background-color: white;
-  margin-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 img{
-  width: 100%;
+  display: block;
+  width: 90%;
+  border-radius: 4px;
+  background-color: white;
+  margin: 0 auto;
 }
 @media all and (max-width: 1000px){
   .co-host_text{
     font-size: 48px;
+  }
+  .co-host_text_1{
+    width: 100%;
   }
 }
 @media all and (max-width: 768px){
