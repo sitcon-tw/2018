@@ -13,7 +13,7 @@
           <a class="item nopc" v-on:click.native="toggle = !toggle" target="_blank" href="https://sitcon.kktix.cc/events/sitcon2018"><div>報名<p>SIGN UP</p></div></a>
         </div>
         <div class="nav-right">
-          <a href="https://sitcon.kktix.cc/events/sitcon2018" class="join-btn" target="_blank"><div>活動報名<p>SIGN UP</p></div></a>
+          <a style="margin-right:15px;" href="https://sitcon.kktix.cc/events/sitcon2018" class="join-btn" target="_blank"><div>活動報名<p>SIGN UP</p></div></a>
           <router-link class="join-btn" to="/sponsor"><div>個人贊助<p>Sponsor</p></div></router-link>
         </div>
       </div>
