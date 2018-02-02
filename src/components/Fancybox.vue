@@ -66,8 +66,6 @@
         span
           margin-left: 32px
           font-size: 28px
-          a
-            color: #00bcd4
       .content
         padding-top: 0px
         padding-bottom: 0px
