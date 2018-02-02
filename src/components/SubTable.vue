@@ -145,7 +145,7 @@ export default {
       })
     },
     paddingLeft (num) {
-      if (num / 10 === 0) return '0' + num
+      if (num / 10 < 1) return '0' + num
       else return num
     },
     formatTime (date) {
@@ -218,7 +218,7 @@ div
       tr
         .time
           width: $time-width
-          padding: 12px
+          padding-right: 12px
         th
           width: 20%
           font-size: 16px
@@ -227,7 +227,6 @@ div
       .time
         width: $time-width
         vertical-align: top
-        padding-left: 12px
         padding-right: 12px
       .item
         background-color: #73828A
