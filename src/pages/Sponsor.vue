@@ -11,7 +11,7 @@
           <p>企業贊助歡迎聯繫: contact@sitcon.org</p>
         </div>
         <div class="image">
-          <img src="" alt="個人贊助" />
+          <img src="../assets/person-sponsor.jpg" alt="個人贊助" />
         </div>
       </div>
     </section>
