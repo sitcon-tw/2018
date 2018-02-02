@@ -6,7 +6,7 @@
         <h2>{{team.name}}</h2>
         <div v-for="(member,index) in team.members" class="staff_card" :key="member+index">
           <div class="staff_photo">
-            <img v-bind:src = " '../../static/img/staffs/' + member.avatar">
+            <img v-bind:src = " './static/img/staffs/' + member.avatar">
           </div>
           <p>{{member.display_name}}</p>
         </div>
