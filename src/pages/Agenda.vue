@@ -2,7 +2,7 @@
   <article>
     <div class="container">
       <section class="activity">
-        <div class="button" v-for="(item,index) in activity" :key="index" @click="openBox(item)">
+        <div class="button" v-for="(item,index) in activity" :key="index" @click.stop="openBox(item)">
           <img :src="item.icon" />
           <p :style="{ fontSize: item.fontSize }">{{ item.name }}</p>
         </div>
@@ -52,42 +52,42 @@
           {
             name: '導遊團',
             icon: './static/img/icon/icon_flag.svg',
-            fontSize: '22px',
+            fontSize: '20px',
             image: '',
             summary: ''
           },
           {
             name: 'UN-\nCONFERENCE',
             icon: './static/img/icon/icon_unconf.svg',
-            fontSize: '14px',
+            fontSize: '12px',
             image: '',
             summary: ''
           },
           {
             name: '天使計畫',
             icon: './static/img/icon/icon_angel.svg',
-            fontSize: '20px',
+            fontSize: '18px',
             image: '',
             summary: ''
           },
           {
             name: '知識王',
             icon: './static/img/icon/icon_game.svg',
-            fontSize: '20px',
+            fontSize: '18px',
             image: '',
             summary: ''
           },
           {
             name: '社群攤位',
             icon: './static/img/icon/icon_community.svg',
-            fontSize: '20px',
+            fontSize: '18px',
             image: '',
             summary: ''
           },
           {
             name: '大地活動',
             icon: './static/img/icon/icon_land.svg',
-            fontSize: '20px',
+            fontSize: '18px',
             image: '',
             summary: ''
           }

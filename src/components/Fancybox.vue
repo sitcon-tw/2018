@@ -1,8 +1,8 @@
 <template>
   <div class="fancybox" :class="{open: toggle}">
-    <div class="box-content">
+    <div class="box-content" @click.self="toggle = !toggle">
       <div class="container">
-        <img src="../assets/XX.svg" class="close-btn" @click="toggle = !toggle" />
+        <img src="../assets/XX.svg" class="close-btn" @click.stop="toggle = !toggle" />
         <slot></slot>
       </div>
     </div>
@@ -40,6 +40,7 @@
     z-index: 9999
     background-color: rgba(0, 0, 0, 0)
     transition: background-color .4s
+    user-select: text
     div.container
       position: relative
       color: white
@@ -52,6 +53,7 @@
       height: 100%
       opacity: 0
       transition: opacity .1s .4s
+      padding-right: 45px
       &::-webkit-scrollbar
         display: none
       .close-btn
@@ -86,8 +88,8 @@
           padding-bottom: 0px
           img
             display: block
-            margin: 15px auto
-            width: 90%
+            margin-left: 20%
+            width: 80%
             height: auto
             border-radius: 15px
             border: 12px solid #3C4755

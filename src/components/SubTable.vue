@@ -18,7 +18,7 @@
             <template v-else>
               <template v-for="(site, index) in sites" >
                 <template v-if="findSiteSub(site, res[value]) !== undefined">
-                  <td class="item clickable" v-if="findSiteSub(site, res[value]).summary !== ''" @click="openBox(findSiteSub(site, res[value]))" :rowspan="calcRowspan(new Date(value), findSiteSub(site, res[value]), site)" :key="key+':'+index">{{ findSiteSub(site, res[value]).subject }}<p v-if="findSiteSub(site, res[value]).speaker.name != ''">{{findSiteSub(site, res[value]).speaker.name}}</p></td>
+                  <td class="item clickable" v-if="findSiteSub(site, res[value]).summary !== ''" @click.stop="openBox(findSiteSub(site, res[value]))" :rowspan="calcRowspan(new Date(value), findSiteSub(site, res[value]), site)" :key="key+':'+index">{{ findSiteSub(site, res[value]).subject }}<p v-if="findSiteSub(site, res[value]).speaker.name != ''">{{findSiteSub(site, res[value]).speaker.name}}</p></td>
                   <td class="item clickable" v-else :rowspan="calcRowspan(new Date(value), findSiteSub(site, res[value]), site)" :key="key+':'+index">{{ findSiteSub(site, res[value]).subject }}<p v-if="findSiteSub(site, res[value]).speaker.name != ''">{{findSiteSub(site, res[value]).speaker.name}}</p></td>
                 </template>
                 <td class="item" v-else-if="isNullItem(site)" :key="'space:'+index"></td>
