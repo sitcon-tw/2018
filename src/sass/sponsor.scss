@@ -34,6 +34,11 @@ h2 {
   display: inline-block;
   padding-left: 30px;
   padding-right: 30px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.co-host_text_1:hover{
+  opacity: 1;
 }
 img{
   display: block;

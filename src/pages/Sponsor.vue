@@ -15,19 +15,59 @@
         </div>
       </div>
     </section>
-    <div class="co-host container">
-      <h3 class="co-host_text">共同主辦</h3>
-      <div class="co-host_text_1">
-        <img src="../assets/sitcon.png">
+    <div class="co-host container" v-for="(item,index) in sponsors" :key="index">
+      <h3 class="co-host_text">{{ item.title }}</h3>
+      <div class="co-host_text_1" v-for="(sponsor) in item.item" :key="sponsor.name" @click.stop="openBox(item.title,sponsor)">
+        <img :src="sponsor.icon">
       </div>
     </div>
+    <fancybox class="box" :toggle="activityBox">
+      <h2 style="color: white;font-size: 28px;padding-top: 0;padding-bottom: 16px;">{{ sponsorLevel }}</h2>
+      <h2 style="color: white;font-size: 48px;padding-top: 0;padding-bottom: 36px;">{{ sponsorName }}</h2>
+      <div class="content">
+        <div class="text">{{sponsorSummary}}</div>
+        <div class="img">
+          <img style="border: none" :src="sponsorImage" :alt="sponsorName" />
+        </div>
+      </div>
+    </fancybox>
     <main-footer></main-footer>
   </article>
 </template>
 
 <script>
 export default {
-  name: 'Sponsor'
+  name: 'Sponsor',
+  data () {
+    return {
+      activityBox: false,
+      sponsorLevel: '',
+      sponsorName: '',
+      sponsorSummary: '',
+      sponsorImage: '',
+      sponsors: [
+        {
+          'title': '共同主辦',
+          'item': [
+            {
+              name: 'SITCON',
+              icon: './static/img/sponsor/sitcon.png',
+              summary: 'SITCON（Students\' Information Technology Conference, 學生計算機年會）是自 2013 年由一群學生自主性地發起，是一個以在學學生為主體的學生社群。以自發性的學習為基礎，秉持開源、創新與實作的核心理念。\n\n我們希望藉由每年三月固定的研討會（SITCON）、每學期的 hackathon （駭客世代 HackGen）、每年暑假的夏令營及兩個禮拜定期聚會的方式，將全台灣各地對於資訊科技相關領域有興趣的學生們串聯起來，透過彼此共享、交流來切磋精進，砥礪自主自學的風氣。'
+            }
+          ]
+        }
+      ]
+    }
+  },
+  methods: {
+    openBox (name, sponsor) {
+      this.sponsorLevel = name
+      this.sponsorName = sponsor.name
+      this.sponsorSummary = sponsor.summary
+      this.sponsorImage = sponsor.icon
+      this.activityBox = true
+    }
+  }
 }
 </script>
 
@@ -63,8 +103,8 @@ article
     font-size: 0px
     .content
       display: inline-block
-      vertical-align: middle
-      width: 55%
+      vertical-align: top
+      width: 60%
       h2
         font-size: 22px
         font-weight: 300
@@ -84,12 +124,13 @@ article
         margin-bottom: 14px
     .image
       display: inline-block
-      vertical-align: middle
-      width: 45%
+      vertical-align: top
+      width: 40%
+      margin-top: 70px
       img
         display: block
-        margin: 0 auto
-        width: 90%
+        margin-left: 20%
+        width: 80%
   .color
     background-color: $main-color
     color: white
