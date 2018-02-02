@@ -161,4 +161,7 @@ article
         width: 100%
       .image
         width: 100%
+        img
+          margin-left: unset
+          margin: 0 auto
 </style>

@@ -3,7 +3,7 @@
     <section class="container">
       <img class="title" src="../assets/main-title.png" />
       <img class="message" src="../assets/main-message.png" />
-      <img class="date" src="../assets/main-date.png" />
+      <img class="date" src="../assets/main-date.svg" />
     </section>
     <section class="brand color popular">
       <div class="brand-image"></div>
