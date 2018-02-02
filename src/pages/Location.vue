@@ -35,6 +35,7 @@ article
     color: $main-color
     h2
       margin-top: 36px
+      margin-bottom: 12px
       font-size: 32px
     p
       font-size: 20px

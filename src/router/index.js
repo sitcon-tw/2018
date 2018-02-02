@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '../pages/Main'
 import Agenda from '../pages/Agenda'
+import AgendaTemp from '../pages/AgendaTemp'
 import Sponsor from '../pages/Sponsor'
 import Staff from '../pages/Staff'
 import Location from '../pages/Location'
@@ -19,7 +20,7 @@ export default new Router({
     {
       path: '/agenda',
       name: 'Agenda',
-      component: Agenda,
+      component: AgendaTemp,
       meta: { index: 1 }
     },
     {
