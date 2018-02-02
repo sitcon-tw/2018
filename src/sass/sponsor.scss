@@ -15,9 +15,7 @@ h2 {
 .co-host{
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  justify-content: center;
 }
 
 .co-host_text{
@@ -27,13 +25,11 @@ h2 {
   font-weight: bold;
   color: #54656E;
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 .co-host_text_1{
   width: 50%;
   display: inline-block;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 30px;
   opacity: 0.8;
   cursor: pointer;
 }
