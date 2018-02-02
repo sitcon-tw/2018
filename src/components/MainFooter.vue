@@ -5,7 +5,7 @@
         <a href="https://twitter.com/sitcontw" target="_blank"><img src="../assets/twitter-icon.png" alt="twitter"></a>
         <a href="https://t.me/SITCONgeneral" target="_blank"><img src="../assets/telegram-icon.png" alt="telegram"></a>
         <a href="https://www.youtube.com/user/SITCONArchive" target="_blank"><img src="../assets/youtube-icon.png" alt="youtube"></a>
-        <a href="https://www.flickr.com/people/sitcon/" target="_blank"><img src="../assets/flicker-icon.png" alt="flicker"></a>
+        <a href="https://www.flickr.com/people/sitcon/" target="_blank"><img src="../assets/flickr-icon.png" alt="flicker"></a>
         <a href="https://www.facebook.com/SITCONtw/" target="_blank"><img src="../assets/facebook-icon.png" alt="facebook"></a>
       </div>
       <p>© 2018 Students’ Information Technology Conference</p>
@@ -22,7 +22,7 @@
 <style lang="sass" scoped>
 @import '../sass/global.sass'
 footer
-  height: 180px
+  height: 140px
   text-align: center
   background-color: $main-color
   &:before
