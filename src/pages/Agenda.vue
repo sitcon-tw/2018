@@ -118,7 +118,7 @@ article
       display: inline-block
       vertical-align: middle
       color: white
-      width: 160px
+      width: 12.2%
       height: 60px
       background-color: $main-color
       border-radius: 12px
