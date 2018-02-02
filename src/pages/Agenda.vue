@@ -57,7 +57,7 @@
             summary: ''
           },
           {
-            name: 'UN-\nCONFERENCE',
+            name: 'UN-CONFERENCE',
             icon: './static/img/icon/icon_unconf.svg',
             fontSize: '12px',
             image: '',
@@ -66,7 +66,7 @@
           {
             name: '天使計畫',
             icon: './static/img/icon/icon_angel.svg',
-            fontSize: '18px',
+            fontSize: '16px',
             image: '',
             summary: ''
           },
@@ -147,9 +147,10 @@ article
         vertical-align: middle
         text-align: left
         font-weight: 600
-        font-size: 18px
+        font-size: 16px
         line-height: 22px
         white-space: pre-line
+        text-overflow: ellipsis
     .broadcast
       width: 45%
       position: relative

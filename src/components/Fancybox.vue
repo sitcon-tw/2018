@@ -89,6 +89,7 @@
         padding-bottom: 0px
         font-size: 0px
         height: auto
+        position: relative
         *
           display: inline-block
           vertical-align: top
@@ -99,11 +100,14 @@
           padding-top: 0px
           padding-bottom: 0px
         .img
+          float: right
           width: 35%
           padding-top: 0px
           padding-bottom: 0px
+          overflow: auto
           img
             display: block
+            margin-left: 20%
             width: 80%
             height: auto
             border-radius: 15px
@@ -123,6 +127,7 @@
             width: 100%
           .img
             width: 100%
+            position: static
             img
               margin: 0 auto
 .fancybox.open
