@@ -19,7 +19,7 @@
         <sub-table></sub-table>
       </section>
     </div>
-    <fancybox class="box" :toggle="activityBox">
+    <fancybox class="box" v-model="activityBox">
       <h2>{{'About\n'+acName}}</h2>
       <div class="content">
         <div class="text">{{acSummary}}</div>

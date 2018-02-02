@@ -21,7 +21,7 @@
         <img :src="sponsor.icon">
       </div>
     </div>
-    <fancybox class="box" :toggle="activityBox">
+    <fancybox class="box" v-model="activityBox">
       <h2 style="color: white;font-size: 28px;padding-top: 0;padding-bottom: 16px;">{{ sponsorLevel }}</h2>
       <h2 style="color: white;font-size: 48px;padding-top: 0;padding-bottom: 36px;">{{ sponsorName }}</h2>
       <div class="content">

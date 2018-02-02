@@ -1,8 +1,8 @@
 <template>
-  <div class="fancybox" :class="{open: toggle}">
-    <div class="box-content" @click.self="toggle = !toggle">
+  <div class="fancybox" :class="{open: value}">
+    <div class="box-content" @click.self="updateValue(false)">
       <div class="container">
-        <img src="../assets/XX.svg" class="close-btn" @click.stop="toggle = !toggle" />
+        <img src="../assets/XX.svg" class="close-btn" @click.stop="updateValue(false)" />
         <slot></slot>
       </div>
     </div>
@@ -13,13 +13,13 @@
   export default {
     name: 'fancybox',
     props: {
-      toggle: {
+      value: {
         type: Boolean,
         default: false
       }
     },
     watch: {
-      toggle: (newValue, oldValue) => {
+      value: (newValue, oldValue) => {
         var isMacLike = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i)
         if (newValue) {
           if (isMacLike) {
@@ -34,6 +34,11 @@
             window.document.body.classList.remove('isNoMacFancyBox')
           }
         }
+      }
+    },
+    methods: {
+      updateValue (value) {
+        this.$emit('input', value)
       }
     }
   }
@@ -99,7 +104,6 @@
           padding-bottom: 0px
           img
             display: block
-            margin-left: 20%
             width: 80%
             height: auto
             border-radius: 15px
@@ -113,11 +117,14 @@
   .fancybox
     .box-content
       div.container
+        padding-right: 15px
         .content
           .text
             width: 100%
           .img
             width: 100%
+            img
+              margin: 0 auto
 .fancybox.open
   .box-content
     top: 0
