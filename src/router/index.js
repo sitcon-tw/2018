@@ -30,6 +30,12 @@ export default new Router({
       meta: { index: 2 }
     },
     {
+      path: '/person-Sponsor',
+      name: 'person-Sponsor',
+      component: Sponsor,
+      meta: { index: 2 }
+    },
+    {
       path: '/staff',
       name: 'Staff',
       component: Staff,
@@ -43,6 +49,10 @@ export default new Router({
     }
   ],
   scrollBehavior (to, from, savedPosition) {
-    return { x: 0, y: 0 }
+    if (to.name === 'person-Sponsor') {
+      return { x: 0, y: 155 }
+    } else {
+      return { x: 0, y: 0 }
+    }
   }
 })
