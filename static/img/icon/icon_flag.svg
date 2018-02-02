@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.54 51.4">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <title>icon_flag</title>
+  <g id="圖層_2" data-name="圖層 2">
+    <g id="圖層_1-2" data-name="圖層 1">
+      <g>
+        <g>
+          <rect class="cls-1" x="27.58" y="4.4" width="2.75" height="47"/>
+          <polygon class="cls-1" points="0 16.15 27.58 27.9 27.58 16.15 27.58 4.4 0 16.15"/>
+        </g>
+        <circle class="cls-1" cx="28.96" cy="2.58" r="2.58"/>
+      </g>
+    </g>
+  </g>
+</svg>

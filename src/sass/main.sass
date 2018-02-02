@@ -1,0 +1,37 @@
+@import 'global.sass'
+@import 'layout.sass'
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  -webkit-tap-highlight-color:  rgba(0,0,0,0)
+
+a
+  color: #92BBE3
+
+@font-face
+  font-family: 'Din'
+  src: url('assets/din-medium-webfont.eot');
+  src: url('assets/din-medium-webfont.eot?#iefix') format('embedded-opentype'),url('assets/din-medium-webfont.woff') format('woff'),url('assets/din-medium-webfont.ttf') format('truetype'),url('assets/din-medium-webfont.svg#DINMedium') format('svg')
+  font-weight: normal;
+  font-style: normal;
+
+body
+  font-size: 12px
+  overflow-x: hidden
+#app
+  font-family: 'Din', 'Noto Sans CJK TC Regular', 'Avenir', Helvetica, Arial, sans-serif
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-align: center
+  color: #2c3e50
+
+.slide-left-enter, .slide-right-leave-active
+  opacity: 0
+  transform: translateX(50%)
+
+.slide-left-leave-active, .slide-right-enter
+  opacity: 0
+  transform: translateX(-50%)
+

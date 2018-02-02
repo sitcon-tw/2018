@@ -1,22 +1,50 @@
 <template>
   <div id="app">
-    <router-view/>
+    <main-nav></main-nav>
+    <main>
+      <transition :name="transitionName">
+        <keep-alive>
+          <router-view class="child-view"/>
+        </keep-alive>
+      </transition>
+    </main>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data () {
+    return {
+      transitionName: 'slide-left'
+    }
+  },
+  watch: {
+    '$route' (to, from) {
+      const toDepth = to.meta.index
+      const fromDepth = from.meta.index
+      this.transitionName = toDepth < fromDepth ? 'slide-right' : 'slide-left'
+    }
+  }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="sass">
+@import 'sass/main.sass'
+body.isShowFancyBox
+  overflow: hidden
+body.isNoMacFancyBox
+  overflow: hidden
+  div#app
+    header
+      nav
+        padding-right: 17px
+    main
+      .child-view
+        padding-right: 17px
+.child-view
+  position: absolute
+  transition-property: transform opacity
+  transition-duration: .5s
+  transition-timing-function: cubic-bezier(.55,0,.1,1)
 </style>
