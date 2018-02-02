@@ -20,8 +20,19 @@
     },
     watch: {
       toggle: (newValue, oldValue) => {
-        if (newValue !== oldValue) {
-          window.document.body.classList.toggle('isShowFancyBox')
+        var isMacLike = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i)
+        if (newValue) {
+          if (isMacLike) {
+            window.document.body.classList.add('isShowFancyBox')
+          } else {
+            window.document.body.classList.add('isNoMacFancyBox')
+          }
+        } else {
+          if (isMacLike) {
+            window.document.body.classList.remove('isShowFancyBox')
+          } else {
+            window.document.body.classList.remove('isNoMacFancyBox')
+          }
         }
       }
     }

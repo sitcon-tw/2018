@@ -40,5 +40,8 @@ export default new Router({
       component: Location,
       meta: { index: 4 }
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
