@@ -55,8 +55,8 @@
     bottom: 0
     z-index: 9999
     background-color: rgba(0, 0, 0, 0)
-    transition: background-color .4s
     user-select: text
+    transition: background-color .4s 0s, top .0s .4s
     div.container
       position: relative
       color: white
@@ -68,7 +68,7 @@
       font-size: 18px
       height: 100%
       opacity: 0
-      transition: opacity .1s .4s
+      transition: opacity .4s .0s
       padding-right: 45px
       &::-webkit-scrollbar
         display: none
@@ -135,7 +135,7 @@
     top: 0
     background-color: rgba(0, 0, 0, 0.8)
     transition: background-color .4s
-    div
+    div.container
       opacity: 1
-      transition: opacity .1s .4s
+      transition: opacity .4s
 </style>
