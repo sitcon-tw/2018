@@ -205,4 +205,10 @@
         background-position: right center
         background-size: contain
         background-repeat: no-repeat
+    .innovation
+      div
+        padding-left: 15px
+    .coc
+      div
+        padding-left: 15px
 </style>
