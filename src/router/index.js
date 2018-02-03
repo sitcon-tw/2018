@@ -20,7 +20,7 @@ export default new Router({
     {
       path: '/agenda',
       name: 'Agenda',
-      component: AgendaTemp,
+      component: Agenda,
       meta: { index: 1 }
     },
     {
