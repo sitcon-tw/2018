@@ -1,7 +1,7 @@
 <template>
   <article>
     <div class="staff container">
-      <h1>Staff</h1>
+      <h1>工作人員</h1>
       <div v-for="(team,index) in el" class="group" :key="team+index">
         <h2>{{team.name}}</h2>
         <div v-for="(member,index) in team.members" class="staff_card" :key="member+index">

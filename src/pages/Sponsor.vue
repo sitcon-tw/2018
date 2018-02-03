@@ -99,10 +99,10 @@ article
   background-color: white
   section
     text-align: left
-    padding-top: 50px
-    padding-bottom: 50px
+    padding-top: 40px
+    padding-bottom: 40px
     position: relative
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     img
       display: block
     .title
@@ -131,7 +131,7 @@ article
         font-weight: 300
       h3
         width: 100%
-        font-size: 32px
+        font-size: 28px
         line-height: 36px
         margin-top: 12px
         margin-bottom: 18px
@@ -139,7 +139,7 @@ article
         overflow-y: hidden
       p
         font-size: 18px
-        line-height: 36px
+        line-height: 26px
         font-weight: 550
         margin-top: 14px
         margin-bottom: 14px
@@ -147,11 +147,11 @@ article
       display: inline-block
       vertical-align: top
       width: 40%
-      margin-top: 70px
+      margin-top: 65px
       img
         display: block
-        margin-left: 20%
-        width: 80%
+        margin-left: 10%
+        width: 90%
   .color
     background-color: $main-color
     color: white
@@ -161,6 +161,7 @@ article
         width: 100%
       .image
         width: 100%
+        margin-top: 0px
         img
           margin-left: unset
           margin: 0 auto

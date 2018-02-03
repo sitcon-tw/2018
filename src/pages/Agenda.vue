@@ -54,7 +54,7 @@
           {
             name: '導遊團',
             icon: './static/img/icon/icon_flag.svg',
-            fontSize: '20px',
+            fontSize: '16px',
             image: '',
             disable: false,
             summary: '第一次參加 SITCON 嗎？是個怕生的人嗎？到了現場人山人海，不知道從何逛起？<br>為了照顧第一次參與的你，我們舉辦了 SITCON 導遊團，將會走訪年會總召、幹部、社群攤位，帶領大家一步一步了解 SITCON 的各個面向、運作模式，認識 SITCON 的核心概念！<h3>出發資訊</h3><p>中午 12:00、下午 02:30 各發一團 (σﾟ∀ﾟ)σ</p><h3>集合地點</h3><p>3F 南側 R2 外的沙發區 ヾ(*´∀｀*)ﾉ</p><h3>報名方式</h3><p>當天導遊會拿著 SITCON 小旗子，只要找得到我們的隊伍，歡迎你隨時加入！</p>'
@@ -62,7 +62,7 @@
           {
             name: 'Unconf',
             icon: './static/img/icon/icon_unconf.svg',
-            fontSize: '24px',
+            fontSize: '20px',
             image: '',
             disable: true,
             summary: ''
@@ -70,7 +70,7 @@
           {
             name: '天使計畫',
             icon: './static/img/icon/icon_angel.svg',
-            fontSize: '16px',
+            fontSize: '12px',
             image: '',
             disable: false,
             summary: '第一次參與沒有人帶你認識 SITCON 嗎？或者你已經參與多次 SITCON，也願意幫幫初來乍到的新手們？誠摯地邀請你參與天使計劃！<br>天使計劃是一個提供會眾們交流機會的活動，在主辦方隨機配對後，讓有經驗的天使帶領初心者，協助他們瞭解這個年會。而這次與去年不同的地方在於：會依天使的意願，除了天使與初心者一對一的交流，也有一位天使帶兩位初心者的情況，讓兩位初心者之間也能互相認識。<h3>規則</h3><ol><li>有意願參加天使計劃的人，請在 KKTIX 報名的時候勾選參加天使計劃，並詳細填寫天使計劃的相關問題。</li><li>日後我們將把配對的結果 e-mail 給您，您可以透過信中給予的聯絡資訊去聯絡您的天使或初心者。</li></ol><h3>注意</h3><ol><li>我們不處理後續配對者之間的相處與聯繫狀況。</li><li>天使計劃報名資訊如有缺漏、填寫不詳細的，我們將視為您不參加此項計劃。</li><li>報名此計劃，不能保證一定配對成功。</li></ol>'
@@ -78,7 +78,7 @@
           {
             name: '知識王',
             icon: './static/img/icon/icon_game.svg',
-            fontSize: '18px',
+            fontSize: '14px',
             image: '',
             disable: false,
             summary: '在 SITCON 2018 首度嘗試知識王活動，想知道自己對 SITCON 2018 或是資訊領域的了解多寡，那就趕緊拿起行動裝置，開始挑戰吧！答不上來也別灰心，到攤位晃晃聊天，或許會意外發現謎腳喔！'
@@ -86,7 +86,7 @@
           {
             name: '社群攤位',
             icon: './static/img/icon/icon_community.svg',
-            fontSize: '18px',
+            fontSize: '14px',
             image: '',
             disable: true,
             summary: 'SITCON 今年延續了攤位活動，目的是在促進會眾跟學生社團或相關資訊社群交流。多元的活動讓你在聽完議程意猶未盡之餘，更能充分交流！休息時間，別忘記到場外的攤位逛逛！'
@@ -94,7 +94,7 @@
           {
             name: '大地活動',
             icon: './static/img/icon/icon_land.svg',
-            fontSize: '18px',
+            fontSize: '14px',
             image: '',
             disable: false,
             summary: 'SITCON 的每年都受到台灣諸多企業與部門單位的支持與鼓勵，想知道每一間企業與公部門在做什麼嗎，他們又在為台灣做些什麼事呢，到任一個攤位聊一聊，完成攤位指定活動，可以收到意外驚喜喔!'
@@ -121,8 +121,8 @@ article
   width: 100%
   background-color: white
   p.temp
-    font-size: 48px
-    height: 60vh
+    font-size: 36px
+    height: 70vh
     padding-top: 20vh
     text-align: center
     color: $main-color
@@ -136,7 +136,7 @@ article
       vertical-align: middle
       color: white
       width: 12.2%
-      height: 60px
+      height: 50px
       background-color: $main-color
       border-radius: 12px
       text-align: left
@@ -164,7 +164,7 @@ article
         vertical-align: middle
         text-align: left
         font-weight: 600
-        font-size: 16px
+        font-size: 12px
         line-height: 22px
         white-space: pre-line
         text-overflow: ellipsis
@@ -179,7 +179,7 @@ article
       p
         width: 99%
         text-align: center
-        font-size: 28px
+        font-size: 24px
     .hackmd
       width: 45%
       position: relative
@@ -191,7 +191,7 @@ article
       p
         width: 99%
         text-align: center
-        font-size: 28px
+        font-size: 24px
     .disable
       opacity: 0.5
       cursor: default
@@ -208,8 +208,8 @@ article
           background-color: $main-color
           content: '敬請期待'
           text-align: center
-          padding: 15px
-          font-size: 22px
+          padding: 12px
+          font-size: 18px
 @media all and (max-width: 1000px)
   article
     section.activity
@@ -222,7 +222,7 @@ article
           margin-right: 4px
         p
           width: auto
-          font-size: 22px
+          font-size: 18px
       .hackmd
         width: 95%
 </style>

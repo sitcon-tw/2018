@@ -5,11 +5,16 @@
 h2 {
   text-align: left;
   width:100%;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #54656E;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .co-host{
@@ -21,15 +26,15 @@ h2 {
 .co-host_text{
   text-align: left;
   width:100%;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   color: #54656E;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .co-host_text_1{
   width: 50%;
   display: inline-block;
-  padding: 30px;
+  padding: 20px;
   opacity: 0.8;
   cursor: pointer;
 }
@@ -45,28 +50,9 @@ img{
 }
 @media all and (max-width: 1000px){
   .co-host_text{
-    font-size: 48px;
+    font-size: 32px;
   }
   .co-host_text_1{
     width: 100%;
-  }
-}
-@media all and (max-width: 768px){
-  .co-host_text{
-    font-size: 50px;
-  }
-}
-@media all and (max-width: 480px){
-  .co-host_text{
-    font-size: 40px;
-  }
-}
-@media all and (max-width: 368px){
-  .co-host_text{
-    font-size: 40px;
-    line-height: 1.5em;
-  }
-  .co-host_text_1{
-    margin-bottom: 50px;
   }
 }

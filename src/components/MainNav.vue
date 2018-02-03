@@ -67,7 +67,7 @@ nav
       margin-right: 30px
       img
         vertical-align: middle
-        width: 130px
+        width: 110px
     .nav-right
       float: right
       height: 100%
@@ -89,10 +89,9 @@ nav
         border-radius: 5px
         margin-right: 10px
         div
-          font-size: 1.4rem
+          font-size: 16px
           p
-            font-size: 1rem
-            margin-top: -5px
+            font-size: 12px
       .icon
         display: inline-block
         vertical-align: middle
@@ -121,14 +120,14 @@ nav
         div
           display: inline-block
           vertical-align: middle
-          font-size: 1.4rem
+          font-size: 16px
           font-weight: 800
           p
             display: block
             position: relative
             top: 0px
             font-weight: 400
-            font-size: 1rem
+            font-size: 12px
           &:after
             display: block
             content: " "
@@ -153,7 +152,7 @@ nav
           content: " "
           background-color: white
           width: 1px
-          height: 42px
+          height: 36px
           margin-left: 18px
           margin-right: 18px
 @media all and (max-width: 1000px)

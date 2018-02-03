@@ -22,7 +22,7 @@
 <style lang="sass" scoped>
 @import '../sass/global.sass'
 footer
-  height: 140px
+  height: 100px
   text-align: center
   background-color: $main-color
   &:before
@@ -37,11 +37,11 @@ footer
     vertical-align: middle
     div
       a
-        margin: 8px
+        margin: 6px
         img
-          height: 40px
+          height: 30px
     p
-      margin-top: 20px
+      margin-top: 10px
       color: white
-      font-size: 1.2rem
+      font-size: 14px
 </style>

@@ -34,14 +34,14 @@ article
   background-color: white
   section
     text-align: left
-    padding-top: 40px
-    padding-bottom: 80px
+    padding-top: 20px
+    padding-bottom: 40px
     color: $main-color
     h2
-      margin-top: 36px
+      margin-top: 26px
       margin-bottom: 12px
-      font-size: 32px
-    p
       font-size: 20px
-      line-height: 36px
+    p
+      font-size: 14px
+      line-height: 22px
 </style>

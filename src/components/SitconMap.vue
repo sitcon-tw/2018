@@ -94,8 +94,8 @@ div
     left: 50%
     transform: translate(-50%);
     color: black
-    padding: 15px
-    font-size: 18px
+    padding: 12px
+    font-size: 16px
     background-color: rgba(255, 255, 255, 0.7)
 
 </style>
