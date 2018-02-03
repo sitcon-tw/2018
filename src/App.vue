@@ -44,7 +44,7 @@ body.isNoMacFancyBox
         padding-right: 17px
 .child-view
   position: absolute
-  transition-property: transform opacity
+  transition-property: transform,opacity
   transition-duration: .5s
   transition-timing-function: cubic-bezier(.55,0,.1,1)
 </style>
