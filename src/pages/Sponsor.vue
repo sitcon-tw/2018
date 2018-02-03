@@ -87,6 +87,16 @@ export default {
       this.sponsorImage = sponsor.icon
       this.activityBox = true
     }
+  },
+  watch: {
+    activityBox: function (state) {
+      var self = this
+      if (!state) {
+        setTimeout(function () {
+          self.acImage = ''
+        }, 400)
+      }
+    }
   }
 }
 </script>

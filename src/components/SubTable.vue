@@ -202,6 +202,16 @@ export default {
     this.times = this.times.slice().sort()
     this.rows = this.times.length
     this.res = _.groupBy(temp, (schedule) => (schedule.start))
+  },
+  watch: {
+    activityBox: function (state) {
+      var self = this
+      if (!state) {
+        setTimeout(function () {
+          self.acImage = ''
+        }, 400)
+      }
+    }
   }
 }
 </script>
