@@ -49,7 +49,7 @@ export default new Router({
   ],
   scrollBehavior (to, from, savedPosition) {
     if (to.name === 'person-Sponsor') {
-      return { x: 0, y: 155 }
+      return { x: 0, y: 105 }
     } else {
       return { x: 0, y: 0 }
     }
