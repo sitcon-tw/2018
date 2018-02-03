@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.73 45.41">
+<svg id="圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <defs>
     <style>
       .cls-1 {
@@ -6,10 +6,6 @@
       }
     </style>
   </defs>
-  <title>icon_community</title>
-  <g id="圖層_2" data-name="圖層 2">
-    <g id="圖層_1-2" data-name="圖層 1">
-      <path class="cls-1" d="M38,20.74a10.14,10.14,0,0,0-5.22-5.68,8.14,8.14,0,1,0-8.56,0A10.14,10.14,0,0,0,19,20.74H10.28V1H3.33V13.25H9.08v7.48H0V45.41H44.73V20.74Z"/>
-    </g>
-  </g>
+  <title>1</title>
+  <path class="cls-1" d="M158.42,92.75a38,38,0,0,0-19.56-21.3,30.52,30.52,0,1,0-32.09,0,38,38,0,0,0-19.56,21.3H54.43V18.86H28.37V64.69H49.93V92.75H15.87v92.53H183.59V92.75Z"/>
 </svg>

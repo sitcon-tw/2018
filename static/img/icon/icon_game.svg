@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.75 39.1">
+<svg id="圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <defs>
     <style>
       .cls-1 {
@@ -6,10 +6,6 @@
       }
     </style>
   </defs>
-  <title>icon_game</title>
-  <g id="圖層_2" data-name="圖層 2">
-    <g id="圖層_1-2" data-name="圖層 1">
-      <polygon class="cls-1" points="33.13 20.88 24.38 0 15.63 20.88 0 11.63 4.5 39.1 24.38 39.1 44.25 39.1 48.75 11.63 33.13 20.88"/>
-    </g>
-  </g>
+  <title>活動</title>
+  <polygon class="cls-1" points="130.51 104.42 99.99 31.62 69.48 104.42 14.98 72.16 30.68 168 99.99 168 169.31 168 185 72.16 130.51 104.42"/>
 </svg>

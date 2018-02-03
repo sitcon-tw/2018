@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.54 51.4">
+<svg id="圖層_1" data-name="圖層 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <defs>
     <style>
       .cls-1 {
@@ -6,16 +6,12 @@
       }
     </style>
   </defs>
-  <title>icon_flag</title>
-  <g id="圖層_2" data-name="圖層 2">
-    <g id="圖層_1-2" data-name="圖層 1">
-      <g>
-        <g>
-          <rect class="cls-1" x="27.58" y="4.4" width="2.75" height="47"/>
-          <polygon class="cls-1" points="0 16.15 27.58 27.9 27.58 16.15 27.58 4.4 0 16.15"/>
-        </g>
-        <circle class="cls-1" cx="28.96" cy="2.58" r="2.58"/>
-      </g>
+  <title>icon_all</title>
+  <g>
+    <g>
+      <rect class="cls-1" x="133.9" y="22.03" width="10.02" height="171.21"/>
+      <polygon class="cls-1" points="33.42 64.83 133.9 107.63 133.9 64.83 133.9 22.03 33.42 64.83"/>
     </g>
+    <circle class="cls-1" cx="138.91" cy="15.41" r="9.41"/>
   </g>
 </svg>
