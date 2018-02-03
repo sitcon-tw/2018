@@ -65,7 +65,7 @@
       padding-top: 80px
       padding-bottom: 40px
       overflow-y: scroll
-      font-size: 22px
+      font-size: 18px
       height: 100%
       opacity: 0
       transition: opacity .1s .4s
@@ -79,11 +79,11 @@
         right: 15px
         cursor: pointer
       h2
-        font-size: 32px
+        font-size: 28px
         padding-bottom: 40px
         span
-          margin-left: 32px
-          font-size: 28px
+          margin-left: 30px
+          font-size: 24px
       .content
         padding-top: 0px
         padding-bottom: 0px
@@ -94,7 +94,7 @@
           display: inline-block
           vertical-align: top
         .text
-          font-size: 22px;
+          font-size: 18px;
           width: 65%
           height: auto
           padding-top: 0px
@@ -114,7 +114,7 @@
             border: 12px solid #3C4755
             background-color: white
       h3
-        font-size: 32px
+        font-size: 28px
         padding-top: 40px
         padding-bottom: 40px
 @media all and (max-width: 1000px)
