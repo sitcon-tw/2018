@@ -117,10 +117,6 @@ const webpackConfig = merge(baseWebpackConfig, {
       {
         from: path.resolve(__dirname, '../cfp'),
         to: config.build.assetsCfpDirectory
-      },
-      {
-        from: path.resolve(__dirname, '../favicon.ico'),
-        to: config.build.assetsRoot
       }
     ])
   ]
