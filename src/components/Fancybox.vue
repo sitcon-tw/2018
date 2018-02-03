@@ -20,7 +20,7 @@
     },
     watch: {
       value: (newValue, oldValue) => {
-        var isScrollSpace = navigator.platform.match(/(Mac|iPhone|iPod|iPad|Android)/i)
+        var isScrollSpace = navigator.userAgent.match(/(Mac|iPhone|iPod|iPad|Android)/i)
         if (newValue) {
           if (isScrollSpace) {
             window.document.body.classList.add('isShowFancyBox')
