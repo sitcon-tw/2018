@@ -33,7 +33,7 @@ export default {
 @import 'sass/main.sass'
 body.isShowFancyBox
   overflow: hidden
-body.isNoMacFancyBox
+body.isScrollSpaceFancyBox
   overflow: hidden
   div#app
     header

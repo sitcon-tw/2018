@@ -20,18 +20,18 @@
     },
     watch: {
       value: (newValue, oldValue) => {
-        var isMacLike = navigator.platform.match(/(Mac|iPhone|iPod|iPad)/i)
+        var isScrollSpace = navigator.platform.match(/(Mac|iPhone|iPod|iPad|Android)/i)
         if (newValue) {
-          if (isMacLike) {
+          if (isScrollSpace) {
             window.document.body.classList.add('isShowFancyBox')
           } else {
-            window.document.body.classList.add('isNoMacFancyBox')
+            window.document.body.classList.add('isScrollSpaceFancyBox')
           }
         } else {
-          if (isMacLike) {
+          if (isScrollSpace) {
             window.document.body.classList.remove('isShowFancyBox')
           } else {
-            window.document.body.classList.remove('isNoMacFancyBox')
+            window.document.body.classList.remove('isScrollSpaceFancyBox')
           }
         }
       }
