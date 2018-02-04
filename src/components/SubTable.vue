@@ -1,6 +1,6 @@
 <template>
   <div class="subtable">
-    <div class="container">
+    <div v-if="!mobile" class="container">
       <table>
         <thead>
           <tr>
@@ -14,6 +14,9 @@
           </template>
         </tbody>
       </table>
+    </div>
+    <div v-else class="mobile-table">
+      <mobile-row v-for="(value) in times" :value="value" :res="res" @openBox="openBox" :key="'times:'+value"></mobile-row>
     </div>
     <fancybox class="box" v-model="activityBox">
       <h2>{{subSubject}}<span v-if="subslides !== undefined"><a :href="subslides" target="_blank">#簡報連結</a></span></h2>
@@ -46,7 +49,8 @@ export default {
       subslides: '',
       subSpeakerName: '',
       subAvatar: '',
-      subBio: ''
+      subBio: '',
+      mobile: false
     }
   },
   methods: {
@@ -138,6 +142,9 @@ export default {
       this.subSpeakerName = sub.speaker.name
       this.subSummary = sub.summary
       this.activityBox = true
+    },
+    resize () {
+      this.mobile = (window.innerWidth <= 1000)
     }
   },
   created () {
@@ -160,6 +167,11 @@ export default {
     this.times = _.uniqBy(this.times, this.formatTime)
     this.times = this.times.slice().sort()
     this.res = _.groupBy(temp, (schedule) => (schedule.start))
+    var self = this
+    self.resize()
+    window.addEventListener('resize', function () {
+      self.resize()
+    })
   },
   watch: {
     activityBox: function (state) {
@@ -170,6 +182,9 @@ export default {
         }, 400)
       }
     }
+  },
+  destroyed () {
+    window.removeEventListener('resize')
   }
 }
 </script>
@@ -177,10 +192,10 @@ export default {
 <style lang="sass" scoped>
 div.subtable
   width: 100%
-  overflow-y: hidden
   $time-width: 80px
   margin-bottom: 20px
   div.container
+    overflow-y: hidden
     table
       width: 100%
       thead

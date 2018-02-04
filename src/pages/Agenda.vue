@@ -15,11 +15,11 @@
           <p>會議共筆</p>
         </a> -->
       </section>
-      <!-- <section class="table">
-        <sub-table></sub-table>
-      </section> -->
       <p class="temp">議程與部分活動介紹將於 2/7 上線</p>
     </div>
+    <!-- <section class="table">
+      <sub-table></sub-table>
+    </section> -->
     <fancybox class="box" v-model="activityBox">
       <h2>{{'About\n'+acName}}</h2>
       <div class="content">
@@ -154,7 +154,7 @@ article
       user-select: none
       cursor: pointer
       font-size: 0px
-      &:hover
+      &:hover,&:active
         opacity: 0.8
       &:before
         content: " "
@@ -206,7 +206,7 @@ article
       opacity: 0.5
       cursor: default
       position: relative
-      &:hover
+      &:hover,&:active
         opacity: 0.5
         &:after
           position: absolute

@@ -44,10 +44,8 @@ export default {
   white-space: pre-line
 .clickable
   cursor: pointer
-  &:hover
+  &:hover,&:active
     opacity: 0.6
-  p
-    font-size: 16px
 @media all and (max-width: 1000px)
   .item
     background-color: #73828A

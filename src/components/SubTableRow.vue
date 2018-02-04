@@ -61,7 +61,7 @@ $time-width: 60px
     white-space: pre-line
   .clickable
     cursor: pointer
-    &:hover
+    &:hover,&active
       opacity: 0.6
     p
       font-size: 16px

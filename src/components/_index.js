@@ -5,6 +5,7 @@ import SubTable from './SubTable'
 import Fancybox from './Fancybox'
 import SubTableCol from './SubTableCol.vue'
 import SubTableRow from './SubTableRow.vue'
+import MobileRow from './MobileRow.vue'
 
 export default {
   MainNav,
@@ -13,5 +14,6 @@ export default {
   SubTable,
   Fancybox,
   SubTableCol,
-  SubTableRow
+  SubTableRow,
+  MobileRow
 }
