@@ -208,7 +208,7 @@ export default {
       var self = this
       if (!state) {
         setTimeout(function () {
-          self.acImage = ''
+          self.subAvatar = ''
         }, 400)
       }
     }
