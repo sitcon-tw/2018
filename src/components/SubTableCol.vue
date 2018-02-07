@@ -42,6 +42,8 @@ export default {
   color: white
   padding: 12px
   white-space: pre-line
+  p
+    font-size: 15px
 .clickable
   cursor: pointer
   &:hover,&:active

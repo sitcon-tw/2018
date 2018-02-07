@@ -1,479 +1,447 @@
-[
-  {
-    "speaker": {
-      "name": "黃勝雄",
-      "avatar": "images/speakers/hss.jpg",
-      "bio": "* 亞太網路資訊中心 APNIC 董事\n* ICANN Root Zone Chinese Generation Panel Co-Chair\n* 香港 DotAsia 管理局諮詢委員\n* 國際合作發展基金會諮詢委員\n* 達創股份有限公司董事\n* 亞太網路治理論壇APrIGF諮詢委員\n* IETF RFC3743 作者\n\n英文簡介: https://2016.aprigf.asia/program/speakerprofile/kenny-huang/ \n中文簡介: http://www.seminar2013.twnic.tw/resume/hss.pdf \n\n黃勝雄博士長期參與全球網際網路治理 (Internet Governance)，推動網際網路發展，包含：創立網際網路管理機構、先進研發先進技術、規劃與制定網際網路治理政策等等，並多次代表亞太地區或台灣參與國際性網際網路組織會議，致力推動亞太網際網路發展。在通訊技術上，黃博士多次參與 IETF 會議，並主持亞太區中日韓 JET (Joint Engineer Team) 域名技術組織，與中、日、韓共同發表 IETF RFC3743網際網路標準。在全球資訊治理方面，黃博士擔任 APNIC 亞太網路資訊中心董事董事，亦為 DotAsia (.asia Registry)公司創辦人暨諮詢委員，並曾任 PIR 董事、負責 .org 頂級域名治理，制定多項網路管理政策。在臺灣，黃博士擔任行政院數位台灣計畫 eTaiwan 委員、行政院研考會電子化政府委員、行政院政府組織與資訊改造委員會委員、臺灣網路資訊中心董事暨國際事務委員會主任委員、政府推動 IPv6 計畫法規與政策分項主持人、.taipei 頂級域名營運規劃計畫主持人等，充分將其專業知識與技能回饋台灣。"
-    },
-    "start": "2017-03-18T09:10:00+08:00",
-    "end": "2017-03-18T10:00:00+08:00",
-    "type": "K",
-    "room": "R0",
-    "broadcast": true,
-    "subject": "Cybersecurity and Internet Governance 網路安全與網路治理",
-    "summary": "Cybersecurity was treated primarily as a technical issue in many organizations. As the Internet has dramatically revolutionized many fields, it has become a critical infrastructure for the global economy. The consequence makes cybersecurity to be a leading concern for major economies.\nInternet governance struggled two decades ago. A multistakeholder model was created for the governance of the Internet, especially in managing critical Internet identifiers. Non-state actors were empowered under the multistakeholder model.\nThe joint concept of cybersecurity and national security stimulates the re-establishment of traditional sovereignty model. Internet governance institutions are inevitably involved in cybersecurity issues. These include globalized markets for technology and services, cooperation and information sharing across jurisdictions, and the need to avoid Internet fragmentation.\nCybersecurity and Internet governance towards an uncertain future. Cybersecurity may stimulate institutional innovations for Internet governance. Internet governance model may offer solutions for cybersecurity. As the global economy relies more on the Internet, cybersecurity becomes increasingly insidious. There is no doubt that the Internet is efficient. But it now needs a more concerted Internet governance effort to preserve its best aspects and guard against cybersecurity.\n\n許多組織將網路安全視為技術問題。隨著網際網路在許多領域掀起巨大革命，它已然成為全球經濟的關鍵基礎設施。這樣的結果，致使網路安全成為主要經濟體的首要顧慮。\n二十年前，網路治理曾歷經一段群雄爭霸的時代，各國致力爭取主導權，直到最後，為了解決意見分歧，採用了一個新的「多方利益關係者 (Multi-stakeholder model)」運作模式，這個模式讓議題中的各利害關係者能夠平等地參與討論並共同決定，尤其是以往影響力較小的非政府單位，在此模式中能夠與政府組織平起平坐。這個模式也在管理重要網際網路編號及名稱 (IP, DNS, AS number 等等) 及其他議題時發揮了重大效用。\n將網路安全與國家安全結合的概念，促使傳統主權模式的重新構築。網路治理機構不可避免地涉及了網路安全方面的議題，包括：技術和服務的全球化市場、各方管轄權之間的合作和訊息的共享，以及防範網際網路破碎化、產生區域的封閉性。\n網路安全和網路治理正面臨著不明確的未來。網路安全或許能激發網路治理制度的創新，而網路治理或許能為網路安全提供解決問題的方案。隨著全球經濟對網際網路的依賴逐步提升，網路安全愈發危機四伏。毫無疑問，網際網路非常便利，然而，為了維持網際網路的優勢，並排除網路安全問題的危害，更加協調的網路治理是必須努力嘗試的。"
-  },
-  {
-    "speaker": {
-      "name": "何明諠",
-      "avatar": "images/speakers/hms.jpg",
-      "bio": "何明諠，第一份正職是從 2014 年 9 月開始任職的台灣人權促進會，目前在台權會擔任「台灣網路透明報告」的專案經理，但也兼作其他隱私個案。大學為電機系畢業，但碩士班則改念政治哲學與法理學，儘管看似有理工和些微的法學背景，但接觸數位人權完全是在工作後的事。開始工作的這兩三年來，陸續參與了一些會議，接觸了一些數位領域的先驅，並寫了幾篇相關的報告和文章，但還不確定是否有真正影響了什麼。若沒意外，未來應還會持續賴在這領域一段時間。"
-    },
-    "start": "2017-03-18T10:10:00+08:00",
-    "end": "2017-03-18T11:00:00+08:00",
-    "type": "K",
-    "room": "R0",
-    "subject": "重拾數位時代的公民權",
-    "broadcast": true,
-    "summary": "近幾十年來，網際網路的迅速發展在全世界帶來了巨幅變革。舉凡政治、經濟、教育、通訊、文化等層面，無一不受到這個變革的影響。在當前的社會，網際網路幾乎成為金融交易、獲取資訊、人際交友的最大平台。此外，諸如近幾年國外的阿拉伯之春、土耳其之春、佔領華爾街、以及國內的318學運等社會運動，網際網路也都扮演了相當重要的角色，它在一定程度上，促成了公民社會的整體覺醒與投入。\n \n或許是新科技持續對既有問題提出了各種解方，因此在過往，我們對網際網路的發展，幾乎少有過份悲觀的想法。網際網路帶來的新鮮感、普及性、及無窮連結的希望，使得其所引發的負面影響幾乎在檯面上被消音。\n \n在當前的檯面上，我們看到許多網際網路的應用，好比大數據、物聯網、智慧手機、Fintech等，我們習慣談論這些新興數位科技帶來的便利，但是否也有意識到，這些新建立的社會常態，究竟是讓人們擁有新的選擇，或其實只是讓人們將自身置入了企業或國家所設定好的個人形象之中？好比說，我們犧牲了自己的部分隱私，換取了網站或軟體的客製化服務；好比說，我們犧牲了資訊取得的自由，換取了更為即時的人際互動。\n \n科技能否中立，能否成為用來解決既有社會問題的希望，早在一百年前，哲學界就已有過熱烈的討論，但如今再次談來，卻恐怕尚未過時。近幾年來，國際上對數位人權的關注正不停拉高，人們逐漸正視到，數位科技並不中立，它除了帶來方便外，稍有不慎，也會比過往容易被用來侵害言論自由、隱私權，減低文化創意，甚至強化社會的既有對立。\n \n倘若我們都認同數位科技不該淪為人權侵害的便利箱，則在數位時代，如何既兼顧科技帶來的方便，又能讓人們在線上及線下，都能享受其公民權，毋寧就是此刻最需深思的議題之一。\n"
-  },
-  {
-    "speaker": {
-      "name": "陳昱維/千秋",
-      "avatar": "images/speakers/15_10R1.jpg",
-      "bio": "台大開源社/模型社，據說是個有趣的神奇傢伙，信念是「可愛就是正義！」\n喜歡萌物到無可救藥的地步，也很喜歡有設計感的東西，以及精采的故事。特殊才能是字體設計跟占卜，從設計、插畫、料理、攝影到機械、程式都有略有涉獵，最喜歡做的事情就是找事情做。副業是見習設計師跟系網管，實際上是學生。"
-    },
-    "start": "2017-03-18T15:10:00+08:00",
-    "end": "2017-03-18T15:20:00+08:00",
-    "type": "S",
-    "room": "R1",
-    "subject": "從零開始的線上字型",
-    "summary": "費盡心思寫出來的網頁總是差了那麼一點質感？系統預設字型不好嗎？文字不只是一個網頁的主體，更是感情、思想、知識的載體，既然如此，來多放點心思研究字型吧！從基本的字體知識、選用指南開始，到如何把字體內嵌到網頁上。\n網路字型 (Web Font) 主要用途在使用於網頁上的字型顯示，擺脫以往字型需安裝方能顯示的限制，使得於網頁設計上能夠不用轉圖檔，使用者一樣能夠看到特殊的字型效果。",
-    "slides": "http://slid.es/akira02/re0/"
-  },
-  {
-    "speaker": {
-      "name": "馬聖豪",
-      "avatar": "images/speakers/16_50R0.jpg",
-      "bio": "馬聖豪 (aaaddress1, aka adr) 目前為 TDOHacker 學生資安社群核心成員，曾任 TDOHConf 議程組長、HITCON CMT 2015、SITCON 2016、HITCON CMT 2016 Lightning Talk、 新型態資安實務課程等各會議講者，並於 BSidesLV、ICNC、MC2015、全國資安會議 等國內外會議論文投稿獲接受。熱愛 C/C++, C#, VB, MASM, Python, Swift, Node.js, Java 興趣專研於 Windows 上平台特性與程式弱點、逆向工程分析。知名作品涉及楓之谷付費線上外掛, 神魔之塔外掛, 義守管家, cuteRansomware, Adr'sFB 等。"
-    },
-    "start": "2017-03-18T16:50:00+08:00",
-    "end": "2017-03-18T17:30:00+08:00",
-    "type": "T",
-    "room": "R0",
-    "subject": "開發學校雲端服務的奇技淫巧",
-    "summary": "想替自己學校開發雲端服務卻無從上手起嗎？議程教學如何在學校電算中心未開放任何 API 下實作出屬於自己的學校雲端服務。本議程將演示一個義守大學廣獲好評第三方熱門服務，並解釋如何實作同步學生當天課程、Moodle 課程、Moodle作業狀況，並且在前端即可實作跨域名繞過 CSP 瀏覽器安全限制替學校 Moodle 登入，議程末將釋出整份專案開源於 Github 上。\n議程內容涉及外掛開發、資訊安全相關領域的技術內容、電算中心防外掛偵測點與應對技術。",
-    "slides": "https://speakerdeck.com/aaaddress1/kai-fa-xue-xiao-yun-duan-fu-wu-de-qi-ji-yin-qiao-tips-for-building-third-party-school-service"
-  },
-  {
-    "speaker": {
-      "name": "飛魚",
-      "avatar": "images/speakers/16_00R3.jpg",
-      "bio": "常在台大開源社玩耍的觀光客，興趣是喝手搖飲料。 沒有從小開始寫程式先輸別人一半，只好朝奇怪的方向發展變成了礦工。 喜歡到處路過各種有趣的社群。"
-    },
-    "start": "2017-03-18T16:00:00+08:00",
-    "end": "2017-03-18T16:40:00+08:00",
-    "type": "T",
-    "room": "R3",
-    "subject": "和我簽訂契約成為區塊鍊魔法少女吧",
-    "summary": "平時聽到 Blockchain 可能覺得是個遙遠的名詞，或者只知道可以用 Bitcoin 買 Steam 的遊戲，但其實它還可以拿來開發各種有趣的智能合約，發行貨幣只是其中的一種應用。如果說 Bitcoin 是區塊鍊技術的 prototype，Ethereum 就是 DAPP 和 smart contract 完整的底層實作。現在已經有許多開發者在 Ethereum 的基礎上發展服務，包括廣告買賣平台、去中心化的線上賭場、甚至有人募資成立基於智能合約的無實體公司，區塊鍊的潛力顯然不止於支付。",
-    "slides": "https://drive.google.com/open?id=0B3DBMOQGIHM8aEVEbEJNSlNVOE0"
-  },
-  {
-    "speaker": {
-      "name": "Licson",
-      "avatar": "images/speakers/16_00R1.jpg",
-      "bio": "I'm currently an application developer mainly focused on Web development. With a huge interest on the networking side, I also have knowledge on that side."
-    },
-    "start": "2017-03-18T16:00:00+08:00",
-    "end": "2017-03-18T16:40:00+08:00",
-    "type": "T",
-    "room": "R1",
-    "subject": "BGP Hijacking: new ways to mass surveillance",
-    "summary": "Internet is almost the basic need of everyday lives and numerous threats also hide in this place. This talk will go through some of the latest trends of malicious activities on the Internet and explains how the attackers exploits the de facto standards to execute mass surveillance transparently.",
-    "slides": "http://slides.com/licson/bgp-hijacking-new-ways-to-mass-surveli/"
-  },
-  {
-    "speaker": {
-      "name": "PineApple Kao",
-      "avatar": "images/speakers/14_55R1.jpg",
-      "bio": "浪漫的理論派，目前為追上某些背影而持續努力著。最討厭的水果是鳳梨。"
-    },
-    "start": "2017-03-18T14:55:00+08:00",
-    "end": "2017-03-18T15:05:00+08:00",
-    "type": "S",
-    "room": "R1",
-    "subject": "十分鐘認識 MMR",
-    "summary": "大數的模運算被廣泛運用在資安及各資訊科學領域中，例如加解密、簽章等，然而模算數中所必須的除法，在電腦中卻是相當不容易完成的。Montgomery Modular Reduction (MMR) 藉由不同的模數及代表取代原本的等價類，將運算中的除法難度大幅降低。本篇短講將在十分鐘之內，快速介紹這個十分重要的演算法是如何達到上述目標，並簡單解說 MMR 的數學證明。"
-  },
-  {
-    "speaker": {
-      "name": "阿哲",
-      "avatar": "images/speakers/14_40R1.jpg",
-      "bio": "爆肝中的耍廢研究生，主要研究領域是資訊教育\n對於推廣資訊領域有相當熱忱，也喜歡和大家交流"
-    },
-    "start": "2017-03-18T14:40:00+08:00",
-    "end": "2017-03-18T14:50:00+08:00",
-    "type": "S",
-    "room": "R1",
-    "subject": "格鬥遊戲 AI 開發經驗談",
-    "summary": "議程將分享參與 IEEE CIG 2016 & 2017 格鬥遊戲人工智慧比賽(FTGAI competition) 經驗與開發格鬥比賽 AI agent 的經驗。\n格鬥遊戲人工智慧設計上和常見棋類不同，更加重視其動作的當下效果及賽局中雙方動作的應對，因此不能進行長時間的模擬分析，甚至進行分析也有一定上的困難，也因為如此設計的架構與技巧也和棋纇人工智慧有不小差異，議程內將簡述開發 AI 的歷程，包括架構設計和採用技術（基因演算法、動作模式偵測、蒙地卡羅樹搜尋、rule-based等）之間的優缺點及效果評估，以及我們對於設計格鬥遊戲人工智慧的一些建議。\n本議程適合對於對於資訊能力有一定基礎且對於人工智慧有一定興趣之聽眾，同時也可以作為學生專題研究參考。",
-    "slides": "https://drive.google.com/open?id=0B3DBMOQGIHM8cUVmcFFfRUs1anM"
-  },
-  {
-    "speaker": {
-      "name": "民2",
-      "avatar": "images/speakers/16_00R2.jpg",
-      "bio": "攻城屍x巧克力成癮者x咖啡因中毒者。自從在高中社團跟電腦之神簽下賣肝契約後就一直走在研究系統程式的道路上。\n領域：#LLVM #JITCompiler #AOSP"
-    },
-    "start": "2017-03-18T16:00:00+08:00",
-    "end": "2017-03-18T16:40:00+08:00",
-    "type": "T",
-    "room": "R2",
-    "subject": "從 V8 Javascript 引擎淺談現代編譯技術",
-    "summary": "隨著網路時代的來臨，Javascript 的執行效能越來越為大家重視，Javascript 引擎也成為多家科技公司互相較勁的領域。而事實上，編譯器的技術在其中扮演了重要的角色，但許多學生對編譯器的認知似乎都停留在學校課本所教的基本類型，實在難以跟上這波競爭效能的潮流。因此，本議程藉由解析驅動 Google Chrome 瀏覽器的 V8 Javascript Engine 內部編譯器相關技術，帶領大家認識不同於學校以及課本所教的現代編譯器技術。",
-    "slides": "https://drive.google.com/open?id=0B3DBMOQGIHM8cnFmVmZJRGNfUkk"
-  },
-  {
-    "speaker": {
-      "name": "ㄅㄌ",
-      "avatar": "images/speakers/14_40R2.png",
-      "bio": "2014 年的夏天在元智和大家一起創立資訊社群後，就此跌入資訊圈這個大坑。\n主要出沒在 SITCON 和 COSCUP 兩個社群。\n目前正在努力於畢業前，嘗試做些什麼改善校園資訊系統的困境。"
-    },
-    "start": "2017-03-18T11:10:00+08:00",
-    "end": "2017-03-18T11:50:00+08:00",
-    "type": "T",
-    "room": "R2",
-    "subject": "校園資訊系統的困境與嘗試改善",
-    "summary": "延續 SITCON 2015 論壇討論主題，探討校園資訊系統的困境與嘗試改善。\n契機於大三時修課的期末專題，基於不想「為了交作業而寫無用專案」的心態，進而認真面對界面不友善的校園資訊系統，從發想解決方式、選擇並學習實做方法，同時嘗試學習一般技術人不擅長的界面設計。\n在專案後期，學習培養和專職設計師良好溝通默契與合作方式，最後主動與學校洽談，嘗試將成果推動上線服務。\n此次將分享近兩年的心路歷程，期望激勵大家除了在嫌棄校園資訊系統以外，也可以自己動手嘗試改善它。",
-    "slides": "https://drive.google.com/open?id=0B3DBMOQGIHM8bHRacUpmNWIxTzA"
-  },
-  {
-    "speaker": {
-      "name": "yenWu",
-      "avatar": "images/speakers/16_50R2.jpg",
-      "bio": "數學系倒數第四名畢業，大四時覺得人生沒希望，此時想到小時候想要成為發明家的夢想，毅然決然地報考資工所，決定不要補習，踏上沒考上就當兵的打算，很幸運的進入了成大資工所，並遇到改變一生的人、事、物，自許帶著夢想前進的小男孩 :)"
-    },
-    "start": "2017-03-18T16:50:00+08:00",
-    "end": "2017-03-18T17:30:00+08:00",
-    "type": "T",
-    "room": "R2",
-    "subject": "自幹 Dynamic DNS Server",
-    "summary": "這學期的 Project 是架設 DNS Server，此時有位小男孩說他不想要只有架設而已，可以來寫一個嗎? 老師立馬同意，但要做更難的 Dynamic DNS Server (DDNS)，從此小男孩踏上了自己刻DDNS的旅程，我將會把我寫這個專案的歷程分享給大家，從啟動時的相關設定到運行的細節流程，說明 DDNS 是為了解決什麼問題，並讓大家知道一個 DDNS 需要什麼元素，讓大家體會 DNS 在設計上的考量。",
-    "slides": "https://www.slideshare.net/YenKuanWu2/build-dynamic-dns-server-from-scratch-in-c-part1"
-  },
-  {
-    "speaker": {
-      "name": "Sakamoto",
-      "avatar": "images/speakers/14_40R0.png",
-      "bio": "來自中興大學資訊社，熱愛資訊技術，技能樹特別容易點歪，電腦硬體、開發版、烹飪(?、網頁設計、多媒體剪輯都略懂一些 (,,・ω・,,)"
-    },
-    "start": "2017-03-18T14:40:00+08:00",
-    "end": "2017-03-18T14:50:00+08:00",
-    "type": "S",
-    "room": "R0",
-    "subject": "第一次做光劍就上手",
-    "summary": "光劍，是《星際大戰》的世界觀出現的一種迷人且優雅的武器，每個絕地武士都必須會製造屬於自己的光劍，而所有星戰迷都夢想擁有一把光劍，而本議程將介紹如何在沒有原力覺醒的情況下去選購材料、工具，及每個光劍部份的製作，組出一隻高亮度而且堅固耐敲的光劍，另外會現場展示一些自己的作品。\nMay the Force be with you.",
-    "slides": "https://www.slideshare.net/ssuserb8be06/ss-73305383"
-  },
-  {
-    "speaker": {
-      "name": "LegBone",
-      "avatar": "images/speakers/14_55R3.png",
-      "bio": "毫無反應,就是根腿骨"
-    },
-    "start": "2017-03-18T14:55:00+08:00",
-    "end": "2017-03-18T15:05:00+08:00",
-    "type": "S",
-    "room": "R2",
-    "subject": "雷系魔法師也能煎牛排！",
-    "summary": "煎出一塊好吃的牛排需要什麼？\n好的鍋子？精準的火候掌控？還是十年的刻苦修練\n不!!!!!你只需要準備少少的材料跟一張火系卷軸 (?) 就可以完成囉!!!\n這場議程將講述一個電路白癡如何從購買零件到自己拼湊出一台簡易版的低溫烹調機，配上火槍，成功在實驗室避開煙霧警報器，做出屬於自己的實驗室料理!!!(?)\n第一次低溫烹調就上手 #看緊荷包 #動手DIY"
-  },
-  {
-    "speaker": {
-      "name": "Zet",
-      "avatar": "images/speakers/11_10R0.jpg",
-      "bio": "熱衷於前端技術開發與學習的中央資工所學生，經常參與社群活動，願望是養一隻貓當個職業貓奴。"
-    },
-    "start": "2017-03-18T11:10:00+08:00",
-    "end": "2017-03-18T11:50:00+08:00",
-    "type": "T",
-    "room": "R0",
-    "subject": "前端工程的過去、現在與未來",
-    "summary": "前端工程近年來變化與演進劇烈，處於不斷創新與推翻的階段，開發者需要持續的學習才能適應並跟得上時代的腳步。本議程將會介紹前端工程近幾年的重要演進與趨勢，提點各項技術的重要性與意義，以及前端領域的未來展望，讓對於前端有興趣的學生了解到當今國內外業界主流的前端技術發展，並分享由學生的角度如何學習與投資這個領域。",
-    "slides": "http://slides.com/tz5514/deck-1-2/"
-  },
-  {
-    "speaker": {
-      "name": "Karl Lin",
-      "avatar": "images/speakers/11_10R3.jpg",
-      "bio": "剛脫離學生身份，目前在貝殼放大工程部擔任什麼都玩玩看的掃地僧，從結帳流程的優化、Email 開信率研究、資料分析的基礎架設等等都參一腳，過去熱衷學生自治，曾擔任學生會資訊長，開發 iCheck 簽到系統、電子投票系統等等。\n有個部落格分享自己的見聞、技術筆記 https://coder.tw"
-    },
-    "start": "2017-03-18T11:10:00+08:00",
-    "end": "2017-03-18T11:50:00+08:00",
-    "type": "T",
-    "room": "R3",
-    "subject": "第一次在 PostgreSQL 寫程式就上手",
-    "summary": "如果可以在資料庫裡寫程式，你會希望做些什麼呢？ 講者 林熙哲因為在 VMFive 實習時需要處理數據的需求，需要將資料按照指定的 Key 分類到不同資料表，例如來自 A Corp 的資料放到 A Table；常見做法會寫程式分筆讀取並寫入資料庫，但當資料量較龐大，這樣的做法可能會花費過多時間，在批次寫入資料庫( \\copy )的前提下，講者選擇在資料庫裡撰寫程式，讓資料庫在寫入資料前先進行分類。講者將會在這場演講中分享該如何在 PgSQL 中撰寫函式，並進一步做到 Hook。",
-    "slides": "https://ntust.me/pafjz"
-  },
-  {
-    "speaker": {
-      "name": "游宭鎬",
-      "avatar": "images/speakers/16_50R3.jpg",
-      "bio": "台科大商業設計系三年級，專注於平面設計的修煉，夢想是當藝術家或月薪嬌妻。寫了四年有餘的程式，目前把程式語言當作設計的工具之一（菸）。曾任 SITCON 2016 講者、五倍紅寶石前端實習生，現為 TEDxNTUST 設計部長。"
-    },
-    "start": "2017-03-18T16:50:00+08:00",
-    "end": "2017-03-18T17:30:00+08:00",
-    "type": "T",
-    "room": "R3",
-    "subject": "寫寫你的美好：一起打造「藝術產生器」吧！",
-    "summary": "寫程式可以很技術、很商業、很炫炮，但也可以很溫柔、很感性、很藝術！拜程式語言的強大之賜，我們得已將更多知識與創意導入藝術創作中，讓「美」能以新的姿態進入日常生活。本議程將圍繞在衍生藝術（generative art） 的基本概念，使用 p5.js 此入門級的繪圖函式庫，帶大家認識一些有趣的演算法與思考方式，一起來打造簡單而繽紛的藝術產生器，來實踐對於美好生活的想像。",
-    "slides": "https://www.slideshare.net/chiunhau/generative-art-sitcon"
-  },
-  {
-    "speaker": {
-      "name": "Inndy",
-      "avatar": "images/speakers/16_00R0.jpg",
-      "bio": "興趣使然的 Security Researcher"
-    },
-    "start": "2017-03-18T16:00:00+08:00",
-    "end": "2017-03-18T16:40:00+08:00",
-    "type": "T",
-    "room": "R0",
-    "subject": "No More Crypto Fails",
-    "summary": "開發應用程式的時候常常有加密資料，或是避免資料被篡改的需求。我們到底要怎麼正確的使用加密演算法與程式庫，才能夠真正的確保資料的安全？在那些狀況下是有風險的呢？這場議程會從0開始介紹實務上常用的各種知識，對於「加密」完全不懂的你，千萬不要錯過這場議程！",
-    "slides": "https://speakerdeck.com/inndy/no-more-crypto-fails"
-  },
-  {
-    "speaker": {
-      "name": "Jason Pan",
-      "avatar": "images/speakers/15_10R0.jpg",
-      "bio": "大同大學資工系大學生，透過 SITCON 認識開源和社群，熱愛 Python ，擅長 Laravel 開發，目前正在研究 OpenStack。\n很多人問為什麼叫 JSON，Jason 與 JSON 發音是一樣的。"
-    },
-    "start": "2017-03-18T15:10:00+08:00",
-    "end": "2017-03-18T15:20:00+08:00",
-    "type": "S",
-    "room": "R0",
-    "subject": "Unity x Git 之辛酸血淚史",
-    "summary": "想當年的專題，在因緣際會之下接觸了 Unity ，也在團隊開發過程中了解版本控制系統 Git ，當 Unity 與版本控制系統 Git 交織在一起時，即是惡夢的開端。要如何在 Git 預設條件下，修改 Unity 設定並善用工具達到版本控制，以及使用 Git-LFS 存取大型檔案，成功與其他人團隊合作。"
-  },
-  {
-    "speaker": {
-      "name": "Yukai Huang",
-      "avatar": "images/speakers/14_55R0.jpg",
-      "bio": "自號 XDDeveloper，對打磨產品的過程感到心動。"
-    },
-    "start": "2017-03-18T14:55:00+08:00",
-    "end": "2017-03-18T15:05:00+08:00",
-    "type": "S",
-    "room": "R0",
-    "subject": "用 Electron 實踐跨平臺桌面程式",
-    "summary": "在過去幾個月間，我用 React 和 Vue 分別做了兩個桌面版的應用程式 - ComicsReader 以及 puraku。2017 年的今天仍舊是網站應用程式的天下，許多產品除了提供線上版之外，也有桌面版可以下載，其中更有許多是用 Electron 製作的。本次議程會分享我在實踐這兩個 app 的眉角，以及選用 electron 技術的利弊。",
-    "slides": "https://hackmd.io/p/HkV3GHrtl"
-  },
-  {
-    "speaker": {
-      "name": "ming",
-      "avatar": "images/speakers/11_10R1.png",
-      "bio": "目前是大學生。雖然數學不好，但是資訊科學之中相對較擅長處理理論與優化問題。常學習解決問題的方法，習慣函數式程式設計。儘管很弱而且沒在精進，有時候還是會參與競技程式設計。"
-    },
-    "start": "2017-03-18T11:10:00+08:00",
-    "end": "2017-03-18T11:50:00+08:00",
-    "type": "T",
-    "room": "R1",
-    "subject": "cjdns: 重新發明網路",
-    "summary": "網際網路現在看來有許多不足之處：有些人想要一個不會被竊聽的網路、有些人抱怨 ISP 提供的路由很慢、有些人則為難以擁有自己的 public IP，無法從外部發起連線而苦惱。\ncjdns 是一個完全去中心化的網路系統，它捨棄傳統的網路模型，以公鑰作為網路位址，使得 IP 詐騙和流量竊聽都成為過去式，並透過分散式雜湊表做路由選擇，人們只需要和自己認識的朋友互相分享、連接，全世界就能組成一個強健的網路系統。\n本議程將介紹 cjdns 的基本原理，並分享在現有的網路系統下，cjdns 可以如何改變我們使用網路的習慣與方式，為生活帶來方便。",
-    "slides": "https://drive.google.com/open?id=0B3DBMOQGIHM8YW9mcnNIN2VyczQ"
-  },
-  {
-    "speaker": {
-      "name": "Louie Lu",
-      "avatar": "images/speakers/16_50R1.jpg",
-      "bio": "曾是軟體測試助理工程師，軟體工程師。學習 Python，軟體測試以及系統程式中。深陷於讀不完的書堆中。"
-    },
-    "start": "2017-03-18T16:50:00+08:00",
-    "end": "2017-03-18T17:30:00+08:00",
-    "type": "T",
-    "room": "R1",
-    "subject": "從 QA 到 QQ - QA 實習經驗與測試技巧",
-    "summary": "這個議程主要有兩點想要分享，第一個部份是在科技公司 QA Intern 的實習經驗以及對於公司開發流程中 QA 所佔有的角色以及職責分享。第二個部份在於基本軟體測試流程、種類以及工具，與一些軟體測試上可以使用的測試技巧介紹。\n在這個議程中你可以基本的認識到 Software Testing 在軟體開發中的角色以及對軟體測試有一個基本架構的概念。",
-    "slides": "https://docs.google.com/presentation/d/1-ztBS8KO1Fse-149s-Ah7kBhLzqPbgmbUxtwLFw2JEM/edit?usp=sharing"
-  },
-  {
-    "speaker": {
-      "name": "Terry Cheong",
-      "avatar": "images/speakers/15_10R3.jpg",
-      "bio": "台大中少見的廢物學生，會一些數學跟演算法。\n雖然學習貴精不貴多，但一身所學非常雜亂。簡而言之，就是什麼都會但又不太會的人。"
-    },
-    "start": "2017-03-18T15:10:00+08:00",
-    "end": "2017-03-18T15:20:00+08:00",
-    "type": "S",
-    "room": "R2",
-    "subject": "所以我說那個 ML 入門其實真的沒想像中那麼難",
-    "summary": "Machine Learning 現在已經熱門到一個現在做什麼都可以 ML 下去的地步，雖然對剛接觸的人來說套 Library 好像很簡單，但其實方法的選擇才是更重要的一環。這個議程應該會非常入門的介紹一些常用的 Machine Learning 的 Python 套件，以及對一些常見的東西做 Learning 的方式。還有對語言資料進行預處理跟 Mining 的基礎等，希望做得非常簡單易懂。\n時間許可的話可能會講一些理論基礎，就是數學相關的東西，還有在 Kaggle 上打比賽的經驗分享這樣子。"
-  },
-  {
-    "speaker": {
-      "name": "Shouko",
-      "avatar": "images/speakers/14_40R3.jpg",
-      "bio": "我是翔子，平常在 NTUOSC 活動 ^.<"
-    },
-    "start": "2017-03-18T14:40:00+08:00",
-    "end": "2017-03-18T14:50:00+08:00",
-    "type": "S",
-    "room": "R2",
-    "subject": "嗨，我是蒲薰！",
-    "summary": "近年來興起的 chatbot 熱潮，各大訊息平台紛紛推出自己的 SDK 供開發者使用，你是否對 chatbot 有興趣卻又不知如何下手呢？本演講中，講者將會分享自身開發 chatbot 的經驗，和大家簡介如何開發各種 chatbot，以及許多將 chatbot 運用在生活、校園中的趣事！ (Pusheen 是我的 chatbot 的名字)"
-  },
-  {
-    "speaker": {
-      "name": "",
-      "avatar": "images/panel.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T12:50:00+08:00",
-    "end": "2017-03-18T14:40:00+08:00",
-    "type": "P",
-    "room": "R0",
-    "broadcast": true,
-    "subject": "同學，你這樣經營社群？學生資訊社群的藝術",
-    "summary": "為了尋得志同道合的朋友一同探索資訊技術的堂奧，許多夥伴們都曾在校內外留下自己的足跡：他們有些升起大旗，組織起在地的社團與讀書會，有些則跨越領域、學校的藩籬互相合作，透過新創媒合、黑客松拓展同學的視野。這些組織往往是促進社會創新的第一線，但在實務運作過程中卻經常面臨到許多難題。作爲吸引全臺灣對資訊有興趣的學生一同分享的平臺，SITCON 今年在近兩小時的論壇中，希望能回顧各地校園內的資訊參與近況，探討經營資訊社群時遇到的困難與挑戰，共塑學生資訊社群共同的理想與展望。\n\n\n論壇進行方式說明：\n\n- 每位與會者都可以透過 SITCON 論壇發言系統登記發言\n- 完成登記後經過主持人確認，將被排入發言佇列（Queue），並顯示於投影幕上\n- 與會者每次皆有 90 秒發言時間，超過則需停止發言\n- 所有發言請務必遵守 SITCON CoC 及符合討論主題\n- 允許匿名發言，請於名稱填寫匿名，於發言摘要表達您的意見\n- 我們保留在同時發言登記過量時調節發言順序的權力\n\n論壇發言系統：http://pd.sitcon.org"
-  },
-  {
-    "speaker": {
-      "name": "",
-      "avatar": "images/bof.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T18:35:00+08:00",
-    "end": "2017-03-18T20:40:00+08:00",
-    "type": "E",
-    "room": "R0",
-    "broadcast": true,
-    "subject": "晚間交流活動",
-    "summary": "Good night！\n晚間活動將於 18:35 正式開跑！開心的 5 種活動讓你玩不完！\n今年不但有難得團聚暢聊的 BoF、充滿學生開發魂的遊戲擂台、野生講者的獨立交流時間還有瀰漫革命氣氛的 SITCON 電影院，更有多元的社群攤位等你來交流！\n\n∂⁣ 學生自主開發遊戲擂台 → 這裡會展示大家踴躍投稿的遊戲，想要介紹與觀摩的各位記得到 4F R0 〈國際會議廳〉門口前的大長桌盡情分享玩樂吧！\n\n∂⁣ BoF → 嘿！在文件上踴躍揪團的你們快來！每一圈座位都代表不同的主題或社群，今年 3F、4F R0 〈國際會議廳〉門口前方與後方交誼廳都各有團聚呢！歡迎好奇的你在四方遊走交流、開心暢談！\n\n∂⁣ 講者交流 → 對議程內容還意猶未盡？有沒有想再多問講者的？在時間表上找你想交流的講者吧！記得準時到 3F 右側沙發區會面吧！\n\n∂⁣  SITCON 電影院 → 《捍衛網權》〈 Killswitch： The Battle to Control the Internet 〉將在 19:30 R0 〈國際會議廳〉熱血上映！附有由 SITCON 協力翻譯的中文字幕哦！\n先來個預告片～　https:\/\/www.youtube.com\/watch?v=Y1MszXx6EK8\n\n∂⁣  社群攤位 → 來自四方的社群朋友將在 4F R0 〈國際會議廳〉的走廊與你相見歡！\n\n"
-  },
-  {
-    "speaker": {
-      "name": "Tony Yip / Clara",
-      "avatar": "images/speakers/tony.jpg",
-      "bio": "Tony：Tony Yip，SITCON x HK 2016 總召，Front-end 的嘗鮮者以及數學人一個，自修資訊科技的商科生，經常混過界。\nClara：大家好，我是 Clara，上一屆 SITCON x HK 的協辦人。 上一年是電腦科學學科聯會的外務秘書，負責一些對外的活動跟聯校的科技資訊講座。 現在就讀香港城市大學資訊科技系二年級，主修數據科學~請多指教~"
-    },
-    "start": "2017-03-18T18:20:00+08:00",
-    "end": "2017-03-18T18:25:00+08:00",
-    "type": "E",
-    "room": "R0",
-    "broadcast": true,
-    "subject": "特別分享 - 香港與台灣 SITCON 之差別與執行之難度",
-    "summary": "在 2015 年，Tony 在 SITCON 講了 SITCON x HK 之後，便以獨立軌的形式在 HKOSCon 2015 中舉辦了第一次的 SITCON x HK。 SITCON x HK 2016 在 10 月完滿落幕，這是 SITCON x HK 第一次完全獨立舉辦。在籌備的過程中，出現了各種跟台灣 SITCON 情況不同的事情。今次希望跟大家分享一下今年籌備過程，包括網頁經歷多次改版以及當中的苦與樂。 同時，也會講及 SITCON x HK 2017 的預告和社群的發展。"
-  },
-  {
-    "speaker": {
-      "name": "Pellaeon",
-      "avatar": "images/unconf.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T11:10:00+08:00",
-    "end": "2017-03-18T11:30:00+08:00",
-    "type": "U",
-    "room": "S",
-    "subject": "從臉書粉專產生 RSS",
-    "summary": "RSS-Bridge 這個專案可以去爬各種網站，然後產生 RSS Feed。\n我把它拿來爬臉書，這樣就不怕動態消息不顯示所有我追蹤的粉專的貼文了。\n大綱：\n- rss-bridge 功能展示\n- 架構介紹\n- 爬 Facebook 過程中的各種問題和解法\n- 專案現在的狀態"
-  },
-  {
-    "speaker": {
-      "name": "kevindong",
-      "avatar": "images/unconf.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T11:30:00+08:00",
-    "end": "2017-03-18T11:50:00+08:00",
-    "type": "U",
-    "room": "S",
-    "subject": "Ｃ語言的「泛型編程」——容器篇",
-    "summary": "C 語言的資料結構都要自己刻？然後又不想用 C++ STL 因為效能上的開銷但卻愛上它簡潔的語法？也許能用 C 語言設計出既優雅又擁有迭代器 (iterator) 和內存池 (memory pool) 機制的非介入式泛型容器 (non-intrusive generic container) 哦～\n\nlibCCC: https://github.com/kevin-dong-nai-jia/C-Container-Collection"
-  },
-  {
-    "speaker": {
-      "name": "Jeffrey Lin",
-      "avatar": "images/unconf.jpg",
-      "bio": "一位已在社群打滾許久的高中生。明明就是熱音社的，卻常常在資研社打轉。 興趣：打鼓和彈吉他。"
-    },
-    "start": "2017-03-18T17:10:00+08:00",
-    "end": "2017-03-18T17:30:00+08:00",
-    "type": "U",
-    "room": "S",
-    "subject": "你再不改密碼阿",
-    "summary": "透過 shodan.io，所有人皆可以輕鬆的找到物聯網設備。\n若該設備未修改預設密碼，所有裡面的資料會立即 全~裸~\n\nps0 可能(看狀況)會有 Live Demo 喔\nps1 本議程會使用台語和英語雙語進行。"
-  },
-  {
-    "speaker": {
-      "name": "呂行",
-      "avatar": "images/unconf.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T15:00:00+08:00",
-    "end": "2017-03-18T15:20:00+08:00",
-    "type": "U",
-    "room": "S",
-    "subject": "火狐的未來 - Quantum",
-    "summary": "Firefox 1.0 已是 2004 年的作品，未來的 Firefox 如何再戰十年? 本演講將介紹 Project Quantum，一個整合了 Gecko 與 Servo 精華的全新的 Firefox 核心。我們將介紹 Servo 引擎的先端研究成果如何整合進入強健穩定的 Gecko 引擎，提供未來的 Firefox 使用者全新的感受！\n同時也將介紹如何參與 Quantum 與 Servo 的 open source 開發，成為世界級的開源貢獻者！"
-  },
-  {
-    "speaker": {
-      "name": "松鼠",
-      "avatar": "images/unconf.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T16:00:00+08:00",
-    "end": "2017-03-18T16:20:00+08:00",
-    "type": "U",
-    "room": "S",
-    "subject": "松鼠與他的小松鼠們～たーのーし",
-    "summary": "從無到有造出 15 台小 IoT 裝置。"
-  },
-  {
-    "speaker": {
-      "name": "Max Wu",
-      "avatar": "images/unconf.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T16:20:00+08:00",
-    "end": "2017-03-18T16:40:00+08:00",
-    "type": "U",
-    "room": "S",
-    "subject": "HackMD",
-    "summary": "這是今年大會用的共筆服務"
-  },
-  {
-    "speaker": {
-      "name": "哈哈",
-      "avatar": "images/unconf.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T16:50:00+08:00",
-    "end": "2017-03-18T17:10:00+08:00",
-    "type": "U",
-    "room": "S",
-    "subject": "你敢搭無人車嗎？",
-    "summary": "越來越多的公司像(GOOGLE, APPLE, TESLA)在研究無人車，究竟無人車安不安全，他真的能面對萬變的交通嗎？他真的比人類安全嗎？Tesla 現在釋出的Autopilot 又是什麼？無人車的世代真的要來臨了嗎？我將會介紹現在世界主流的無人車研究，還有無人車用了哪些技術，他又是如何預防車禍發生。"
-  },
-  {
-    "speaker": {
-      "name": "PCC 和 陳品",
-      "avatar": "images/unconf.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T14:40:00+08:00",
-    "end": "2017-03-18T15:00:00+08:00",
-    "type": "U",
-    "room": "S",
-    "subject": "用對話翻轉學校生活",
-    "summary": "Chatbot 是近來資訊技術發展中相當熱門的話題，單純統一的聊天介面，不只能避免開發圖形界面的大費周章，更能大幅減低使用門檻，令使用者在最短時間獲得所需的資訊。我們在這個平易近人的小品議程中，將透過數個有趣的作品，分享我們怎麼用聊天機器人來改善自己平常各自在校園中的生活，還有過程中從入門到摔門的經驗。\n\n（講者為在學大學生及高中生）"
-  },
-  {
-    "speaker": {
-      "name": "",
-      "avatar": "images/panel.jpg",
-      "bio": ""
-    },
-    "start": "2017-03-18T17:30:00+08:00",
-    "end": "2017-03-18T18:20:00+08:00",
-    "type": "L",
-    "room": "R0",
-    "broadcast": true,
-    "subject": "Lightning Talk\nJust go Open, I've Got Your Back!\n你再共用密碼啊！\nHow we hacked\nSudo. 四重奏\nTDOH 2017 全台校園攻略大公開\nT.H.U - 選課天眼通\nSITCON PASS",
-    "summary": ""
+[{
+  "subject": "入場時間",
+  "type": "E",
+  "room": "R0",
+  "broadcast": ["R0", "R1", "R2", "R3", "S"],
+  "start": "2018-03-10T08:30:00+08:00",
+  "end": "2018-03-10T09:00:00+08:00",
+  "speaker": {
+    "name": "",
+    "avatar": "",
+    "bio": ""
   }
-]
+}, {
+  "subject": "開幕",
+  "type": "E",
+  "room": "R0",
+  "broadcast": ["R0", "R1", "R2", "R3", "S"],
+  "start": "2018-03-10T09:00:00+08:00",
+  "end": "2018-03-10T09:10:00+08:00",
+  "speaker": {
+    "name": "",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "Keynote - TBA",
+  "summary": "TBA",
+  "type": "K",
+  "room": "R0",
+  "broadcast": ["R0", "R1", "R2", "R3", "S"],
+  "start": "2018-03-10T09:10:00+08:00",
+  "end": "2018-03-10T10:00:00+08:00",
+  "speaker": {
+    "name": "陳昇瑋 博士",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "Keynote - TBA",
+  "summary": "TBA",
+  "type": "K",
+  "room": "R0",
+  "broadcast": ["R0", "R1", "R2", "R3", "S"],
+  "start": "2018-03-10T10:10:00+08:00",
+  "end": "2018-03-10T11:00:00+08:00",
+  "speaker": {
+    "name": "魏澤人 教授",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "奔跑吧！台北：遊戲開發經驗分享",
+  "summary": "本議程將分享我們（簡訊設計）製作北市政府近期推出的網頁遊戲：《奔跑吧！台北》的相關經驗，關於我們如何在兩個半月內從零開始企劃、美術繪製、動態製作、前端實作到遊戲上線。 由於團隊人數少、且遊戲開發經驗並不多，因此在這段摸索的過程中，我們學到了不少遊戲開發的知識、踩了很多雷、也發生許多有趣的事，希望能藉此機會將這些幕後花絮與會眾分享。 本議程會以平易近人的方式分享遊戲開發過程中的一些心得和秘訣，不會專注在太深的技術，適合所有會眾一同參與！",
+  "type": "T",
+  "room": "R0",
+  "start": "2018-03-10T11:10:00+08:00",
+  "end": "2018-03-10T11:50:00+08:00",
+  "speaker": {
+    "name": "游宭鎬",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "論壇 - TBA",
+  "summary": "TBA",
+  "type": "P",
+  "room": "R0",
+  "start": "2018-03-10T12:40:00+08:00",
+  "end": "2018-03-10T14:10:00+08:00",
+  "speaker": {
+    "name": "",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "深度學習如何深度學習",
+  "summary": "分享深度學習的學習心得，含研究、線上課程、修課、如何找到優質文章、讀書會等等，讓有興趣的人可以快速上手，不怕找不到資源！",
+  "type": "S",
+  "room": "R0",
+  "start": "2018-03-10T14:50:00+08:00",
+  "end": "2018-03-10T15:00:00+08:00",
+  "speaker": {
+    "name": "毛弘仁",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "Use AI to make own anime girl face",
+  "summary": "近年來 Deep Learning 興起，人人都在用 AI 翻轉各行各業，身為專業的動漫迷當然也要利用 AI 來創造屬於自己的動漫女孩？",
+  "type": "S",
+  "room": "R0",
+  "start": "2018-03-10T15:05:00+08:00",
+  "end": "2018-03-10T15:15:00+08:00",
+  "speaker": {
+    "name": "Mike",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "我單槍匹馬的開源貢獻之路",
+  "summary": "本議程，主要是分享兩年來在GitHub上的開源貢獻，還有過程中所遇到的趣事以及我的貢獻對於專案日後的影響。",
+  "type": "S",
+  "room": "R0",
+  "start": "2018-03-10T15:20:00+08:00",
+  "end": "2018-03-10T15:30:00+08:00",
+  "speaker": {
+    "name": "李昀陞",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "從學生到放火實習生的奇幻旅程",
+  "summary": "去年暑假到 P 公司實習至今七個月，從讀程式碼到開發新功能，終於成為有生產力的人員。期間除了深刻感受到維護商業服務與自己開發專案，在流程與其他諸多細節上的差異外，同時要試圖平衡感情、課業、工作、休息等等。這場議程著重在經驗分享，不會有任何技術上的討論，希望能讓對實習迷惘的學生們有所啟發。",
+  "type": "T",
+  "room": "R0",
+  "start": "2018-03-10T15:40:00+08:00",
+  "end": "2018-03-10T16:20:00+08:00",
+  "speaker": {
+    "name": "松鼠",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "想學OS, 從MINIX開始",
+  "summary": "Linux kernel 原始碼已經超過兩千萬行, 若直接貿然的學習 Linux , 將會引來一身挫折, 顯然 Linux kernel 已經不是初學者最好的選擇, 而 MINIX 本身就是一個用來做教學的 OS 在原始碼的撰寫上以淺顯易懂為主, 不像 Linux 是以效能為導向的原始碼艱澀難懂, 而我所帶來的是 MINIX 的現況以及特色",
+  "type": "T",
+  "room": "R0",
+  "start": "2018-03-10T16:30:00+08:00",
+  "end": "2018-03-10T17:10:00+08:00",
+  "speaker": {
+    "name": "amikai",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "瀏覽器開發與開源經驗",
+  "summary": "過去我突然想往開源社群發展，誤打誤撞便開始了我對 Mozilla 的 Servo 專案的貢獻之路。Servo 專案是新一代瀏覽器引擎，強調平行化處理，因此處理速度會更快。在上面我算是活躍社群貢獻者，日積月累下來對瀏覽器引擎開發也有更深的理解！這場演講將分兩部分，先介紹原理、談一下進階的實作方式，再分享過去我在開源上的心路歷程。",
+  "type": "T",
+  "room": "R1",
+  "start": "2018-03-10T11:10:00+08:00",
+  "end": "2018-03-10T11:50:00+08:00",
+  "speaker": {
+    "name": "劉安齊",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "由淺入坑區塊鏈～從架構到應用智能合約！",
+  "summary": "\"隨著科技的發展，網路逐漸引領世界，而如何在網路上取得信任，便成為了眾人注目的難題。\n透過區塊鏈的概念，我們得以將不容易信任的合約內容，存於區塊鏈中，將其作為智能合約，形成永恆的紀錄！\n相信參與這堂議程，必能使得大眾對未來的網路發展更加理解；透過電腦科學的普及，也能使去中心化與社群圈踏出更大的一步！\"",
+  "type": "T",
+  "room": "R1",
+  "start": "2018-03-10T12:40:00+08:00",
+  "end": "2018-03-10T13:20:00+08:00",
+  "speaker": {
+    "name": "牟展佑",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "跨越時間軸 - 創造美好使用者體驗",
+  "summary": "前端發展得非常快速，瀏覽器對於 JS 非同步處理也越來越順暢。針對使用者網頁體驗上需求越趨複雜，本議程將以提升『 UX 』為目的主軸，呈現一系列的應用來介紹 RxJS 的觀念，將複雜非同步之行為簡化成漂亮而且好管理的程式碼。",
+  "type": "T",
+  "room": "R1",
+  "start": "2018-03-10T13:30:00+08:00",
+  "end": "2018-03-10T14:10:00+08:00",
+  "speaker": {
+    "name": "Maxwell",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "我到底看了三小?重新學會UI設計",
+  "summary": "使用者介面(UI)廣泛應用於我們生活中，小至網頁前端，大至廣告招牌，都需要仰賴UI設計來優化使用者體驗。很遺憾地，由於美術課都被拿去上數學，平時又遭受民國美學摧殘，一般人早已喪失正常的設計能力。本議程藉由UI發展史的風格轉變，帶出各種設計技巧，如排版架構，配色原理等，讓大家重新設計出賞心悅目的使用者介面。",
+  "type": "S",
+  "room": "R1",
+  "start": "2018-03-10T14:50:00+08:00",
+  "end": "2018-03-10T15:00:00+08:00",
+  "speaker": {
+    "name": "Ray",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "東方與西方的文化差異討論",
+  "summary": "Discussion on cultural differences between Easterners & Westerners (東方與西方的文化差異討論)",
+  "type": "S",
+  "room": "R1",
+  "start": "2018-03-10T15:05:00+08:00",
+  "end": "2018-03-10T15:15:00+08:00",
+  "speaker": {
+    "name": "Gary Kwong",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "空拍機廣域的監測路徑規劃",
+  "summary": "日前，無人機的應用日益增廣，許多人都使用無人機空拍和收集地區的數據，空拍機是更有彈性，方便和廉價比以往的觀測方式，但是還未有主流的空拍機監控路徑規劃的方法，大部分目前的方式是基於直觀的做出決策操作，顯然地，這方法是是不夠有效率的，因此我們提出空拍機的監控路徑規劃演算是基於天際線查詢的概念，這個方法可以幫助監測人員有更高的效率，實驗結果則證明這個方法的有效性。",
+  "type": "S",
+  "room": "R1",
+  "start": "2018-03-10T15:20:00+08:00",
+  "end": "2018-03-10T15:30:00+08:00",
+  "speaker": {
+    "name": "陳昱任",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "泡沫列車：一趟加密貨幣的經濟之旅",
+  "summary": "金融秩序逐漸鬆動，這班列車，是開往未來的重要關鍵！趨漸成熟的金融體系享受中心化的大權在握，疏忽區塊鏈新技術的崛起，與背後「去中心化」的核心訴求，中本聰以實際行動證明決心，讓舊有秩序不得不陷入反思，搭上前往未知未來的列車。這趟乍看泡沫的旅程，卻成為重整金融的必經過程！區塊鏈這大型去中心化帳本風靡市場，世界掀起全面改革！\n人類無窮欲望伴隨的投機行為，讓眾多加密貨幣市價一飛衝天，許多人因此一夜致富，沒有趕上潮流的人們，紛紛看衰市場預言泡沫化即將來臨，但要反思的，不僅只是表面科技……從中心化到去中心化訴求，在極速飛馳的泡沫列車之上，政府權力是否面臨挑戰，2008年後備受質疑的金融體系能否接納新科技找到更好的方向，讓政經市場重新繁榮？（感謝《屍速列車》熱情贊助文案）\n\n*\n\n電影文案。\n\n生化危機屍虐全韓，這班列車，是活命的最後希望！事業有成的證券經理人碩宇（孔劉 飾演）耽於金融遊戲導致離婚，也疏於照顧女兒秀安，讓備感寂寞的秀安滿心只想去釜山找媽媽，碩宇不得已才帶女兒搭上從首爾往釜山的高鐵。這趟乍看單純的旅程，卻成為逃離地獄的最後機會！來源不明的病變殭屍肆虐首爾，韓國面臨亡國滅種的危機！碩宇才送女兒上車，食人殭屍就侵襲了車站，沒有受到病毒感染的人們，紛紛想擠上這班最終生存列車，但是成功擠上車的，不是只有活人……從首爾到釜山的442公里，在極速飛馳的高速鐵路之上，絕望的人們是否能夠重拾希望，曾經迷失的單親爸爸碩宇是否能夠找到心的方向，守護愛女活命抵達安全的地方？",
+  "type": "T",
+  "room": "R1",
+  "start": "2018-03-10T15:40:00+08:00",
+  "end": "2018-03-10T16:20:00+08:00",
+  "speaker": {
+    "name": "Spin Yuan",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "為什麼做好遊戲那麼難？｜獨立團隊的秘辛分享－誰是國王",
+  "summary": "遊戲製作一直是我很感興趣的項目，在大三時剛好有機會與同學組成團隊，一起製作遊戲，但是獨立遊戲要面臨的挑戰遠比我們想像中的多更多，在這次SITCON我希望能夠透過自身的經驗，講解多人遊戲的程式與美術設計會遇到的困難點，還有獨立團隊在遊戲開發上會遇到的大小問題，希望讓想加入遊戲圈的朋友可以有大概的了解。",
+  "type": "T",
+  "room": "R1",
+  "start": "2018-03-10T16:30:00+08:00",
+  "end": "2018-03-10T17:10:00+08:00",
+  "speaker": {
+    "name": "Dora",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "現代檔案系統ZFS的簡介與應用",
+  "summary": "這場議程將以ZFS為主軸來介紹一些現代檔案系統上的功能以及特色，例如內建的Volume Manager/RAID，以及Incremental Snapshot Backup。再來會介紹這些功能跟特色在各類儲存應用上好用在哪裡。",
+  "type": "T",
+  "room": "R2",
+  "start": "2018-03-10T11:10:00+08:00",
+  "end": "2018-03-10T11:50:00+08:00",
+  "speaker": {
+    "name": "Zuan",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "交大校園用電分析",
+  "summary": "「校園節電從找到問題開始，找到問題從資料分析開始」，出於這樣的想法，我跟夥伴透過Python的Pandas套件，分析了交大的用電資料。\n\n在這場Talk的前半部分中，我會說明資料分析過程；從資料取得與清理，到繪圖與分析，適合對Pandas實作有興趣的聽眾。後半部分會分享在學校分析用電的眉眉角角，適合想要透過資料科學改善校園的聽眾。",
+  "type": "T",
+  "room": "R2",
+  "start": "2018-03-10T12:40:00+08:00",
+  "end": "2018-03-10T13:20:00+08:00",
+  "speaker": {
+    "name": "阿包 aka Bojne",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "蘊含著強大力量的 GTK 啊，封印解除！",
+  "summary": "兩位 GNOME 愛好者以生活經驗出發，深入淺出介紹使用 GTK+ 的祕訣，讓 GNOME 成為更加賞心悅目且適合日常使用的作業系統。並將分享使用 Python 駕馭龐大的 GTK 函式庫的經驗，讓寫出跨平台的原生桌面應用程式不再只是 Electron 的專長！",
+  "type": "T",
+  "room": "R2",
+  "start": "2018-03-10T13:30:00+08:00",
+  "end": "2018-03-10T14:10:00+08:00",
+  "speaker": {
+    "name": "ㄍㄌ、Bobby",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "校園百寶盒",
+  "summary": "你覺得校園行政系統或者教學系統頁面不好看嗎？又或者學校系統不支援手機，平板的網頁呈現。當你覺得煩燥時，何不自己造一個，讓自己擁有更好的校園學習體驗！",
+  "type": "S",
+  "room": "R2",
+  "start": "2018-03-10T14:50:00+08:00",
+  "end": "2018-03-10T15:00:00+08:00",
+  "speaker": {
+    "name": "Ng CHIH-YANG",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "校園駭客-看你學號() return 你家住址;",
+  "summary": "學校的校務系統安全嗎? 駭客到底怎麼駭學生資料的? 補習班為什麼會有學生的個資? 我該怎麼保護自己?原來只要身份證末4碼!?\n\n在這場議程內，你可以看到目前新穎的個資問題，且是在全台無論公私立高中職，都很普遍的網頁安全設置以及個資外洩疏失。",
+  "type": "S",
+  "room": "R2",
+  "start": "2018-03-10T15:05:00+08:00",
+  "end": "2018-03-10T15:15:00+08:00",
+  "speaker": {
+    "name": "Mico",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "Vault 7 考古挖寶記",
+  "summary": "在因緣際會下，開始閱讀 Vault 7 檔案內容。隨著那段時間，一週對一個系列或專案去閱讀理解，試圖從 Wikileaks 所披露出之內容，推敲出專案的輪廓。夾以這段時間所接觸到的報導內容，進行綜合整理及分析。",
+  "type": "S",
+  "room": "R2",
+  "start": "2018-03-10T15:20:00+08:00",
+  "end": "2018-03-10T15:30:00+08:00",
+  "speaker": {
+    "name": "Yoga",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "CPU計算入門 - with OpenCL",
+  "summary": "嫌不管怎麼優化程式都跑得不夠快？想要跟上GPU運算的潮流嗎？那來聽如何用OpenCL在GPU上跑你的程式吧！！OpenCL是一個由眾多廠商共同支援的程式標準，可以讓工程師們把複雜的運算交給GPU甚至其他種類的處理器執行。\n\n這次會從0開始介紹何謂程式的平行化、OpenCL的運作方法與原理，最後時間允許的話將會展示OpenCL實際運行的樣子！",
+  "type": "T",
+  "room": "R2",
+  "start": "2018-03-10T15:40:00+08:00",
+  "end": "2018-03-10T16:20:00+08:00",
+  "speaker": {
+    "name": "張安邦",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "Club Mate 與德國駭客精神：34C3 大會實錄",
+  "summary": "什麼是真正的駭客精神呢？是醉心於技術的人？還是在各大 CTF 過關斬將的 Geek 呢？本議程將由已連續兩年領隊前往德國漢堡/萊比錫參與 Chaos Communication Congress 的 Jeremy 帶領大家深入了解每年吸引超過一萬人參與的 CCC 大會，以及德國對駭客精神的獨到之處。",
+  "type": "T",
+  "room": "R2",
+  "start": "2018-03-10T16:30:00+08:00",
+  "end": "2018-03-10T17:10:00+08:00",
+  "speaker": {
+    "name": "Jeremy Yen",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "你媽知道你在寫 Functional 嗎？",
+  "summary": "函數式程式設計、函式編程、Functional Programming，可能很多人聽過，也可能很多人寫過，也可能你用函數式的方法寫得正開心但你卻不知道。這聽起來很潮的程式設計方法是怎麼來的？目的又是什麼呢？FP 語言是程式語言中的霸主嗎？可以統治世界嗎？ 標題來由是我跟一名老師說我在讀 Functional Programming，他回：怎麼這麼跟錢過不去呢？故有感而發，程式設計師有錢好好賺，莫寫 Functional。",
+  "type": "T",
+  "room": "R3",
+  "start": "2018-03-10T11:10:00+08:00",
+  "end": "2018-03-10T11:50:00+08:00",
+  "speaker": {
+    "name": "子期",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "scip 讀書心得",
+  "summary": "SCIP 是一本以 scheme 為基礎的程式設計教科書，\n以古老卻現代的 scheme 語言，\n介紹資料結構、演算法、各種編程範式。\n本人以 js 入門函數式編程，\n在 scheme 找到我所以為的終點。",
+  "type": "S",
+  "room": "R3",
+  "start": "2018-03-10T14:50:00+08:00",
+  "end": "2018-03-10T15:00:00+08:00",
+  "speaker": {
+    "name": "gholk",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "CCNS Radio - 社辦點歌電台",
+  "summary": "想在社辦架一個區網點歌系統，但找不到符合需求的套件，正苦惱該找怎樣的解決方案時有個聲音對我說「找不到套件？不會自幹喔！」，於是CCNS Radio就誕生了。這次將簡介我開發這系統的起源、架構、及用到的技術，包含Socket.io、Discord bot、及如何讓電台能透過Google Home控制。",
+  "type": "S",
+  "room": "R3",
+  "start": "2018-03-10T15:05:00+08:00",
+  "end": "2018-03-10T15:15:00+08:00",
+  "speaker": {
+    "name": "DC",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "怪怪的資訊研究社及社團經驗秘辛",
+  "summary": "相信參與 SITCON 的眾多朋友們裡有不少人從高中就是資訊相關社團。本議程將由松山高中資訊研究社的學生來講述這一年資研社做了什麼奇怪的事情，以及和台下的同學們簡單聊聊資訊相關社團的發展方向及可以做的事情。",
+  "type": "S",
+  "room": "R3",
+  "start": "2018-03-10T15:20:00+08:00",
+  "end": "2018-03-10T15:30:00+08:00",
+  "speaker": {
+    "name": "Jeffrey Lin",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "在風塵中找回楓葉與沙灘-追尋MapleBBS歷史與未來",
+  "summary": "BBS，電子布告欄系統，是六、七年級生的網路共同回憶，其中批踢踢實業坊( telnet://ptt.cc )到現在仍因討論話題五花八門，而引起大家注意。而事實上 Ptt 及21世紀台灣的BBS站幾乎都由清大資工發行的MapleBBS 2或3修改編譯而成的，並藉由轉信機制讓不同站台相互交流。這樣的特性為近代網路史掀起怎樣的風波呢? 讓我們藉由殘存的腳步一同追尋吧!",
+  "type": "T",
+  "room": "R3",
+  "start": "2018-03-10T15:40:00+08:00",
+  "end": "2018-03-10T16:20:00+08:00",
+  "speaker": {
+    "name": "r2",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "Analysis and Improvement of IOTA PoW Implementation",
+  "summary": "本議程將分享講者們逐步改善 IOTA PoW (Proof of Work) 的心路歷程，其中包含分析 IOTA 各個 IOTA PoW 實作，整合了散佈在 C、Golang、Javascript、OpenCL 的程式碼，最後著手開發能夠多執行緒且在異質架構執行的 dcurl，改善官方 PoW 實作 70% 的效能。",
+  "type": "T",
+  "room": "R3",
+  "start": "2018-03-10T16:30:00+08:00",
+  "end": "2018-03-10T17:10:00+08:00",
+  "speaker": {
+    "name": "chenwei / AndyYang",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "午餐",
+  "type": "E",
+  "room": "R0",
+  "broadcast": ["R0", "R1", "R2", "R3", "S"],
+  "start": "2018-03-10T11:50:00+08:00",
+  "end": "2018-03-10T12:40:00+08:00",
+  "speaker": {
+    "name": "",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "點心",
+  "type": "E",
+  "room": "R0",
+  "broadcast": ["R0", "R1", "R2", "R3", "S"],
+  "start": "2018-03-10T14:10:00+08:00",
+  "end": "2018-03-10T14:50:00+08:00",
+  "speaker": {
+    "name": "",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "Lightning Talk",
+  "type": "L",
+  "room": "R0",
+  "broadcast": ["R0", "R1", "R2", "R3", "S"],
+  "start": "2018-03-10T17:25:00+08:00",
+  "end": "2018-03-10T17:45:00+08:00",
+  "speaker": {
+    "name": "",
+    "avatar": "",
+    "bio": ""
+  }
+}, {
+  "subject": "閉幕",
+  "type": "E",
+  "room": "R0",
+  "broadcast": ["R0", "R1", "R2", "R3", "S"],
+  "start": "2018-03-10T17:45:00+08:00",
+  "end": "2018-03-10T17:55:00+08:00",
+  "speaker": {
+    "name": "",
+    "avatar": "",
+    "bio": ""
+  }
+}]

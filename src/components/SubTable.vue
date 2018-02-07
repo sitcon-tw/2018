@@ -24,7 +24,7 @@
       <h3 v-if="subSpeakerName!==''">{{ 'About '+subSpeakerName }}</h3>
       <div class="content" v-if="subSpeakerName!==''">
         <div class="img">
-          <img :src="subAvatar" :alt="subSpeakerName" />
+          <img v-if="subAvatar !== ''" :src="subAvatar" :alt="subSpeakerName" />
         </div>
         <div class="text">{{subBio}}</div>
       </div>
@@ -56,76 +56,6 @@ export default {
   methods: {
     addDefaultEvent () {
       this.subs = submissions.slice()
-      this.subs.push({
-        'speaker': {
-          'name': '',
-          'avatar': '',
-          'bio': ''
-        },
-        'start': '2017-03-18T08:30:00+08:00',
-        'end': '2017-03-18T09:00:00+08:00',
-        'type': 'E',
-        'room': 'R0',
-        'broadcast': true,
-        'subject': '入場時間',
-        'summary': ''
-      })
-      this.subs.push({
-        'speaker': {
-          'name': '',
-          'avatar': '',
-          'bio': ''
-        },
-        'start': '2017-03-18T09:00:00+08:00',
-        'end': '2017-03-18T09:10:00+08:00',
-        'type': 'E',
-        'room': 'R0',
-        'broadcast': true,
-        'subject': '開幕',
-        'summary': ''
-      })
-      this.subs.push({
-        'speaker': {
-          'name': '',
-          'avatar': '',
-          'bio': ''
-        },
-        'start': '2017-03-18T11:50:00+08:00',
-        'end': '2017-03-18T12:50:00+08:00',
-        'type': 'E',
-        'room': 'R0',
-        'broadcast': true,
-        'subject': '午餐',
-        'summary': ''
-      })
-      this.subs.push({
-        'speaker': {
-          'name': '',
-          'avatar': '',
-          'bio': ''
-        },
-        'start': '2017-03-18T15:20:00+08:00',
-        'end': '2017-03-18T16:00:00+08:00',
-        'type': 'E',
-        'room': 'R0',
-        'broadcast': true,
-        'subject': '點心',
-        'summary': ''
-      })
-      this.subs.push({
-        'speaker': {
-          'name': '',
-          'avatar': '',
-          'bio': ''
-        },
-        'start': '2017-03-18T18:25:00+08:00',
-        'end': '2017-03-18T18:35:00+08:00',
-        'type': 'E',
-        'room': 'R0',
-        'broadcast': true,
-        'subject': '閉幕',
-        'summary': ''
-      })
     },
     paddingLeft (num) {
       if (num / 10 < 1) return '0' + num
@@ -137,7 +67,8 @@ export default {
     openBox (sub) {
       this.subSubject = sub.subject
       this.subslides = sub.slides
-      this.subAvatar = 'http://sitcon.org/2017/' + sub.speaker.avatar
+      // this.subAvatar = 'http://sitcon.org/2017/' + sub.speaker.avatar
+      this.subAvatar = ''
       this.subBio = sub.speaker.bio
       this.subSpeakerName = sub.speaker.name
       this.subSummary = sub.summary
@@ -166,6 +97,9 @@ export default {
     this.times = _.map(temp, 'start')
     this.times = _.uniqBy(this.times, this.formatTime)
     this.times = this.times.slice().sort()
+    // this.times = this.times.slice().sort((a, b) => {
+    //   return new Date(b.date) - new Date(a.date)
+    // })
     this.res = _.groupBy(temp, (schedule) => (schedule.start))
     var self = this
     self.resize()

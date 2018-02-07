@@ -15,11 +15,11 @@
           <p>會議共筆</p>
         </a> -->
       </section>
-      <p class="temp">議程與部分活動介紹將於 2/7 上線</p>
+      <!-- <p class="temp">議程與部分活動介紹將於 2/7 上線</p> -->
     </div>
-    <!-- <section class="table">
+    <section class="table">
       <sub-table></sub-table>
-    </section> -->
+    </section>
     <fancybox class="box" v-model="activityBox">
       <h2>{{'About\n'+acName}}</h2>
       <div class="content">

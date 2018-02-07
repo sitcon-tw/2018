@@ -1,7 +1,7 @@
 <template>
   <tr class="sub">
     <td class="time">{{ formatTime(new Date(value)) }}</td>
-    <template v-if="res[value].length === 1 && res[value][0].broadcast === true">
+    <template v-if="res[value].length === 1 && res[value][0].broadcast !== undefined">
       <sub-table-col :broadcast="true" :siteSub="res[value][0]" :times="times" @openBox="openBox" :key="'broadcast:'+indexx"></sub-table-col>
     </template>
     <template v-else>
