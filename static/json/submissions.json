@@ -1,5 +1,6 @@
 [{
   "subject": "入場時間",
+  "summary": "",
   "type": "E",
   "room": "R0",
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
@@ -12,6 +13,7 @@
   }
 }, {
   "subject": "開幕",
+  "summary": "",
   "type": "E",
   "room": "R0",
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
@@ -398,6 +400,7 @@
   }
 }, {
   "subject": "午餐",
+  "summary": "",
   "type": "E",
   "room": "R0",
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
@@ -410,6 +413,7 @@
   }
 }, {
   "subject": "點心",
+  "summary": "",
   "type": "E",
   "room": "R0",
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
@@ -422,6 +426,7 @@
   }
 }, {
   "subject": "Lightning Talk",
+  "summary": "",
   "type": "L",
   "room": "R0",
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
@@ -434,6 +439,7 @@
   }
 }, {
   "subject": "閉幕",
+  "summary": "",
   "type": "E",
   "room": "R0",
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
