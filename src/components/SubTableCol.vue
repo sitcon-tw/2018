@@ -1,5 +1,5 @@
 <template>
-  <td class="item clickable" v-if="siteSub.summary !== ''" @click.stop="openBox(siteSub)" :rowspan="calcRowspan(siteSub)"  :colspan="(broadcast)?5:''">{{ siteSub.subject }}<p v-if="siteSub.speaker.name != ''">{{siteSub.speaker.name}}</p></td>
+  <td class="item clickable" :class="{short: siteSub.type === 'S'}" v-if="siteSub.summary !== ''" @click.stop="openBox(siteSub)" :rowspan="calcRowspan(siteSub)"  :colspan="(broadcast)?5:''">{{ siteSub.subject }}<p v-if="siteSub.speaker.name != ''">{{siteSub.speaker.name}}</p></td>
   <td class="item" v-else :rowspan="calcRowspan(siteSub)" :colspan="(broadcast)?5:''">{{ siteSub.subject }}<p v-if="siteSub.speaker.name != ''">{{siteSub.speaker.name}}</p></td>
 </template>
 
@@ -44,6 +44,8 @@ export default {
   white-space: pre-line
   p
     font-size: 15px
+.item.short
+  background-color: #96A3AA
 .clickable
   cursor: pointer
   &:hover,&:active
