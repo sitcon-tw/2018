@@ -88,7 +88,7 @@
             icon: './static/img/icon/icon_community.svg',
             fontSize: '14px',
             image: './static/img/activity/community.png',
-            disable: true,
+            disable: false,
             summary: 'SITCON 今年延續了攤位活動，目的是在促進會眾跟學生社團或相關資訊社群交流。多元的活動讓你在聽完議程意猶未盡之餘，更能充分交流！休息時間，別忘記到場外的攤位逛逛！'
           },
           {
