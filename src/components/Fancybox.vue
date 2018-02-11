@@ -19,15 +19,21 @@
       }
     },
     watch: {
-      value: (newValue, oldValue) => {
+      value: function (newValue, oldValue) {
         var isScrollSpace = navigator.userAgent.match(/(Mac|iPhone|iPod|iPad|Android)/i)
+        var eventKey = (event) => {
+          if (event.key === 'Escape') self.updateValue(false)
+        }
         if (newValue) {
+          var self = this
+          window.addEventListener('keydown', eventKey)
           if (isScrollSpace) {
             window.document.body.classList.add('isShowFancyBox')
           } else {
             window.document.body.classList.add('isScrollSpaceFancyBox')
           }
         } else {
+          window.removeEventListener('keydown', eventKey)
           if (isScrollSpace) {
             window.document.body.classList.remove('isShowFancyBox')
           } else {
