@@ -6,13 +6,11 @@
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
   "start": "2018-03-10T08:30:00+08:00",
   "end": "2018-03-10T09:00:00+08:00",
+  "sli.do": "",
   "speaker": {
     "name": "",
     "avatar": "",
     "bio": ""
-  },
-  "sli.do": {
-    "id": ""
   }
 }, {
   "subject": "開幕",
@@ -22,13 +20,11 @@
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
   "start": "2018-03-10T09:00:00+08:00",
   "end": "2018-03-10T09:10:00+08:00",
+  "sli.do": "",
   "speaker": {
     "name": "",
     "avatar": "",
     "bio": ""
-  },
-  "sli.do": {
-    "id": ""
   }
 }, {
   "subject": "Keynote - TBA",
@@ -38,13 +34,11 @@
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
   "start": "2018-03-10T09:10:00+08:00",
   "end": "2018-03-10T10:00:00+08:00",
+  "sli.do": "SITCON18-K1",
   "speaker": {
     "name": "陳昇瑋 博士",
     "avatar": "",
     "bio": ""
-  },
-  "sli.do": {
-    "id": "SITCON18-K1"
   }
 }, {
   "subject": "Keynote - TBA",
@@ -54,13 +48,11 @@
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
   "start": "2018-03-10T10:10:00+08:00",
   "end": "2018-03-10T11:00:00+08:00",
+  "sli.do": "SITCON18-K2",
   "speaker": {
     "name": "魏澤人 教授",
     "avatar": "",
     "bio": ""
-  },
-  "sli.do": {
-    "id": "SITCON18-K2"
   }
 }, {
   "subject": "奔跑吧！台北：遊戲開發經驗分享",
@@ -69,13 +61,11 @@
   "room": "R0",
   "start": "2018-03-10T11:10:00+08:00",
   "end": "2018-03-10T11:50:00+08:00",
+  "sli.do": "SITCON18-T01",
   "speaker": {
     "name": "游宭鎬",
     "avatar": "6.jpg",
     "bio": "台科大設計系畢製進行中 / 圖文不符前端工程師"
-  },
-  "sli.do": {
-    "id": "SITCON18-T01"
   }
 }, {
   "subject": "午餐",
@@ -85,13 +75,11 @@
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
   "start": "2018-03-10T11:50:00+08:00",
   "end": "2018-03-10T12:40:00+08:00",
+  "sli.do": "",
   "speaker": {
     "name": "",
     "avatar": "",
     "bio": ""
-  },
-  "sli.do": {
-    "id": ""
   }
 }, {
   "subject": "論壇 - TBA",
@@ -100,13 +88,11 @@
   "room": "R0",
   "start": "2018-03-10T12:40:00+08:00",
   "end": "2018-03-10T14:10:00+08:00",
+  "sli.do": "SITCON18-P",
   "speaker": {
     "name": "",
     "avatar": "",
     "bio": ""
-  },
-  "sli.do": {
-    "id": "SITCON18-P"
   }
 }, {
   "subject": "點心",
@@ -116,13 +102,11 @@
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
   "start": "2018-03-10T14:10:00+08:00",
   "end": "2018-03-10T14:50:00+08:00",
+  "sli.do": "",
   "speaker": {
     "name": "",
     "avatar": "",
     "bio": ""
-  },
-  "sli.do": {
-    "id": ""
   }
 }, {
   "subject": "深度學習如何深度學習",
@@ -131,13 +115,11 @@
   "room": "R0",
   "start": "2018-03-10T14:50:00+08:00",
   "end": "2018-03-10T15:00:00+08:00",
+  "sli.do": "SITCON18-S01",
   "speaker": {
     "name": "maoredman",
     "avatar": "18.jpg",
     "bio": "現任中研院 Natural Language Understanding Lab 研究助理、MakeNTU 創客松 Web Chief，曾獲NASA 黑客松 Global Champion，目前就讀台大電機系大三"
-  },
-  "sli.do": {
-    "id": "SITCON18-S01"
   }
 }, {
   "subject": "Use AI to make own anime girl face",
@@ -146,13 +128,11 @@
   "room": "R0",
   "start": "2018-03-10T15:05:00+08:00",
   "end": "2018-03-10T15:15:00+08:00",
+  "sli.do": "SITCON18-S02",
   "speaker": {
     "name": "Mike",
     "avatar": "21.jpg",
     "bio": "清大資工碩二學生"
-  },
-  "sli.do": {
-    "id": "SITCON18-S02"
   }
 }, {
   "subject": "我單槍匹馬的開源貢獻之路",
@@ -161,13 +141,11 @@
   "room": "R0",
   "start": "2018-03-10T15:20:00+08:00",
   "end": "2018-03-10T15:30:00+08:00",
+  "sli.do": "SITCON18-S03",
   "speaker": {
     "name": "Peter",
     "avatar": "23.jpg",
     "bio": "剛從資工研究所畢業，在GitHub上代號為peter279k，不過大家都叫我Peter，目前在工研院資通所擔任研發替代役，也是一名後端網站開發者，平常興趣是看電影，看書與參加與開源有關的一切的活動。"
-  },
-  "sli.do": {
-    "id": "SITCON18-S03"
   }
 }, {
   "subject": "從學生到放火實習生的奇幻旅程",
@@ -176,13 +154,11 @@
   "room": "R0",
   "start": "2018-03-10T15:40:00+08:00",
   "end": "2018-03-10T16:20:00+08:00",
+  "sli.do": "SITCON18-T02",
   "speaker": {
     "name": "松鼠",
     "avatar": "5.png",
     "bio": "快要畢業但是不知道能不能畢業的大四老屁股，目前正在被學分和工作前後夾擊。擅長使用 Python 。"
-  },
-  "sli.do": {
-    "id": "SITCON18-T02"
   }
 }, {
   "subject": "想學OS, 從MINIX開始",
@@ -191,13 +167,11 @@
   "room": "R0",
   "start": "2018-03-10T16:30:00+08:00",
   "end": "2018-03-10T17:10:00+08:00",
+  "sli.do": "SITCON18-T03",
   "speaker": {
     "name": "amikai",
     "avatar": "9.jpg",
     "bio": "來自成大, 從大一接觸程式到現在還沒想過要做什麼有趣的 project.\n喜歡探究為什麼, 因此開始研究 OS."
-  },
-  "sli.do": {
-    "id": "SITCON18-T03"
   }
 }, {
   "subject": "Lightning Talk",
@@ -207,13 +181,11 @@
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
   "start": "2018-03-10T17:25:00+08:00",
   "end": "2018-03-10T17:45:00+08:00",
+  "sli.do": "",
   "speaker": {
     "name": "",
     "avatar": "",
     "bio": ""
-  },
-  "sli.do": {
-    "id": ""
   }
 }, {
   "subject": "閉幕",
@@ -223,13 +195,11 @@
   "broadcast": ["R0", "R1", "R2", "R3", "S"],
   "start": "2018-03-10T17:45:00+08:00",
   "end": "2018-03-10T17:55:00+08:00",
+  "sli.do": "",
   "speaker": {
     "name": "",
     "avatar": "",
     "bio": ""
-  },
-  "sli.do": {
-    "id": ""
   }
 }, {
   "subject": "瀏覽器開發與開源經驗",
@@ -238,13 +208,11 @@
   "room": "R1",
   "start": "2018-03-10T11:10:00+08:00",
   "end": "2018-03-10T11:50:00+08:00",
+  "sli.do": "SITCON18-T11",
   "speaker": {
     "name": "劉安齊",
     "avatar": "3.jpg",
     "bio": "軟體工程師，喜歡推廣程式讓更多人學會，非常認同開源的精神，分享會讓世界更美好。個人網站：http://tigercosmos.xyz/"
-  },
-  "sli.do": {
-    "id": "SITCON18-T11"
   }
 }, {
   "subject": "由淺入坑區塊鏈～從認識架構到應用智能合約！",
@@ -253,13 +221,11 @@
   "room": "R1",
   "start": "2018-03-10T12:40:00+08:00",
   "end": "2018-03-10T13:20:00+08:00",
+  "sli.do": "SITCON18-T12",
   "speaker": {
     "name": "牟展佑",
     "avatar": "4.jpg",
     "bio": "Hello,我是松山高中資訊研社的活動長~\n被學長推坑認識SITCON，熱愛研究各式資訊技術，導致技能樹未長先歪；並偏好將其結合金融、經濟領域，願在成為工具人之前努力成長茁壯(?"
-  },
-  "sli.do": {
-    "id": "SITCON18-T12"
   }
 }, {
   "subject": "跨越時間軸 - 創造美好使用者體驗",
@@ -268,13 +234,11 @@
   "room": "R1",
   "start": "2018-03-10T13:30:00+08:00",
   "end": "2018-03-10T14:10:00+08:00",
+  "sli.do": "SITCON18-T13",
   "speaker": {
     "name": "Maxwell",
-    "avatar": "19.png",
+    "avatar": "19.jpg",
     "bio": "曾任五倍紅寶石的 Rails 與前端實習生 && 工程師，現為 Umbo Computer Vision 前端實習生；\n對於 Web 方面的技術很有興趣並且投入很多的時間與心力鑽研這個領域以及踩雷（誤）；\n在除了 Web 領域以外的方面也有著墨，為開源專案『 Goby 』 語言的貢獻者之一"
-  },
-  "sli.do": {
-    "id": "SITCON18-T13"
   }
 }, {
   "subject": "600秒學會UI設計",
@@ -283,13 +247,11 @@
   "room": "R1",
   "start": "2018-03-10T14:50:00+08:00",
   "end": "2018-03-10T15:00:00+08:00",
+  "sli.do": "SITCON18-S11",
   "speaker": {
     "name": "郭峰瑞(Ray)",
     "avatar": "2.jpg",
     "bio": "每年都會來SITCON拿免費的講者紀念T和吃免費的便當，PHP是最棒的語言!"
-  },
-  "sli.do": {
-    "id": "SITCON18-S11"
   }
 }, {
   "subject": "東方與西方的文化差異討論",
@@ -298,13 +260,11 @@
   "room": "R1",
   "start": "2018-03-10T15:05:00+08:00",
   "end": "2018-03-10T15:15:00+08:00",
+  "sli.do": "",
   "speaker": {
     "name": "Gary Kwong",
     "avatar": "14.jpg",
     "bio": "Gary Kwong is a senior security engineer at Mozilla and a long-time member of its community. He specialises in running JavaScript fuzzers that rigorously test SpiderMonkey - the JavaScript engine of the Gecko platform on which Mozilla Firefox is based. Gary is passionate about global cultures, languages and West Coast Swing / classic Hustle dancing."
-  },
-  "sli.do": {
-    "id": ""
   }
 }, {
   "subject": "泡沫列車：一趟加密貨幣的經濟之旅",
@@ -313,13 +273,11 @@
   "room": "R1",
   "start": "2018-03-10T15:40:00+08:00",
   "end": "2018-03-10T16:20:00+08:00",
+  "sli.do": "SITCON18-T14",
   "speaker": {
     "name": "Spin Yuan",
     "avatar": "25.jpg",
     "bio": "\n對區塊鏈的熱愛，差不多就是論文獎投稿一式三份寫成一份三式還是樂此不疲的程度呢。目標是成為橫跨文組與理組的專欄作家。當然還有論文和畢業。"
-  },
-  "sli.do": {
-    "id": "SITCON18-T14"
   }
 }, {
   "subject": "為什麼做好遊戲那麼難？｜獨立團隊的秘辛分享－誰是國王",
@@ -328,13 +286,11 @@
   "room": "R1",
   "start": "2018-03-10T16:30:00+08:00",
   "end": "2018-03-10T17:10:00+08:00",
+  "sli.do": "SITCON18-T15",
   "speaker": {
     "name": "Dora - 謝哆啦",
     "avatar": "13.jpg",
     "bio": "什麼事情都希望可以直球對決的人。沒有特別偉大的人生目標，暫時開始寫程式是為了未來能少寫程式。"
-  },
-  "sli.do": {
-    "id": "SITCON18-T15"
   }
 }, {
   "subject": "空拍機廣域的監測路徑規劃",
@@ -343,13 +299,11 @@
   "room": "R1",
   "start": "2018-03-10T15:20:00+08:00",
   "end": "2018-03-10T15:30:00+08:00",
+  "sli.do": "SITCON18-S13",
   "speaker": {
     "name": "陳昱任",
     "avatar": "1.jpg",
     "bio": "熱衷於開發與學習的逢甲資訊系學生"
-  },
-  "sli.do": {
-    "id": "SITCON18-S13"
   }
 }, {
   "subject": "現代檔案系統ZFS的簡介與應用",
@@ -358,13 +312,11 @@
   "room": "R2",
   "start": "2018-03-10T11:10:00+08:00",
   "end": "2018-03-10T11:50:00+08:00",
+  "sli.do": "SITCON18-T21",
   "speaker": {
     "name": "Zuan",
     "avatar": "27.jpg",
     "bio": "平常出沒於資安圈，是chroot讀書會成員\n對電子跟資訊的各個領域都滿有興趣的\n什麼都略懂一點但什麼都不精通"
-  },
-  "sli.do": {
-    "id": "SITCON18-T21"
   }
 }, {
   "subject": "交大校園用電分析",
@@ -373,13 +325,11 @@
   "room": "R2",
   "start": "2018-03-10T12:40:00+08:00",
   "end": "2018-03-10T13:20:00+08:00",
+  "sli.do": "SITCON18-T22",
   "speaker": {
     "name": "BojNe",
     "avatar": "10.jpg",
     "bio": "高中時是自學生，因為覺得懂數學思考很酷，現在就讀應數系大一。在山上長大，關注環境議題。最近在學Deep Learning。"
-  },
-  "sli.do": {
-    "id": "SITCON18-T22"
   }
 }, {
   "subject": "蘊含著強大力量的 GTK 啊，封印解除！",
@@ -388,13 +338,11 @@
   "room": "R2",
   "start": "2018-03-10T13:30:00+08:00",
   "end": "2018-03-10T14:10:00+08:00",
+  "sli.do": "SITCON18-T23",
   "speaker": {
     "name": "ㄍㄌ / Bobby",
     "avatar": "28.png",
     "bio": "ㄍㄌ：一名轉到資工系的大學生，喜歡用數學觀點切入資訊領域，相信尋求不是為了找到答案而是為了更理解問題本身。\n/\nBobby：不知道要選幾類組的不務正業高中生，鮮奶茶是重要精神糧食，平常會很在意生活中的一些小細節。"
-  },
-  "sli.do": {
-    "id": "SITCON18-T23"
   }
 }, {
   "subject": "校園百寶盒",
@@ -403,13 +351,11 @@
   "room": "R2",
   "start": "2018-03-10T14:50:00+08:00",
   "end": "2018-03-10T15:00:00+08:00",
+  "sli.do": "SITCON18-S21",
   "speaker": {
     "name": "Ng CHIH-YANG",
     "avatar": "22.jpg",
     "bio": "大三學生，喜歡跨領域的研究，目前在做語料庫建置，計算語言學和空間興趣群組查詢問題，更多請考 http://www.hcy.idv.tw/intro/"
-  },
-  "sli.do": {
-    "id": "SITCON18-S21"
   }
 }, {
   "subject": "校園駭客-看你學號() return 你家住址;",
@@ -418,13 +364,11 @@
   "room": "R2",
   "start": "2018-03-10T15:05:00+08:00",
   "end": "2018-03-10T15:15:00+08:00",
+  "sli.do": "SITCON18-S22",
   "speaker": {
     "name": "Mico",
     "avatar": "20.jpg",
     "bio": "曾以做壞事為成長動力，卻很憎恨身別人的被騙，默默意識到學資安目的，\n也曾是個資訊與網路技術的選手，不過那也是回憶了...咳\n愛BugBounty > CTF"
-  },
-  "sli.do": {
-    "id": "SITCON18-S22"
   }
 }, {
   "subject": "GPU計算入門 - with OpenCL",
@@ -433,13 +377,11 @@
   "room": "R2",
   "start": "2018-03-10T15:40:00+08:00",
   "end": "2018-03-10T16:20:00+08:00",
+  "sli.do": "SITCON18-T24",
   "speaker": {
     "name": "張安邦",
     "avatar": "7.jpg",
     "bio": "一位興趣使然的開發者\n但是學了越來越多奇怪的東西了"
-  },
-  "sli.do": {
-    "id": "SITCON18-T24"
   }
 }, {
   "subject": "Club Mate 與德國駭客精神：34C3 大會實錄",
@@ -448,13 +390,11 @@
   "room": "R2",
   "start": "2018-03-10T16:30:00+08:00",
   "end": "2018-03-10T17:10:00+08:00",
+  "sli.do": "SITCON18-T25",
   "speaker": {
     "name": "Jeremy Yen",
     "avatar": "17.jpg",
     "bio": "從高中開始接觸網頁與程式設計，喜愛嘗試新技術、接觸不同領域的人，也熱愛閱讀和旅行。大學時曾在一家中小企業開發過企業資安軟體，也曾在 KPMG 顧問部門實習。不過最後還是發現自己比較喜歡 Coding，所以目前在 Glossika 萬語科技擔任 Full Stack Developer."
-  },
-  "sli.do": {
-    "id": "SITCON18-T25"
   }
 }, {
   "subject": "Vault 7 考古挖寶記",
@@ -463,13 +403,11 @@
   "room": "R2",
   "start": "2018-03-10T15:20:00+08:00",
   "end": "2018-03-10T15:30:00+08:00",
+  "sli.do": "SITCON18-S23",
   "speaker": {
     "name": "Yoga",
     "avatar": "26.jpg",
     "bio": "時常出沒於台中、台北和中壢三地的學生。\n對於程式方面呈現一個東採西摘的狀況，腦袋瓜也多半東想西想。\n目前正朝著成為碼農的狀況更進一步，並常以產生文字參與社群活動。"
-  },
-  "sli.do": {
-    "id": "SITCON18-S23"
   }
 }, {
   "subject": "你媽知道你在寫 Functional 嗎？",
@@ -478,13 +416,11 @@
   "room": "R3",
   "start": "2018-03-10T11:10:00+08:00",
   "end": "2018-03-10T11:50:00+08:00",
+  "sli.do": "SITCON18-T31",
   "speaker": {
     "name": "子期",
     "avatar": "8.jpg",
     "bio": "台大哲學系，曾在中研院做沒生產力的實習生浪費納稅人的錢\n部落格：https://viktorl.in/Blog/"
-  },
-  "sli.do": {
-    "id": "SITCON18-T31"
   }
 }, {
   "subject": "讀 scheme 魔法書 SICP",
@@ -493,13 +429,11 @@
   "room": "R3",
   "start": "2018-03-10T14:50:00+08:00",
   "end": "2018-03-10T15:00:00+08:00",
+  "sli.do": "SITCON18-S31",
   "speaker": {
     "name": "gholk",
     "avatar": "15.jpg",
     "bio": "Linux 使用者，興趣使然的 web 開發者。"
-  },
-  "sli.do": {
-    "id": "SITCON18-S31"
   }
 }, {
   "subject": "CCNS Radio - 社辦點歌電台",
@@ -508,13 +442,11 @@
   "room": "R3",
   "start": "2018-03-10T15:05:00+08:00",
   "end": "2018-03-10T15:15:00+08:00",
+  "sli.do": "SITCON18-S32",
   "speaker": {
     "name": "DC",
     "avatar": "12.jpg",
     "bio": "成大機械系畢業，CCNS前任副社長，興趣是開發一些有的沒的小東西還有爆裂魔法，寫Node.js兩年，但大概跟剛學的時候沒什麼兩樣。最近在研究ML，希望也能用ML相關技術開發一些有趣的專案。\n\nBlog: https://blog.danielchen.tk/\nFB: https://fb.me/danielchen.dc"
-  },
-  "sli.do": {
-    "id": "SITCON18-S32"
   }
 }, {
   "subject": "怪怪的資訊研究社及社團經驗秘辛",
@@ -523,13 +455,11 @@
   "room": "R3",
   "start": "2018-03-10T15:20:00+08:00",
   "end": "2018-03-10T15:30:00+08:00",
+  "sli.do": "SITCON18-S33",
   "speaker": {
     "name": "Jeffrey Lin、牟展佑",
     "avatar": "16.jpg",
     "bio": "Jeffrey：一位從國中開始就住在開源坑底的學生，第一次參加的社群活動是 SITCON 2014，之後從來沒有爬離坑底過，反倒是拉了不少人來填坑。會在各社群間遊走，擔任 Conference 工人次數大於會眾。\n\n雖然高中參加的是熱音社，卻總是在資研社辦的沙發睡覺。\n\n牟展佑：Hello,我是松山高中資訊研社的活動長~\n被學長推坑認識SITCON，熱愛研究各式資訊技術，導致技能樹未長先歪；並偏好將其結合金融、經濟領域，願在成為工具人之前努力成長茁壯(?"
-  },
-  "sli.do": {
-    "id": "SITCON18-S33"
   }
 }, {
   "subject": "在風塵中找回楓葉與沙灘-追尋MapleBBS歷史與未來",
@@ -538,13 +468,11 @@
   "room": "R3",
   "start": "2018-03-10T15:40:00+08:00",
   "end": "2018-03-10T16:20:00+08:00",
+  "sli.do": "SITCON18-T32",
   "speaker": {
     "name": "r2",
     "avatar": "24.png",
     "bio": "本於好奇心嘗試在人文與科技結合的歷史找尋意義的網路考古初心者"
-  },
-  "sli.do": {
-    "id": "SITCON18-T32"
   }
 }, {
   "subject": "Analysis and Improvement of IOTA PoW Implementation",
@@ -553,12 +481,10 @@
   "room": "R3",
   "start": "2018-03-10T16:30:00+08:00",
   "end": "2018-03-10T17:10:00+08:00",
+  "sli.do": "SITCON18-T33",
   "speaker": {
     "name": "chenwei & AndyYang",
     "avatar": "11.png",
     "bio": "chenwei (魏禛）\n台灣大學資訊工程學系菸酒生，希望能朝著作業系統核心、編譯器及系統軟體持續鑽研\n\nAndyYang (楊子賢)\n來自台大資工所的一年生，以自覺苦手的系統軟體為目標持續精進"
-  },
-  "sli.do": {
-    "id": "SITCON18-T33"
   }
 }]
