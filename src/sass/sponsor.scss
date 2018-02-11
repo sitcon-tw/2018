@@ -20,7 +20,7 @@ h3 {
 .co-host{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .co-host_text{
@@ -43,7 +43,7 @@ h3 {
 }
 img{
   display: block;
-  width: 90%;
+  width: 70%;
   border-radius: 4px;
   background-color: white;
   margin: 0 auto;

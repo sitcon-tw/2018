@@ -19,13 +19,14 @@
       <h3 class="co-host_text">{{ item.title }}</h3>
       <div class="co-host_text_1" v-for="(sponsor) in item.item" :key="sponsor.name" @click.stop="openBox(item.title,sponsor)">
         <img :src="sponsor.icon">
+        <p style="font-size:18px; padding-top: 12px;">{{ sponsor.name }}</p>
       </div>
     </div>
     <fancybox class="box" v-model="activityBox">
       <h2 style="color: white;font-size: 28px;padding-top: 0;padding-bottom: 16px;">{{ sponsorLevel }}</h2>
       <h2 style="color: white;font-size: 48px;padding-top: 0;padding-bottom: 36px;">{{ sponsorName }}</h2>
       <div class="content">
-        <div class="text">{{sponsorSummary}}</div>
+        <div class="text" v-html="sponsorSummary"></div>
         <div class="img">
           <img style="border: none" :src="sponsorImage" :alt="sponsorName" />
         </div>
@@ -52,12 +53,12 @@ export default {
             {
               name: 'SITCON',
               icon: './static/img/sponsor/sitcon.png',
-              summary: 'SITCON（Students\' Information Technology Conference, 學生計算機年會）是自 2013 年由一群學生自主性地發起，是一個以在學學生為主體的學生社群。以自發性的學習為基礎，秉持開源、創新與實作的核心理念。\n\n我們希望藉由每年三月固定的研討會（SITCON）、每學期的 hackathon （駭客世代 HackGen）、每年暑假的夏令營及兩個禮拜定期聚會的方式，將全台灣各地對於資訊科技相關領域有興趣的學生們串聯起來，透過彼此共享、交流來切磋精進，砥礪自主自學的風氣。'
+              summary: 'SITCON（Students\' Information Technology Conference, 學生計算機年會）是自 2013 年由一群學生自主性地發起，是一個以在學學生為主體的學生社群。以自發性的學習為基礎，秉持開源、創新與實作的核心理念。<br><br>我們希望藉由每年三月固定的研討會（SITCON）、每學期的 hackathon （駭客世代 HackGen）、每年暑假的夏令營及兩個禮拜定期聚會的方式，將全台灣各地對於資訊科技相關領域有興趣的學生們串聯起來，透過彼此共享、交流來切磋精進，砥礪自主自學的風氣。'
             },
             {
               name: '中央研究院資訊科學研究所',
               icon: './static/img/sponsor/iis.png',
-              summary: '中央研究院資訊科學研究所於 1977 年開始設立籌備處，歷經五年籌備，於 1982 年 9 月正式成立研究所，是中央研究院數理組十個單位之一。本所的研究重點分為八大方向 , 包含生物資訊、電腦系統、資料處理與探勘、多媒體技術、語言與知識處理、網路系統與服務、程式語言與形式方法、計算理論與演算法。\n\n本所並於 2003 年配合中研院國際研究生院 (TIGP)，開始招收生物資訊學程博士班，致力延攬及培訓此一新領域之國際人材多年有成，已招募 51 名學生，對生物資訊的研究有很大的助益。2014 年起，社群網路與人智計算新學程博士班開始招生，期待未來此學程能蓬勃發展。\n\n所內資深研究人員皆指導或共同指導來自全國各地頂尖大學之碩、博士生，並與這些大學保持緊密的研究合作關係，與國內外資訊業界亦有極為良好之互動關係。'
+              summary: '中央研究院資訊科學研究所於 1977 年開始設立籌備處，歷經五年籌備，於 1982 年 9 月正式成立研究所，是中央研究院數理組十個單位之一。本所的研究重點分為八大方向 , 包含生物資訊、電腦系統、資料處理與探勘、多媒體技術、語言與知識處理、網路系統與服務、程式語言與形式方法、計算理論與演算法。<br><br>本所並於 2003 年配合中研院國際研究生院 (TIGP)，開始招收生物資訊學程博士班，致力延攬及培訓此一新領域之國際人材多年有成，已招募 51 名學生，對生物資訊的研究有很大的助益。2014 年起，社群網路與人智計算新學程博士班開始招生，期待未來此學程能蓬勃發展。<br><br>所內資深研究人員皆指導或共同指導來自全國各地頂尖大學之碩、博士生，並與這些大學保持緊密的研究合作關係，與國內外資訊業界亦有極為良好之互動關係。'
             },
             {
               name: '財團法人開放文化基金會',
@@ -72,7 +73,22 @@ export default {
             {
               name: '教育部資通訊軟體創新人才推升計畫推動中心',
               icon: './static/img/sponsor/itsa.png',
-              summary: '主要推動重點在協助國內大專校院建立多元培育管道，以解決產業界對軟體與服務人才質與量需求日益殷切的問題。\n\n各大專校院⋯⋯透過教育部推廣計畫的補助機制，導入本計畫推動團隊所發展的創作社群服務平臺、線上協同學習平臺(e-tutor)及學習資源服務平臺，已逐步建立創新的培育模式，為國內軟體專業人才培育系所注入向上提升的助力，是國內目前培養軟體人才的主力之一。'
+              summary: '主要推動重點在協助國內大專校院建立多元培育管道，以解決產業界對軟體與服務人才質與量需求日益殷切的問題。<br><br>各大專校院⋯⋯透過教育部推廣計畫的補助機制，導入本計畫推動團隊所發展的創作社群服務平臺、線上協同學習平臺(e-tutor)及學習資源服務平臺，已逐步建立創新的培育模式，為國內軟體專業人才培育系所注入向上提升的助力，是國內目前培養軟體人才的主力之一。'
+            },
+            {
+              name: '經濟部技術處「開源應用技術研發人才培育計畫」',
+              icon: './static/img/sponsor/iii.png',
+              summary: '資策會承接經濟部技術處「開源應用技術研發人才培育計畫」，為促進國內開源技術人才培育，即日起推動「開源貢獻者培育方案」，由國際開源專案Committer擔任Mentor，以「Mentor-mentee」方式帶領年輕工程師參與國際開源專案，一窺國際開源殿堂。近年來，在開源社群建立技術地位，已成為年輕工程師在國際上嶄露頭角的新風潮。<br><br>本方案公開徵求Mentor/Mentee，若您在開源社群有相當經驗，曾經擔任國際開源專案Committer或類似職務，歡迎加入我們，共同為培育年輕開源工程師一齊努力。若您對開源技術感興趣，也想學習成為開源貢獻者，歡迎成為本方案培育對象。本計畫將提供顧問費用給Mentor，參與培訓的Mentee則無須負擔任何費用。近日將舉辦說明會，有意參加者請於下列網址填寫報名表單<br><br><a href="http://www.twoss.io/107contributor.html" target="_blank">http://www.twoss.io/107contributor.html</a>'
+            }
+          ]
+        },
+        {
+          'title': '白銀級',
+          'item': [
+            {
+              name: '祐生基金會',
+              icon: './static/img/sponsor/archlife.png',
+              summary: '祐生研究基金會由推動建築與環境永續發展之研究開始，推動長期的知識累積與人才培養。除了過去建築、環境、生態、健康與資訊社會與文化等面向之碩士論文獎助主題外，本會目前定期舉辦的聯誼會及讀書會，強化祐生成員的知識密度。其後，於 2011 年起，本會持續針對國內開源活動進行贊助，也針對國內獨立遊戲開發者，推動知識與資訊分享聚會，並贊助台灣開發者前往特定國際遊戲競賽，期能幫助國內相關社群之發展。'
             }
           ]
         }
