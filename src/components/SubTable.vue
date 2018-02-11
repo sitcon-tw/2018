@@ -24,7 +24,7 @@
       <h3 v-if="subSpeakerName!==''">{{ 'About '+subSpeakerName }}</h3>
       <div class="content" v-if="subSpeakerName!==''">
         <div class="img">
-          <img v-if="subAvatar !== ''" :src="subAvatar" :alt="subSpeakerName" />
+          <img style="height:80%;" v-if="subAvatar !== ''" :src="subAvatar" :alt="subSpeakerName" />
         </div>
         <div class="text">{{subBio}}</div>
       </div>

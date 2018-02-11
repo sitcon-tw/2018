@@ -70,6 +70,7 @@
       opacity: 0
       transition: opacity .4s .0s
       padding-right: 45px
+      width: 67%
       &::-webkit-scrollbar
         display: none
       .close-btn
@@ -103,13 +104,16 @@
           float: right
           width: 35%
           padding-top: 0px
-          padding-bottom: 0px
+          padding-bottom: 35%
+          height: 0px
           overflow: auto
+          box-sizing: content-box
+          position: relative
           img
+            position: absolute
             display: block
             margin-left: 20%
             width: 80%
-            height: auto
             border-radius: 15px
             border: 12px solid #3C4755
             background-color: white
