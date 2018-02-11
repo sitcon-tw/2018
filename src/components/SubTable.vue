@@ -67,8 +67,8 @@ export default {
     openBox (sub) {
       this.subSubject = sub.subject
       this.subslides = sub.slides
-      // this.subAvatar = 'http://sitcon.org/2017/' + sub.speaker.avatar
-      this.subAvatar = ''
+      this.subAvatar = 'http://sitcon.org/2018/static/img/speaker/' + sub.speaker.avatar
+      // this.subAvatar = ''
       this.subBio = sub.speaker.bio
       this.subSpeakerName = sub.speaker.name
       this.subSummary = sub.summary
