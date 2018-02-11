@@ -126,14 +126,17 @@
     .box-content
       div.container
         padding-right: 15px
+        width: 100%
         .content
           .text
             width: 100%
           .img
             width: 100%
-            position: static
+            padding-bottom: 100%
             img
               margin: 0 auto
+              left: 10%
+              top: 10%
 .fancybox.open
   .box-content
     top: 0
