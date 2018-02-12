@@ -123,6 +123,16 @@
             border-radius: 15px
             border: 12px solid #3C4755
             background-color: white
+          .image
+            position: absolute
+            width: 80%
+            margin-left: 20%
+            border-radius: 15px
+            border: 12px solid #3C4755
+            background-color: white
+            background-size: contain
+            background-position: center center
+            background-repeat: no-repeat
       h3
         font-size: 28px
         padding-top: 40px
@@ -143,6 +153,8 @@
               margin: 0 auto
               left: 10%
               top: 10%
+            .image
+              margin-left: 10%
 .fancybox.open
   .box-content
     top: 0
