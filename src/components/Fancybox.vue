@@ -130,7 +130,7 @@
             border-radius: 15px
             border: 12px solid #3C4755
             background-color: white
-            background-size: contain
+            background-size: cover
             background-position: center center
             background-repeat: no-repeat
       h3
