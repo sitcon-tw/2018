@@ -48,8 +48,8 @@
             icon: './static/img/icon/icon_lighting.svg',
             fontSize: '',
             image: './static/img/activity/lighting.png',
-            disable: true,
-            summary: 'Lightning talk，中文譯為「閃電秀」，顧名思義即為「閃電一般短的演講」。包含準備時間在內，每位講者僅有 3 分鐘的時間上台。用飛快的速度進行簡潔扼要的分享，無論是對台上的講者或是台下的會眾，都是十分刺激又轟動全場的體驗。Lightning talk 將會在年會當天早上 10:00 於白板區開放報名，先搶先贏，並在所有議程結束後，閉幕前，在國際會議廳進行演講。'
+            disable: false,
+            summary: 'Lightning talk，中文譯為「閃電秀」，顧名思義即為「閃電一般短的演講」。包含準備時間在內，每位講者僅有 3 分鐘的時間上台。用飛快的速度進行簡潔扼要的分享，無論是對台上的講者或是台下的會眾，都是十分刺激又轟動全場的體驗。Lightning talk 將會在年會當天早上報到後於白板區開放報名，先搶先贏，並在所有議程結束後，閉幕前，在國際會議廳進行演講。'
           },
           {
             name: '導遊團',
@@ -64,8 +64,8 @@
             icon: './static/img/icon/icon_unconf.svg',
             fontSize: '18px',
             image: './static/img/activity/unconf.png',
-            disable: true,
-            summary: ''
+            disable: false,
+            summary: '不同於由大會排定的議程，Unconference 讓會眾自主決定想聽的講題規劃的議程。在會眾踴躍投票完想要分享的主題之後，透過票選，每位講者有 20 分鐘在交誼廳展現的機會。<br>除此之外，Unconference 也歡迎會眾在交誼廳內進行任何的社群活動，只要你有任何線下聚會的好點子，不妨現在就填寫表單、向其他會眾招手吧。<h3>投稿方式</h3><p>SITCON Unconference 投稿在 2/14 ~ 2/24，只要你是 SITCON 2018 的會眾，就能以報名序號填寫 Unconference 的投稿表單。<br>在投稿截止後，2/25 ~ 3/3 開放投票。只要報名 SITCON 2018 後，就可以憑著 SITCON 2018 票券，填寫 Unconference 投票表單選出自己喜歡的議程或活動喔！<br>投票結束後將會在 3/4 公布選上的 Unconference，我們期待你在年會的分享。</p><a href="https://goo.gl/6O6ddT" target="_blank">投稿連結由此去</a><h3>注意事項</h3><ol><li>投稿及票選 Unconference 議程皆須以 SITCON 2018 票卷的 KKTIX 檢查碼為憑。</li><li>除有重大違規，否則議程組不會干涉 Unconference 投稿內容。</li></ol>'
           },
           {
             name: '天使計畫',
