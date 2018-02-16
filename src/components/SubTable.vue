@@ -10,13 +10,13 @@
         </thead>
         <tbody>
           <template v-if="res !== null">
-            <sub-table-row v-for="(value, index) in times" :indexx="index" :value="value" :res="res" :times="times" :sites="sites" @openBox="openBox" :key="'row:'+index"></sub-table-row>
+            <sub-table-row v-for="(value, index) in times" :indexx="index" :value="value" :res="res" :times="times" :sites="sites" @openBox="goSub" :key="'row:'+index"></sub-table-row>
           </template>
         </tbody>
       </table>
     </div>
     <div v-else class="mobile-table">
-      <mobile-row v-for="(value) in times" :value="value" :res="res" @openBox="openBox" :key="'times:'+value"></mobile-row>
+      <mobile-row v-for="(value) in times" :value="value" :res="res" @openBox="goSub" :key="'times:'+value"></mobile-row>
     </div>
     <fancybox class="box" v-model="activityBox">
       <h2>{{subSubject}}<span v-if="subslides !== undefined"><a :href="subslides" target="_blank">#簡報連結</a></span></h2>
@@ -65,6 +65,9 @@ export default {
     formatTime (date) {
       return this.paddingLeft(date.getHours()) + ':' + this.paddingLeft(date.getMinutes())
     },
+    goSub (sub) {
+      this.$router.replace('/agenda/sub/' + sub.id)
+    },
     openBox (sub) {
       this.subSubject = sub.subject
       this.subslides = sub.slides
@@ -107,6 +110,13 @@ export default {
     window.addEventListener('resize', function () {
       self.resize()
     })
+
+    if (this.$route.params.subId !== undefined) {
+      var item = _.find(this.subs, (value) => { return value.id === this.$route.params.subId })
+      if (item !== undefined) {
+        this.openBox(item)
+      }
+    }
   },
   watch: {
     activityBox: function (state) {
@@ -115,6 +125,13 @@ export default {
         setTimeout(function () {
           self.subAvatar = ''
         }, 400)
+        self.$router.replace('/agenda')
+      }
+    },
+    '$route.params.subId': function (state) {
+      var item = _.find(this.subs, (value) => { return value.id === this.$route.params.subId })
+      if (item !== undefined) {
+        this.openBox(item)
       }
     }
   },
