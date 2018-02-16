@@ -23,6 +23,13 @@ export default new Router({
       meta: { index: 1 }
     },
     {
+      path: '/agenda/:activityId',
+      name: 'AgendaActivity',
+      component: Agenda,
+      meta: { index: 1 },
+      props: true
+    },
+    {
       path: '/sponsor',
       name: 'Sponsor',
       component: Sponsor,
