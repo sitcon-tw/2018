@@ -25,7 +25,7 @@
       <div class="content">
         <div class="text" v-html="acSummary"></div>
         <div class="img">
-          <img style="border:none;background-color:rgba(0,0,0,0);width:100%;margin-left:0px;" :src="acImage" :alt="acName" />
+          <img style="border:none;background-color:rgba(0,0,0,0);width:100%;margin-left:0px;left:0" :src="acImage" :alt="acName" />
         </div>
       </div>
     </fancybox>
