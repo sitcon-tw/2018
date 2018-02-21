@@ -51,7 +51,7 @@ export default {
           'title': '共同主辦',
           'item': [
             {
-              name: 'SITCON',
+              name: 'SITCON 學生計算機年會籌備團隊',
               icon: './static/img/sponsor/sitcon.png',
               summary: 'SITCON（Students\' Information Technology Conference, 學生計算機年會）是自 2013 年由一群學生自主性地發起，是一個以在學學生為主體的學生社群。以自發性的學習為基礎，秉持開源、創新與實作的核心理念。<br><br>我們希望藉由每年三月固定的研討會（SITCON）、每學期的 hackathon （駭客世代 HackGen）、每年暑假的夏令營及兩個禮拜定期聚會的方式，將全台灣各地對於資訊科技相關領域有興趣的學生們串聯起來，透過彼此共享、交流來切磋精進，砥礪自主自學的風氣。'
             },
@@ -111,7 +111,7 @@ export default {
               summary: '2014-2018連續五年獲評為「日本幸福企業」<br>（Best Workplaces in Japan）<br>不同於一般傳統日式企業文化，<br>我們提供優質且國際化的工作環境、<br>提倡自在開放的氣氛，鼓勵多元的工作挑戰。<br>歡迎有志者與我們一同「以遊戲的力量，為世界帶來幸福。」'
             },
             {
-              name: '臺灣微軟',
+              name: '台灣微軟',
               icon: './static/img/sponsor/microsoft.png',
               summary: '微軟是全球科技產業的領航者，提供全球領先的軟體、服務、設備和解決方案，自 1975 年成立以來，一直致力於幫助個人和企業用戶，全面發揮科技潛能，實現夢想。，<br>對於學生更是有許多的栽培與規劃，Microsoft Student Partners微軟學生大使提供同學最前瞻的技術應用課程，讓學生在就業前就能習得最新軟實力，營造學生技術社群的自學力量！'
             }
