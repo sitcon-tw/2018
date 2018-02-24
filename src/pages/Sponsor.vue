@@ -129,6 +129,11 @@ export default {
               name: 'COSCUP',
               icon: './static/img/sponsor/coscup.png',
               summary: '「COSCUP 2018 開源貢獻者保留票」開放申請中：<a href="http://blog.coscup.org/2017/10/coscup-2018.html" target="_blank">http://blog.coscup.org/2017/10/coscup-2018.html</a><br><br>COSCUP 是由台灣開放原始碼社群聯合推動的研討會，希望藉由每一屆的年度會議，讓全球的 FLOSS 愛好者齊聚一堂。無論您是開放原始碼的開發者、推廣者、使用者、還是想了解軟體的新手，都歡迎您來參加開源人年會。'
+            },
+            {
+              name: '鴻寬科技有限公司',
+              icon: './static/img/sponsor/ehk.png',
+              summary: '鴻寬科技主要致力於軟硬體服務及規劃、整合與建置能力，並且提供網路安全、資訊安全、智慧校園、IO平台等全方位安全防護，同時具備各種客製化、套裝軟體、軟體雲、3D雲、AI雲之規劃與建置，提供客戶軟硬體之需求;目前主要服務對象為各級學校、政府機關、中小企業...等，除此之外亦加入臺灣銀行共同供應契約，以期提供更多元之服務管道。'
             }
           ]
         }
