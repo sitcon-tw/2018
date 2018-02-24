@@ -121,6 +121,16 @@ export default {
               summary: '微軟是全球科技產業的領航者，提供全球領先的軟體、服務、設備和解決方案，自 1975 年成立以來，一直致力於幫助個人和企業用戶，全面發揮科技潛能，實現夢想。，<br>對於學生更是有許多的栽培與規劃，Microsoft Student Partners微軟學生大使提供同學最前瞻的技術應用課程，讓學生在就業前就能習得最新軟實力，營造學生技術社群的自學力量！'
             }
           ]
+        },
+        {
+          'title': '特別感謝',
+          'item': [
+            {
+              name: 'COSCUP',
+              icon: './static/img/sponsor/coscup.png',
+              summary: '「COSCUP 2018 開源貢獻者保留票」開放申請中：<a href="http://blog.coscup.org/2017/10/coscup-2018.html" target="_blank">http://blog.coscup.org/2017/10/coscup-2018.html</a><br><br>COSCUP 是由台灣開放原始碼社群聯合推動的研討會，希望藉由每一屆的年度會議，讓全球的 FLOSS 愛好者齊聚一堂。無論您是開放原始碼的開發者、推廣者、使用者、還是想了解軟體的新手，都歡迎您來參加開源人年會。'
+            }
+          ]
         }
       ]
     }
