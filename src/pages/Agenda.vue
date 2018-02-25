@@ -75,7 +75,7 @@ export default {
           fontSize: '18px',
           image: './static/img/activity/unconf.png',
           disable: false,
-          summary: '不同於由大會排定的議程，Unconference 讓會眾自主決定想聽的講題規劃的議程。在會眾踴躍投票完想要分享的主題之後，透過票選，每位講者有 20 分鐘在交誼廳展現的機會。<br>除此之外，Unconference 也歡迎會眾在交誼廳內進行任何的社群活動，只要你有任何線下聚會的好點子，不妨現在就填寫表單、向其他會眾招手吧。<h3>投稿方式</h3><p>SITCON Unconference 投稿在 2/14 ~ 2/24，只要你是 SITCON 2018 的會眾，就能以報名序號填寫 Unconference 的投稿表單。<br>在投稿截止後，2/25 ~ 3/3 開放投票。只要報名 SITCON 2018 後，就可以憑著 SITCON 2018 票券，填寫 Unconference 投票表單選出自己喜歡的議程或活動喔！<br>投票結束後將會在 3/4 公布選上的 Unconference，我們期待你在年會的分享。</p><a href="https://goo.gl/6O6ddT" target="_blank">投稿連結由此去</a><h3>注意事項</h3><ol><li>投稿及票選 Unconference 議程皆須以 SITCON 2018 票卷的 KKTIX 檢查碼為憑。</li><li>除有重大違規，否則議程組不會干涉 Unconference 投稿內容。</li></ol>'
+          summary: '不同於由大會排定的議程，Unconference 讓會眾自主決定想聽的講題規劃的議程。只要有投稿，就可以在交誼廳或是R3會議室發表你的妙點子！<br>除此之外，Unconference 也歡迎會眾在交誼廳內進行任何的社群活動，只要你有任何線下聚會的好點子，不妨現在就填寫表單、向其他會眾招手吧。<br><h3>投稿方式</h3><p>只要你是 SITCON 2018 的會眾，就能以報名序號填寫 Unconference 的投稿表單。先報先贏，要搶要快！最多只有15個名額，錯過就要等明年了喔～<br>我們期待你在年會的分享。</p><a href="https://goo.gl/6O6ddT" target="_blank">投稿連結由此去</a><h3>注意事項</h3><ol><li>投稿 Unconference 議程皆須以 SITCON 2018 票卷的 KKTIX 檢查碼為憑。</li><li>除有重大違規，否則議程組不會干涉 Unconference 投稿內容。</li></ol>'
         },
         {
           name: '天使計畫',
