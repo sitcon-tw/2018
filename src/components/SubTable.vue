@@ -71,8 +71,7 @@ export default {
     openBox (sub) {
       this.subSubject = sub.subject
       this.subslides = sub.slides
-      if (sub.speaker.avatar !== '') this.subAvatar = 'http://sitcon.org/2018/static/img/speaker/' + sub.speaker.avatar
-      else this.subAvatar = ''
+      this.subAvatar = sub.speaker.avatar
       this.subBio = sub.speaker.bio
       this.subSpeakerName = sub.speaker.name
       this.subSummary = sub.summary

@@ -39,7 +39,10 @@ csv({
                 }
             } else {
                 if (objPro[headers[i].split('/')[0]] === undefined) objPro[headers[i].split('/')[0]] = {}
-                objPro[headers[i].split('/')[0]][headers[i].split('/')[1]] = autoConvert(csvRow[i])
+                if (headers[i].split('/')[1] === 'avatar') {
+                  if (csvRow[i] === '')  objPro[headers[i].split('/')[0]][headers[i].split('/')[1]] = 'http://sitcon.org/2018/static/img/staffs/stone.png'
+                  else objPro[headers[i].split('/')[0]][headers[i].split('/')[1]] = 'http://sitcon.org/2018/static/img/speaker/' + csvRow[i]
+                } else objPro[headers[i].split('/')[0]][headers[i].split('/')[1]] = autoConvert(csvRow[i])
             }
         }
         for (let item in objPro) {
