@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <main-nav></main-nav>
-    <main>
+    <main-nav v-if="appMode()"></main-nav>
+    <main :class="{ app: !appMode() }">
       <transition :name="transitionName">
         <keep-alive>
           <router-view class="child-view"/>
@@ -17,6 +17,11 @@ export default {
   data () {
     return {
       transitionName: 'slide-left'
+    }
+  },
+  methods: {
+    appMode () {
+      return window.location.search.match('mode=app') === null
     }
   },
   watch: {
@@ -42,6 +47,8 @@ body.isScrollSpaceFancyBox
     main
       .child-view
         padding-right: 17px
+main.app
+  padding-top: 0px
 .child-view
   transition-property: transform,opacity
   transition-duration: .5s
