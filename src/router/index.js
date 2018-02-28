@@ -5,6 +5,7 @@ import Agenda from '../pages/Agenda'
 import Sponsor from '../pages/Sponsor'
 import Staff from '../pages/Staff'
 import Location from '../pages/Location'
+import Venue from '../pages/Venue'
 
 Vue.use(Router)
 
@@ -58,6 +59,12 @@ export default new Router({
       name: 'Location',
       component: Location,
       meta: { index: 4 }
+    },
+    {
+      path: '/venue',
+      name: 'Venue',
+      component: Venue,
+      meta: { index: 5 }
     }
   ],
   scrollBehavior (to, from, savedPosition) {
