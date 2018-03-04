@@ -1,7 +1,10 @@
 <template>
   <tr class="sub">
     <td class="time">{{ formatTime(new Date(value)) }}</td>
-    <template v-if="res[value].length === 1 && res[value][0].broadcast !== undefined">
+    <template v-if="res[value][0].subject === '午餐'">
+      <sub-table-col colspan="4" :siteSub="res[value][0]" :times="times" @openBox="openBox" :key="'broadcast:'+indexx"></sub-table-col>
+    </template>
+    <template v-else-if="res[value].length === 1 && res[value][0].broadcast !== undefined">
       <sub-table-col :broadcast="true" :siteSub="res[value][0]" :times="times" @openBox="openBox" :key="'broadcast:'+indexx"></sub-table-col>
     </template>
     <template v-else>
@@ -9,7 +12,7 @@
         <template v-if="findSiteSub(site, res[value]) !== undefined">
           <sub-table-col :broadcast="false"  :siteSub="findSiteSub(site, res[value])" :times="times" @openBox="openBox" :key="indexx+':'+index"></sub-table-col>
         </template>
-        <td class="item" v-else-if="isNullItem(site)" :key="'space:'+index"></td>
+        <td class="item space" v-else-if="isNullItem(site)" :key="'space:'+index"></td>
       </template>
     </template>
   </tr>
@@ -65,6 +68,8 @@ $time-width: 60px
       opacity: 0.6
     p
       font-size: 16px
+  // .space
+  //   background-color: rgba(0,0,0,0)
 @media all and (max-width: 1000px)
   .sub
     $time-width: 60px

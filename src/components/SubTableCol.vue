@@ -25,7 +25,7 @@ export default {
         }
       }
       if (nums !== 1) {
-        window._rowspan[sub.room] = nums - 1
+        if (sub.subject !== 'Socket和他的伺服器夥伴們') window._rowspan[sub.room] = nums - 1
       }
       return nums
     },

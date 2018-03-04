@@ -104,6 +104,11 @@ export default {
     //   return new Date(b.date) - new Date(a.date)
     // })
     this.res = _.groupBy(temp, (schedule) => (schedule.start))
+    // for (let time of this.res) {
+    //   if (this.formatTime(time) === '15:20') {
+    //     this.res[time].end = new Date('2018-03-10T15:40:00+08:00')
+    //   }
+    // }
     var self = this
     self.resize()
     window.addEventListener('resize', function () {
