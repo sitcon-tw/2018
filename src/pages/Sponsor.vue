@@ -119,6 +119,21 @@ export default {
               name: '台灣微軟',
               icon: './static/img/sponsor/microsoft.png',
               summary: '微軟是全球科技產業的領航者，提供全球領先的軟體、服務、設備和解決方案，自 1975 年成立以來，一直致力於幫助個人和企業用戶，全面發揮科技潛能，實現夢想。，<br>對於學生更是有許多的栽培與規劃，Microsoft Student Partners微軟學生大使提供同學最前瞻的技術應用課程，讓學生在就業前就能習得最新軟實力，營造學生技術社群的自學力量！'
+            },
+            {
+              name: '財團法人台灣網路資訊中心',
+              icon: './static/img/sponsor/twnic.png',
+              summary: '台灣網路資訊中心是一家中立與非營利性的財團法人機構，負責頂級國碼網域名稱(country code top level domain name).tw及.台灣註冊管理、IP位址發放之維運。該中心除了提供全面的網路服務之外，也參加各種不同的相關國際會議，使台灣的網際網路社群與全球網際網路社群接軌。該中心並與各種不同的社群合作，俾能藉由公開的參與以及持續的改進而促進網際網路的使用與應用。詳情請參閱 <a href="http://www.twnic.net.tw" target="_blank">http://www.twnic.net.tw</a>'
+            },
+            {
+              name: 'Dcard',
+              icon: './static/img/sponsor/dcard.png',
+              summary: '過去數年，Dcard 保管了許多人的心情與想法，我們是一支致力於讓分享更自由，讓資訊流動更美好的國際團隊。<br>我們提供的社群服務，擁有每個月超越八百萬的不重複訪客，與雙位數的月成長曲線。在學生族群有極高的滲透率，以及超越 Line、Facebook 的黏著時間；在各大媒體亦有高量的曝光和影響力。 '
+            },
+            {
+              name: 'KKBOX',
+              icon: './static/img/sponsor/kkbox.png',
+              summary: '亞洲頂尖數位音樂服務品牌 擁有三千萬首豐富音樂曲庫，還提供細緻且個人化的音樂內容，KKBOX 就是懂你的音樂喜好。 線上一起聽及獨家直播演唱會讓愛追星的你跟偶像隨時隨地零距離!立即啟動專屬你的音樂體驗，享受無窮的聽音樂樂趣！<br><br><a href="https://www.kkbox.com" target="_blank">https://www.kkbox.com</a>'
             }
           ]
         },
