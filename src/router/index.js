@@ -6,6 +6,8 @@ import Sponsor from '../pages/Sponsor'
 import Staff from '../pages/Staff'
 import Location from '../pages/Location'
 import Venue from '../pages/Venue'
+import Slido from '../pages/Slido'
+import NoSlido from '../pages/NoSlido.vue'
 
 Vue.use(Router)
 
@@ -35,6 +37,18 @@ export default new Router({
       name: 'AgendaSub',
       component: Agenda,
       meta: { index: 1, page: false }
+    },
+    {
+      path: '/slido',
+      name: 'Slido',
+      component: Slido,
+      meta: { index: 1 }
+    },
+    {
+      path: '/noslido',
+      name: 'Slido',
+      component: NoSlido,
+      meta: { index: 1 }
     },
     {
       path: '/sponsor',
