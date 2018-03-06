@@ -2,6 +2,8 @@
   <article>
     <section class="container">
       <h2>會場地圖</h2>
+      <img src="../assets/3F.svg" alt="3F 場地圖" />
+      <img src="../assets/4F.svg" alt="4F 場地圖" />
     </section>
     <main-footer></main-footer>
   </article>
