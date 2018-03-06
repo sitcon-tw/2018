@@ -46,7 +46,7 @@ export default new Router({
     },
     {
       path: '/noslido',
-      name: 'Slido',
+      name: 'Noslido',
       component: NoSlido,
       meta: { index: 1 }
     },

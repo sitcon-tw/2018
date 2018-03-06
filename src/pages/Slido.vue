@@ -8,7 +8,8 @@
       </div>
     </div>
     <div class="frame" :class="{ open: !open }">
-      <iframe style="width: 100%;height: 100%;border: none;"  scrolling="no" :src="isrc"></iframe>
+      <div class="loading" v-show="loading"><h1>載入中...</h1></div>
+      <iframe v-show="!loading" style="width: 100%;height: 100%;border: none;" @load="finish" scrolling="no" :src="isrc"></iframe>
     </div>
   </article>
 </template>
@@ -26,17 +27,30 @@ export default {
       times: [],
       isrc: '',
       open: true,
+      loading: false,
       mobile: false
     }
   },
   methods: {
     openSlido (sub) {
+      this.isrc = 'about:blank'
+      this.loading = true
       if (sub['sli.do'] !== '') this.isrc = 'https://www.sli.do/' + sub['sli.do']
       else this.isrc = './?mode=app#/noslido'
       if (this.mobile) this.open = false
     },
+    paddingLeft (num) {
+      if (num / 10 < 1) return '0' + num
+      else return num
+    },
+    formatTime (date) {
+      return this.paddingLeft(date.getHours()) + ':' + this.paddingLeft(date.getMinutes())
+    },
     resize () {
       this.mobile = (window.innerWidth <= 1000)
+    },
+    finish () {
+      this.loading = false
     }
   },
   mounted () {
@@ -101,6 +115,13 @@ export default {
     width: 75%
     &.open
       width: 100%
+    .loading
+      width: 100%
+      height: 100%
+      h1
+        font-size: 24px
+        text-align: center
+        margin-top: 30vh
 @media all and (max-width: 1000px)
   #slido
     .side
