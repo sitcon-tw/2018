@@ -16,7 +16,7 @@
       </table>
     </div>
     <div v-else class="mobile-table">
-      <mobile-row v-for="(value) in times" :value="value" :res="res" @openBox="goSub" :key="'times:'+value"></mobile-row>
+      <mobile-row v-for="(value) in times" :notop="notop" :value="value" :res="res" @openBox="goSub" :key="'times:'+value"></mobile-row>
     </div>
     <fancybox class="box" v-model="activityBox">
       <h2>{{subSubject}}<span v-if="subslides !== undefined"><a :href="subslides" target="_blank">#簡報連結</a></span></h2>
@@ -49,7 +49,8 @@ export default {
       subSpeakerName: '',
       subAvatar: '',
       subBio: '',
-      mobile: false
+      mobile: false,
+      notop: false
     }
   },
   computed: {
@@ -241,16 +242,13 @@ export default {
     }
   },
   mounted () {
-    // for (let time of this.res) {
-    //   if (this.formatTime(time) === '15:20') {
-    //     this.res[time].end = new Date('2018-03-10T15:40:00+08:00')
-    //   }
-    // }
     var self = this
     self.resize()
     window.addEventListener('resize', function () {
       self.resize()
     })
+
+    self.notop = window.location.search.match('mode=app') !== null
 
     if (this.$route.params.subId !== undefined) {
       var item = _.find(this.subs, (value) => { return value.id === this.$route.params.subId })
