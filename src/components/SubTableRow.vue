@@ -1,10 +1,10 @@
 <template>
   <tr class="sub">
     <td class="time">{{ formatTime(new Date(value)) }}</td>
-    <template v-if="res[value][0].subject === '午餐'">
+    <!-- <template v-if="res[value][0].subject === '午餐'">
       <sub-table-col colspan="4" :siteSub="res[value][0]" :times="times" @openBox="openBox" :key="'broadcast:'+indexx"></sub-table-col>
-    </template>
-    <template v-else-if="res[value].length === 1 && res[value][0].broadcast !== undefined">
+    </template> -->
+    <template v-if="res[value].length === 1 && res[value][0].broadcast !== undefined">
       <sub-table-col :broadcast="true" :siteSub="res[value][0]" :times="times" @openBox="openBox" :key="'broadcast:'+indexx"></sub-table-col>
     </template>
     <template v-else>

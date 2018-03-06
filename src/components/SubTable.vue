@@ -40,9 +40,7 @@ export default {
   name: 'SubTable',
   data () {
     return {
-      subs: submissions.slice(),
       sites: ['R2', 'R0', 'R1', 'R3', 'S'],
-      res: null,
       times: [],
       activityBox: false,
       subSubject: '',
@@ -54,9 +52,161 @@ export default {
       mobile: false
     }
   },
+  computed: {
+    subs: function () {
+      let result = submissions.slice()
+      if (!this.mobile) result = this.filterSub(result)
+      return result
+    },
+    res: function () {
+      if (!this.mobile) {
+        this.subs = this.filterSub(this.subs)
+      }
+      var temp = _.map(this.subs, (slot) => ({
+        ...slot,
+        start: new Date(slot.start),
+        end: new Date(slot.end)
+      }))
+      this.times = _.map(temp, 'start')
+      this.times = _.uniqBy(this.times, this.formatTime)
+      this.times = this.times.slice().sort()
+
+      return _.groupBy(temp, (schedule) => (schedule.start))
+    }
+  },
   methods: {
-    addDefaultEvent () {
-      this.subs = submissions.slice()
+    filterSub (subs) {
+      let array = ['午餐']
+      let result = subs.filter((value) => {
+        return array.indexOf(value.subject) === -1
+      })
+      result.push({
+        'id': '97f3ae3d-100e-4f78-87eb-61795a733600',
+        'subject': '午餐',
+        'summary': '',
+        'type': 'E',
+        'room': 'R0',
+        'broadcast': [],
+        'start': '2018-03-10T11:50:00+08:00',
+        'end': '2018-03-10T12:40:00+08:00',
+        'sli.do': '',
+        'beginner': '',
+        '': '',
+        'speaker': {
+          'name': '',
+          'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
+          'bio': ''
+        }
+      })
+      result.push({
+        'id': '97f3ae3d-100e-4f78-87eb-61795a733600',
+        'subject': '午餐',
+        'summary': '',
+        'type': 'E',
+        'room': 'R1',
+        'broadcast': [],
+        'start': '2018-03-10T11:50:00+08:00',
+        'end': '2018-03-10T12:00:00+08:00',
+        'sli.do': '',
+        'beginner': '',
+        '': '',
+        'speaker': {
+          'name': '',
+          'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
+          'bio': ''
+        }
+      })
+      result.push({
+        'id': '97f3ae3d-100e-4f78-87eb-61795a733600',
+        'subject': '午餐',
+        'summary': '',
+        'type': 'E',
+        'room': 'R2',
+        'broadcast': [],
+        'start': '2018-03-10T11:50:00+08:00',
+        'end': '2018-03-10T12:00:00+08:00',
+        'sli.do': '',
+        'beginner': '',
+        '': '',
+        'speaker': {
+          'name': '',
+          'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
+          'bio': ''
+        }
+      })
+      result.push({
+        'id': '97f3ae3d-100e-4f78-87eb-61795a733600',
+        'subject': '午餐',
+        'summary': '',
+        'type': 'E',
+        'room': 'R1',
+        'broadcast': [],
+        'start': '2018-03-10T12:30:00+08:00',
+        'end': '2018-03-10T12:40:00+08:00',
+        'sli.do': '',
+        'beginner': '',
+        '': '',
+        'speaker': {
+          'name': '',
+          'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
+          'bio': ''
+        }
+      })
+      result.push({
+        'id': '97f3ae3d-100e-4f78-87eb-61795a733600',
+        'subject': '午餐',
+        'summary': '',
+        'type': 'E',
+        'room': 'R2',
+        'broadcast': [],
+        'start': '2018-03-10T12:30:00+08:00',
+        'end': '2018-03-10T12:40:00+08:00',
+        'sli.do': '',
+        'beginner': '',
+        '': '',
+        'speaker': {
+          'name': '',
+          'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
+          'bio': ''
+        }
+      })
+      result.push({
+        'id': '97f3ae3d-100e-4f78-87eb-61795a733600',
+        'subject': '午餐',
+        'summary': '',
+        'type': 'E',
+        'room': 'R3',
+        'broadcast': [],
+        'start': '2018-03-10T11:50:00+08:00',
+        'end': '2018-03-10T12:40:00+08:00',
+        'sli.do': '',
+        'beginner': '',
+        '': '',
+        'speaker': {
+          'name': '',
+          'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
+          'bio': ''
+        }
+      })
+      result.push({
+        'id': '97f3ae3d-100e-4f78-87eb-61795a733600',
+        'subject': '午餐',
+        'summary': '',
+        'type': 'E',
+        'room': 'S',
+        'broadcast': [],
+        'start': '2018-03-10T12:00:00+08:00',
+        'end': '2018-03-10T12:40:00+08:00',
+        'sli.do': '',
+        'beginner': '',
+        '': '',
+        'speaker': {
+          'name': '',
+          'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
+          'bio': ''
+        }
+      })
+      return result
     },
     paddingLeft (num) {
       if (num / 10 < 1) return '0' + num
@@ -91,19 +241,6 @@ export default {
     }
   },
   mounted () {
-    this.addDefaultEvent()
-    var temp = _.map(this.subs, (slot) => ({
-      ...slot,
-      start: new Date(slot.start),
-      end: new Date(slot.end)
-    }))
-    this.times = _.map(temp, 'start')
-    this.times = _.uniqBy(this.times, this.formatTime)
-    this.times = this.times.slice().sort()
-    // this.times = this.times.slice().sort((a, b) => {
-    //   return new Date(b.date) - new Date(a.date)
-    // })
-    this.res = _.groupBy(temp, (schedule) => (schedule.start))
     // for (let time of this.res) {
     //   if (this.formatTime(time) === '15:20') {
     //     this.res[time].end = new Date('2018-03-10T15:40:00+08:00')
