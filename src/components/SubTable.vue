@@ -19,7 +19,7 @@
       <mobile-row v-for="(value) in times" :notop="notop" :value="value" :res="res" @openBox="goSub" :key="'times:'+value"></mobile-row>
     </div>
     <fancybox class="box" v-model="activityBox">
-      <h2>{{subSubject}}<span v-if="subslides !== undefined"><a :href="subslides" target="_blank">#簡報連結</a></span></h2>
+      <h2>{{subSubject}}<span v-if="subslides !== ''"><a :href="subslides" target="_blank">#簡報連結</a></span></h2>
       <p class="text">{{subSummary}}</p>
       <h3 v-if="subSpeakerName!==''">{{ 'About '+subSpeakerName }}</h3>
       <div class="content" v-if="subSpeakerName!==''">
@@ -60,9 +60,6 @@ export default {
       return result
     },
     res: function () {
-      if (!this.mobile) {
-        this.subs = this.filterSub(this.subs)
-      }
       var temp = _.map(this.subs, (slot) => ({
         ...slot,
         start: new Date(slot.start),
@@ -92,7 +89,6 @@ export default {
         'end': '2018-03-10T12:40:00+08:00',
         'sli.do': '',
         'beginner': '',
-        '': '',
         'speaker': {
           'name': '',
           'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
@@ -110,7 +106,6 @@ export default {
         'end': '2018-03-10T12:00:00+08:00',
         'sli.do': '',
         'beginner': '',
-        '': '',
         'speaker': {
           'name': '',
           'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
@@ -128,7 +123,6 @@ export default {
         'end': '2018-03-10T12:00:00+08:00',
         'sli.do': '',
         'beginner': '',
-        '': '',
         'speaker': {
           'name': '',
           'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
@@ -146,7 +140,6 @@ export default {
         'end': '2018-03-10T12:40:00+08:00',
         'sli.do': '',
         'beginner': '',
-        '': '',
         'speaker': {
           'name': '',
           'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
@@ -164,7 +157,6 @@ export default {
         'end': '2018-03-10T12:40:00+08:00',
         'sli.do': '',
         'beginner': '',
-        '': '',
         'speaker': {
           'name': '',
           'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
@@ -182,7 +174,6 @@ export default {
         'end': '2018-03-10T12:40:00+08:00',
         'sli.do': '',
         'beginner': '',
-        '': '',
         'speaker': {
           'name': '',
           'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
@@ -200,7 +191,6 @@ export default {
         'end': '2018-03-10T12:40:00+08:00',
         'sli.do': '',
         'beginner': '',
-        '': '',
         'speaker': {
           'name': '',
           'avatar': 'http://sitcon.org/2018/static/img/staffs/stone.png',
@@ -221,7 +211,7 @@ export default {
     },
     openBox (sub) {
       this.subSubject = sub.subject
-      this.subslides = sub.slides
+      this.subslides = sub.slide
       this.subAvatar = sub.speaker.avatar
       this.subBio = sub.speaker.bio
       this.subSpeakerName = sub.speaker.name

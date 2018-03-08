@@ -38,6 +38,7 @@ csv({
                     obj[headers[i]] = autoConvert(csvRow[i])
                 }
             } else {
+                if (headers[i]==='') continue
                 if (objPro[headers[i].split('/')[0]] === undefined) objPro[headers[i].split('/')[0]] = {}
                 if (headers[i].split('/')[1] === 'avatar') {
                   if (csvRow[i] === '')  objPro[headers[i].split('/')[0]][headers[i].split('/')[1]] = 'https://sitcon.org/2018/static/img/staffs/stone.png'

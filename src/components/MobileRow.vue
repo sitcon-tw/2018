@@ -3,7 +3,7 @@
     <div class="timecol" :class="{'notop':notop}">{{ formatTime(value) }}</div>
     <div class="content" :class="{ clickable: item.summary!=='' }" v-for="(item,index) in res[value]" :key="'sub:'+index" @click.stop="openBox(item)">
       <div>
-        <div class="title">{{item.subject}}</div>
+        <div class="title">{{item.subject}}<sub v-if="item.beginner">新手友善</sub></div>
         <div class="room">{{item.room}}</div>
       </div>
       <div>
@@ -73,6 +73,9 @@
         font-size: 16px
         font-weight: 500
         white-space: pre-line
+        sub
+          font-size: 12px
+          color: orange
       .room
         width: 20%
         font-size: 16px
