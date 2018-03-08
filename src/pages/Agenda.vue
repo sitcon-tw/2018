@@ -6,16 +6,18 @@
           <img :src="item.icon" />
           <p :style="{ fontSize: item.fontSize }">{{ item.name }}</p>
         </div>
+        <a class="button online" href="https://sitcon.org/2018/?mode=app#/slido" target="_blank">
+          <p>議程線上討論區</p>
+        </a>
         <!-- <a class="button broadcast">
           <img src="../assets/icon_broadcast.svg" />
           <p>會場直播</p>
-        </a>
-        <a class="button hackmd">
+        </a> -->
+        <a class="button hackmd" href="https://hackmd.io/c/B1BhNjCOf/" target="_blank">
           <img src="../assets/icon_hackmd.svg" />
           <p>會議共筆</p>
-        </a> -->
+        </a>
       </section>
-      <!-- <p class="temp">議程與部分活動介紹將於 2/7 上線</p> -->
     </div>
     <section class="table">
       <sub-table></sub-table>
@@ -214,25 +216,28 @@ article
         line-height: 18px
         white-space: pre-line
         text-overflow: ellipsis
+    .online
+      width: 30%
+      position: relative
+      p
+        width: 99%
+        text-align: center
+        font-size: 24px
     .broadcast
-      width: 45%
+      width: 30%
       position: relative
       img
         position: absolute
-        top: 12px
-        bottom: 12px
         text-align: left
       p
         width: 99%
         text-align: center
         font-size: 24px
     .hackmd
-      width: 45%
+      width: 30%
       position: relative
       img
         position: absolute
-        top: 12px
-        bottom: 12px
         text-align: left
       p
         width: 99%
@@ -261,14 +266,13 @@ article
     section.activity
       .button
         width: 45%
-      .broadcast
-        img
-          position: static
-          width: 36px
-          margin-right: 4px
+      .online
+        width: 45%
         p
-          width: auto
+          width: 100%
           font-size: 18px
+      .broadcast
+        width: 95%
       .hackmd
         width: 95%
 </style>
