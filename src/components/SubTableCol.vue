@@ -42,7 +42,11 @@ export default {
   color: white
   padding: 12px
   white-space: pre-line
+  position: relative
   sub
+    position: absolute
+    bottom: 5px
+    right: 5px
     font-size: 12px
     color: #ffeb3b
     font-weight: 500
