@@ -75,7 +75,8 @@
         white-space: pre-line
         sub
           font-size: 12px
-          color: orange
+          color: #ffeb3b
+          font-weight: 500
       .room
         width: 20%
         font-size: 16px

@@ -44,7 +44,8 @@ export default {
   white-space: pre-line
   sub
     font-size: 12px
-    color: orange
+    color: #ffeb3b
+    font-weight: 500
   p
     font-size: 15px
 .item.short
