@@ -12,8 +12,10 @@
           <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Location'}" to="/location"><div>地點<p>LOCATION</p></div></router-link>
           <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Venue'}" to="/venue"><div>會場地圖<p>Venue</p></div></router-link>
           <a class="item nopc" v-on:click.native="toggle = !toggle" target="_blank" href="https://sitcon.kktix.cc/events/sitcon2018"><div>報名<p>SIGN UP</p></div></a>
+          <a class="item nopc" v-on:click.native="toggle = !toggle" target="_blank" href="https://youtu.be/48tlGACetKI"><div>會場直播<p>LIVE STREAM</p></div></a>
         </div>
         <div class="nav-right">
+          <a style="margin-right:15px;" href="https://youtu.be/48tlGACetKI" class="join-btn" target="_blank"><div>會場直播<p>LIVE STREAM</p></div></a>
           <a style="margin-right:15px;" href="https://sitcon.kktix.cc/events/sitcon2018" class="join-btn" target="_blank"><div>活動報名<p>SIGN UP</p></div></a>
           <router-link class="join-btn" to="/person-sponsor"><div>個人贊助<p>Sponsor</p></div></router-link>
         </div>
