@@ -9,10 +9,10 @@
         <a class="button online" href="https://sitcon.org/2018/?mode=app#/slido" target="_blank">
           <p>議程線上討論區</p>
         </a>
-        <!-- <a class="button broadcast">
+        <a class="button broadcast" href="https://youtu.be/48tlGACetKI" target="_blank">
           <img src="../assets/icon_broadcast.svg" />
           <p>會場直播</p>
-        </a> -->
+        </a>
         <a class="button hackmd" href="https://hackmd.io/c/B1BhNjCOf/" target="_blank">
           <img src="../assets/icon_hackmd.svg" />
           <p>會議共筆</p>
