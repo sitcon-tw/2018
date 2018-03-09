@@ -5,18 +5,20 @@
         <div class="nav-side-btn" v-on:click="toggle = !toggle"></div>
         <router-link class="title" to="/"><img src="../assets/sitcon18.png" alt="title"/></router-link>
         <div class="nav-left">
-          <router-link class="item nopc" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Main'}" to="/"><div>首頁<p>Home</p></div></router-link>
+          <router-link class="item nopc" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Main'}" to="/"><div>首頁<p>HOME</p></div></router-link>
           <router-link class="item" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Agenda'}" to="/agenda"><div>議程<p>AGENDA</p></div></router-link>
           <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Sponsor'}" to="/sponsor"><div>贊助<p>SPONSOR</p></div></router-link>
           <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Staff'}" to="/staff"><div>工作人員<p>STAFF</p></div></router-link>
           <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Location'}" to="/location"><div>地點<p>LOCATION</p></div></router-link>
-          <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Venue'}" to="/venue"><div>會場地圖<p>Venue</p></div></router-link>
-          <a class="item nopc" v-on:click.native="toggle = !toggle" target="_blank" href="https://sitcon.kktix.cc/events/sitcon2018"><div>報名<p>SIGN UP</p></div></a>
+          <router-link class="item divider" v-on:click.native="toggle = !toggle" v-bind:class="{active: $route.name == 'Venue'}" to="/venue"><div>會場地圖<p>VENUE</p></div></router-link>
+          <a class="item nopc" v-on:click.native="toggle = !toggle" target="_blank" href="https://goo.gl/forms/JE8SuFHzCO7wviMv1"><div>會後調查<p>SURVEY</p></div></a>
+          <a class="item nopc" v-on:click.native="toggle = !toggle" target="_blank" href="https://goo.gl/forms/IOabAqAFQFWpziz62"><div>會後心得<p>EXPERIENCE</p></div></a>
           <a class="item nopc" v-on:click.native="toggle = !toggle" target="_blank" href="https://youtu.be/48tlGACetKI"><div>會場直播<p>LIVE STREAM</p></div></a>
         </div>
         <div class="nav-right">
+          <a style="margin-right:15px;" href="https://goo.gl/forms/JE8SuFHzCO7wviMv1" class="join-btn" target="_blank"><div>會後調查<p>SURVEY</p></div></a>
+          <a style="margin-right:15px;" href="https://goo.gl/forms/IOabAqAFQFWpziz62" class="join-btn" target="_blank"><div>會後心得<p>EXPERIENCE</p></div></a>
           <a style="margin-right:15px;" href="https://youtu.be/48tlGACetKI" class="join-btn" target="_blank"><div>會場直播<p>LIVE STREAM</p></div></a>
-          <a style="margin-right:15px;" href="https://sitcon.kktix.cc/events/sitcon2018" class="join-btn" target="_blank"><div>活動報名<p>SIGN UP</p></div></a>
           <router-link class="join-btn" to="/person-sponsor"><div>個人贊助<p>Sponsor</p></div></router-link>
         </div>
       </div>
@@ -202,8 +204,8 @@ nav
         a.item
           display: block
           margin-left: 23px
-          margin-top: 30px
-          margin-bottom: 30px
+          margin-top: 25px
+          margin-bottom: 25px
           &:before
             display: none
           div
